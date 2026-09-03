@@ -302,5 +302,7 @@ export const gallery = [
 
 export const nav = [
   { to: '/', label: 'Home' },
+  { to: '/services', label: 'Services' },
   { to: '/gallery', label: 'Selected Work' },
+  { to: '/reviews', label: 'Reviews' },
 ];

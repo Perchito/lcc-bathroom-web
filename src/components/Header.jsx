@@ -1,12 +1,16 @@
+import { useState } from 'react'
 import { NavLink, Link } from 'react-router-dom'
 import { company, nav } from '../data/site.js'
 import { asset } from '../asset.js'
 
 export default function Header() {
+  const [open, setOpen] = useState(false)
+  const close = () => setOpen(false)
+
   return (
     <header className="header">
       <div className="wrap header__inner">
-        <Link to="/" className="wordmark">
+        <Link to="/" className="wordmark" onClick={close}>
           <img
             className="wordmark__logo"
             src={asset('logo.png')}
@@ -22,12 +26,30 @@ export default function Header() {
           </span>
         </Link>
 
-        <nav className="header__nav" aria-label="Primary">
+        <button
+          type="button"
+          className="nav-toggle"
+          aria-label={open ? 'Close menu' : 'Open menu'}
+          aria-expanded={open}
+          aria-controls="primary-nav"
+          onClick={() => setOpen((v) => !v)}
+        >
+          <span className="nav-toggle__bar" />
+          <span className="nav-toggle__bar" />
+          <span className="nav-toggle__bar" />
+        </button>
+
+        <nav
+          id="primary-nav"
+          className={'header__nav' + (open ? ' is-open' : '')}
+          aria-label="Primary"
+        >
           {nav.map((item) => (
             <NavLink
               key={item.to}
               to={item.to}
               end={item.to === '/'}
+              onClick={close}
               className={({ isActive }) =>
                 'header__link' + (isActive ? ' is-active' : '')
               }
@@ -35,7 +57,7 @@ export default function Header() {
               {item.label}
             </NavLink>
           ))}
-          <a href={company.phoneHref} className="header__phone">
+          <a href={company.phoneHref} className="header__phone" onClick={close}>
             {company.phone}
           </a>
         </nav>

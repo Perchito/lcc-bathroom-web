@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom'
-import { company, stats, services, process, gallery } from '../data/site.js'
-import Reviews from '../components/Reviews.jsx'
+import { company, stats, gallery } from '../data/site.js'
 import { asset } from '../asset.js'
 
 function Hero() {
@@ -31,7 +30,10 @@ function Hero() {
 
         <figure className="hero__figure">
           {/* PHOTO 1 — see PHOTOS.md */}
-          <img src={asset('gallery/project-01.svg')} alt="A completed bathroom renovation" />
+          <img
+            src={asset('gallery/project-01.svg')}
+            alt="A completed bathroom renovation"
+          />
         </figure>
       </div>
     </section>
@@ -50,55 +52,6 @@ function StatLine() {
         ))}
       </div>
     </div>
-  )
-}
-
-function Statement() {
-  return (
-    <section className="section section--paper2">
-      <div className="wrap split">
-        <div className="split__aside">
-          <p className="label">The company</p>
-        </div>
-        <div>
-          <h2 style={{ marginBottom: '24px' }}>
-            A small crew that does the whole job.
-          </h2>
-          <p className="lead" style={{ maxWidth: '58ch' }}>
-            {company.statement}
-          </p>
-        </div>
-      </div>
-    </section>
-  )
-}
-
-function Services() {
-  return (
-    <section className="section" id="services">
-      <div className="wrap">
-        <div className="split" style={{ marginBottom: 'clamp(28px, 4vw, 48px)' }}>
-          <div className="split__aside">
-            <p className="label">What we do</p>
-          </div>
-          <div>
-            <h2>Bathrooms first — and everything around them.</h2>
-          </div>
-        </div>
-
-        <div className="services">
-          {services.map((s, i) => (
-            <article className="service" key={s.id}>
-              <div className="service__num">
-                {String(i + 1).padStart(2, '0')}
-              </div>
-              <h3 className="service__title">{s.title}</h3>
-              <p className="service__desc">{s.description}</p>
-            </article>
-          ))}
-        </div>
-      </div>
-    </section>
   )
 }
 
@@ -150,76 +103,12 @@ function SelectedWork() {
   )
 }
 
-function Process() {
-  return (
-    <section className="section section--dark" id="process">
-      <div className="wrap">
-        <div className="split" style={{ marginBottom: 'clamp(32px, 4vw, 52px)' }}>
-          <div className="split__aside">
-            <p className="label">How it works</p>
-          </div>
-          <div>
-            <h2>Four steps, no surprises.</h2>
-          </div>
-        </div>
-
-        <div className="steps">
-          {process.map((p) => (
-            <div className="step" key={p.step}>
-              <div className="step__num">{p.step}</div>
-              <h3>{p.title}</h3>
-              <p>{p.description}</p>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
-  )
-}
-
-function Contact() {
-  return (
-    <section className="section section--dark" id="contact">
-      <div className="wrap split">
-        <div className="split__aside">
-          <p className="label">Start a project</p>
-        </div>
-        <div>
-          <h2 style={{ marginBottom: '28px' }}>
-            Free in-home estimates. Tell us what you have in mind.
-          </h2>
-          <div className="contact__lines">
-            <a href={company.phoneHref} className="contact__big">
-              {company.phone}
-            </a>
-            <a href={`mailto:${company.email}`} className="contact__big">
-              {company.email}
-            </a>
-            <p className="contact__fine">
-              {company.hours}
-              <br />
-              {company.serviceArea}
-              <br />
-              {company.license}
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-  )
-}
-
 export default function Home() {
   return (
     <>
       <Hero />
       <StatLine />
-      <Statement />
-      <Services />
       <SelectedWork />
-      <Process />
-      <Contact />
-      <Reviews />
     </>
   )
 }
