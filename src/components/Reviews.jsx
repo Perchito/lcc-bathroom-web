@@ -1,4 +1,4 @@
-import { reviews } from '../data/site.js'
+import { reviews, company } from '../data/site.js'
 import Stars from './Stars.jsx'
 
 export default function Reviews() {
@@ -17,18 +17,26 @@ export default function Reviews() {
               Homeowners on working with us
             </h2>
             <p className="notes__summary">
-              {avg.toFixed(1)} / 5 average · {reviews.length} reviews · replace
-              with your own Google &amp; Facebook reviews
+              {avg.toFixed(1)} / 5 average · {reviews.length} reviews ·{' '}
+              <a
+                href={company.googleReviewsUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                read them on Google
+              </a>
             </p>
           </div>
         </div>
 
         <div className="notes">
           {reviews.map((r) => (
-            <blockquote className="note" key={r.name + r.location}>
+            <blockquote className="note" key={r.name}>
               <div className="note__by">
                 <div className="note__name">{r.name}</div>
-                <div className="note__place">{r.location}</div>
+                <div className="note__place">
+                  {r.job} · {r.when}
+                </div>
               </div>
               <div>
                 <p className="note__quote">&ldquo;{r.text}&rdquo;</p>

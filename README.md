@@ -1,6 +1,6 @@
 # LCC Bathroom Web
 
-Marketing website for **Luis Caiza Construction** — a family-owned bathroom
+Marketing website for **LCC Bathroom & Services** — a family-owned bathroom
 remodeling and general construction company.
 
 Built with [React 19](https://react.dev/) + [Vite](https://vite.dev/) and

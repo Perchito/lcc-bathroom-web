@@ -7,7 +7,7 @@
 // ---------------------------------------------------------------------------
 
 export const company = {
-  name: 'Luis Caiza Construction',
+  name: 'LCC Bathroom & Services',
   shortName: 'LCC',
   established: '2009',
   tagline: 'Bathrooms built to last.',
@@ -15,18 +15,21 @@ export const company = {
     'Design-led bathroom remodeling and home construction for houses across ' +
     'the metro. One accountable crew, from demolition to the final coat of paint.',
   statement:
-    'Luis Caiza Construction is a family-run remodeling company. We have spent ' +
+    'LCC Bathroom & Services is a family-run remodeling company. We have spent ' +
     'more than fifteen years rebuilding bathrooms, kitchens, and additions with ' +
     'a small, skilled crew that handles every trade in-house — no rotating cast ' +
     'of subcontractors, no surprises on the invoice. The result is careful work, ' +
     'delivered on the schedule we promised.',
   yearsInBusiness: '15+',
-  phone: '(555) 123-4567',
-  phoneHref: 'tel:+15551234567',
+  // Real contact details from the Google Business Profile.
+  phone: '07477 570370',
+  phoneHref: 'tel:+447477570370',
   email: 'info@luiscaizaconstruction.com',
   serviceArea: 'Greater Metro area & surrounding towns',
   license: 'Licensed, bonded & insured — Lic. #000000',
   hours: 'Monday–Friday, 7am–5pm · Saturday by appointment',
+  // Google Business Profile: LCC' Bathroom & Services (5.0, 8 reviews)
+  googleReviewsUrl: 'https://www.google.com/maps?cid=7455693700287610574',
 };
 
 export const stats = [
@@ -112,55 +115,108 @@ export const process = [
   },
 ];
 
+// Real Google reviews for LCC' Bathroom & Services (5.0 average, 8 reviews).
+// Pulled from the Google Business Profile — text is verbatim. `job` is a short
+// context label; `when` is roughly when it was posted.
 export const reviews = [
   {
-    name: 'Maria S.',
-    location: 'Riverside',
+    name: 'Crystal Chiu',
+    job: 'Under-stairs WC, built from scratch',
+    when: '2026',
     rating: 5,
     text:
-      'LCC rebuilt our main bathroom top to bottom. The tile work is flawless ' +
-      'and they finished on the day they said they would. Luis walked us ' +
-      'through every decision.',
+      'Luis and his team did an incredible job building our under-stairs toilet ' +
+      'from scratch, including all the pipework, wall construction, panelling ' +
+      'and finishing. We’re so pleased with the result! The workmanship is ' +
+      'excellent and the finish is beautiful. Luis was a pleasure to work with ' +
+      'throughout: kind, communicative, patient and genuinely invested in ' +
+      'finding solutions that worked for our needs and budget. He took great ' +
+      'care at every stage, including keeping everything tidy, and was always ' +
+      'happy to come back and tweak anything we needed. We couldn’t recommend ' +
+      'him and his team more highly.',
   },
   {
-    name: 'David & Anne K.',
-    location: 'Oak Hill',
+    name: 'Andrew Cebula',
+    job: 'Bathroom, kitchen & plumbing',
+    when: '2025',
     rating: 5,
     text:
-      'We had three quotes and LCC was the only one that actually listened. The ' +
-      'walk-in shower they built for my mother is beautiful and genuinely safe.',
+      'Luis is absolutely amazing. He has done several jobs for us, ranging ' +
+      'from installing radiators and plumbing works all the way up to kitchen ' +
+      'rearrangement and full bathroom installation. The work quality is ' +
+      'fantastic and he is very reliable. A great recommendation and we’re ' +
+      'pleased to know him. He’s got such a can-do attitude which is rare to ' +
+      'find, love it!!',
   },
   {
-    name: 'James T.',
-    location: 'Downtown',
+    name: 'Alejandra Limones',
+    job: 'Repeat client, various works',
+    when: '2025',
     rating: 5,
     text:
-      'Professional crew, spotless job site, fair price. They found a hidden ' +
-      'leak behind the old tub and fixed it properly instead of tiling over it.',
+      'Luis has done numerous jobs for me over the years. He is incredibly ' +
+      'reliable, hard working and fairly priced. Luis goes the extra mile to ' +
+      'ensure that the work done is of outstanding quality and does not cut ' +
+      'corners. He is a real pleasure to deal with and I highly recommend him!',
   },
   {
-    name: 'Priya R.',
-    location: 'Westgate',
+    name: 'Elizabeth Clarke',
+    job: 'Full accessible bathroom refit',
+    when: '2025',
     rating: 5,
     text:
-      'Our kitchen and hall bath were done at the same time and the project ' +
-      'still felt organized. Communication was excellent from start to finish.',
+      'We have been so happy with Luis’s work. He works to the very highest ' +
+      'standards, is meticulous and always responds very promptly to any ' +
+      'query. He replaced an entire bathroom for us to make it more suitable ' +
+      'for my 95 year old mother and the project was done comfortably within ' +
+      'the timeframe he estimated and everything was immaculate. We will use ' +
+      'Luis for any future work. He is an absolute professional and extremely ' +
+      'courteous.',
   },
   {
-    name: 'Robert M.',
-    location: 'Lakeshore',
+    name: 'Paul Archdeacon',
+    job: 'New bathroom',
+    when: '2025',
     rating: 5,
     text:
-      'Second project with LCC — a basement bathroom addition. Permits, ' +
-      'plumbing, framing, all handled. I don’t call anyone else now.',
+      'Pleased to recommend Luis. Very happy with my new bathroom. He helped ' +
+      'with design ideas and also resolved the inevitable problems. It’s a ' +
+      'better result than I expected. I will definitely reach out to Luis for ' +
+      'any future work.',
   },
   {
-    name: 'Elena V.',
-    location: 'Pinecrest',
+    name: 'David Price',
+    job: 'Electric mirror installation',
+    when: '2026',
     rating: 5,
     text:
-      'They turned a cramped 1980s bathroom into something that looks like a ' +
-      'magazine. Honest, tidy, and genuinely good people to have in your home.',
+      'LCC came and installed a very large, electric mirror for us and the ' +
+      'results are amazing. They were working on a house nearby and my wife ' +
+      'asked them if they could have a look and install it; once they’d ' +
+      'finished the work for our neighbour, they came over and less than an ' +
+      'hour later it was done — and what an amazing job they have done. Would ' +
+      'thoroughly recommend LCC for the work and super speedy service, thanks ' +
+      'so much guys.',
+  },
+  {
+    name: 'Cristian Cussen',
+    job: 'General works · London',
+    when: '2025',
+    rating: 5,
+    text:
+      'Simply the best. I unequivocally recommend Luis. He is a total ' +
+      'professional — the most capable and reliable that I’ve worked with in ' +
+      'London.',
+  },
+  {
+    name: 'Nina Gajjar',
+    job: 'Handyman services',
+    when: '2025',
+    rating: 5,
+    text:
+      'Amazing work done by Luis. Exceptional service provided. Luis is ' +
+      'extremely knowledgeable. Would thoroughly recommend Luis and his ' +
+      'professional services.',
   },
 ];
 
