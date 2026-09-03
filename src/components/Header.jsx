@@ -1,5 +1,6 @@
 import { NavLink, Link } from 'react-router-dom'
 import { company, nav } from '../data/site.js'
+import { asset } from '../asset.js'
 
 export default function Header() {
   return (
@@ -8,7 +9,7 @@ export default function Header() {
         <Link to="/" className="wordmark">
           <img
             className="wordmark__logo"
-            src="/logo.png"
+            src={asset('logo.png')}
             alt=""
             width="42"
             height="45"

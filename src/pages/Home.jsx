@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { company, stats, services, process, gallery } from '../data/site.js'
 import Reviews from '../components/Reviews.jsx'
+import { asset } from '../asset.js'
 
 function Hero() {
   return (
@@ -30,7 +31,7 @@ function Hero() {
 
         <figure className="hero__figure">
           {/* PHOTO 1 — see PHOTOS.md */}
-          <img src="/gallery/project-01.svg" alt="A completed bathroom renovation" />
+          <img src={asset('gallery/project-01.svg')} alt="A completed bathroom renovation" />
         </figure>
       </div>
     </section>
@@ -128,7 +129,7 @@ function SelectedWork() {
               key={item.id}
             >
               <div className="work__figure">
-                <img src={item.image} alt={item.title} loading="lazy" />
+                <img src={asset(item.image)} alt={item.title} loading="lazy" />
               </div>
               <div className="work__body">
                 <p className="label">{item.meta}</p>

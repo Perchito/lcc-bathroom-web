@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState, Fragment } from 'react'
 import { gallery, galleryCategories, company } from '../data/site.js'
+import { asset } from '../asset.js'
 
 export default function Gallery() {
   const [filter, setFilter] = useState('All')
@@ -80,7 +81,7 @@ export default function Gallery() {
                 aria-label={`Open ${item.title}`}
               >
                 <div className="project__figure">
-                  <img src={item.image} alt={item.title} loading="lazy" />
+                  <img src={asset(item.image)} alt={item.title} loading="lazy" />
                 </div>
                 <div className="project__title">{item.title}</div>
                 <div className="project__meta">{item.meta}</div>
@@ -127,7 +128,7 @@ export default function Gallery() {
             className="lightbox__figure"
             onClick={(e) => e.stopPropagation()}
           >
-            <img src={active.image} alt={active.title} />
+            <img src={asset(active.image)} alt={active.title} />
             <figcaption className="lightbox__cap">
               <strong>{active.title}</strong>
               <span>{active.meta}</span>
