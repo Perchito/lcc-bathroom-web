@@ -1,17 +1,28 @@
 import { useEffect, useMemo, useState, Fragment } from 'react'
-import { gallery, galleryCategories, company } from '../data/site.js'
+import { Link } from 'react-router-dom'
+import { gallery, gallerySectors } from '../data/site.js'
 import { asset } from '../asset.js'
 
-export default function Gallery() {
+export default function Gallery({ defaultSector = 'luxury' }) {
+  const sector =
+    gallerySectors.find((s) => s.id === defaultSector) ?? gallerySectors[0]
+
+  // App.jsx gives each sector route its own `key`, so this component remounts
+  // (and state resets) when you move between the luxury and council portfolios.
   const [filter, setFilter] = useState('All')
   const [activeIndex, setActiveIndex] = useState(null)
+
+  const sectorItems = useMemo(
+    () => gallery.filter((g) => g.sector === sector.id),
+    [sector.id],
+  )
 
   const items = useMemo(
     () =>
       filter === 'All'
-        ? gallery
-        : gallery.filter((g) => g.category === filter),
-    [filter],
+        ? sectorItems
+        : sectorItems.filter((g) => g.category === filter),
+    [filter, sectorItems],
   )
 
   function changeFilter(cat) {
@@ -39,19 +50,40 @@ export default function Gallery() {
       <section className="page-head">
         <div className="wrap">
           <p className="label">Selected work</p>
-          <h1 className="display">Projects</h1>
+          <h1 className="display">{sector.label}</h1>
           <p className="lead" style={{ maxWidth: '52ch' }}>
-            Bathroom, kitchen, and addition work completed by {company.name}.
-            These are placeholder images — see <code>PHOTOS.md</code> for what to
-            drop into <code>/public/gallery/</code>.
+            {sector.intro} These are placeholder images — see{' '}
+            <code>PHOTOS.md</code> for what to drop into{' '}
+            <code>/public/gallery/</code>.
           </p>
+
+          <div
+            className="sector-toggle"
+            role="tablist"
+            aria-label="Choose a portfolio"
+          >
+            {gallerySectors.map((s) => (
+              <Link
+                key={s.id}
+                to={s.path}
+                role="tab"
+                aria-selected={s.id === sector.id}
+                className={
+                  'sector-toggle__btn' +
+                  (s.id === sector.id ? ' is-active' : '')
+                }
+              >
+                {s.label}
+              </Link>
+            ))}
+          </div>
         </div>
       </section>
 
       <section className="section">
         <div className="wrap">
           <div className="filters" role="tablist" aria-label="Filter projects">
-            {galleryCategories.map((cat, i) => (
+            {sector.categories.map((cat, i) => (
               <Fragment key={cat}>
                 {i > 0 && (
                   <span className="filter__sep" aria-hidden="true">

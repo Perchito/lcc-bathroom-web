@@ -56,7 +56,7 @@ function StatLine() {
 }
 
 function SelectedWork() {
-  const featured = gallery.slice(0, 3)
+  const featured = gallery.filter((g) => g.sector === 'luxury').slice(0, 3)
   return (
     <section className="section section--paper2" id="work">
       <div className="wrap">

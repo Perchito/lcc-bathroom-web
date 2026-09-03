@@ -11,7 +11,11 @@ Built with [React 19](https://react.dev/) + [Vite](https://vite.dev/) and
 | Route      | What it is                                                                   |
 | ---------- | --------------------------------------------------------------------------- |
 | `/`        | Home — statement, numbered service list, selected work, process, contact, and **client reviews** at the bottom |
-| `/gallery` | Selected Work — filterable project grid with a click-to-open lightbox        |
+| `/gallery` | **Luxury Bathrooms** — the main portfolio: filterable project grid with a click-to-open lightbox |
+| `/council-bathrooms` | **Council Bathrooms** — the same grid filtered to local-authority / social-housing work |
+
+Both galleries are the same page component with a toggle at the top to switch
+between the two portfolios.
 
 The design is editorial / architectural: serif display type (Newsreader),
 generous whitespace, hairline rules, full-bleed photography.
@@ -41,7 +45,8 @@ Everything currently in there is placeholder text. Update these to go live:
 - `services` — the numbered service list
 - `process` — the four "how it works" steps
 - `reviews` — replace with real Google / Facebook reviews
-- `gallery` — project list (`title`, `category`, `meta`, `blurb`, `image`)
+- `gallerySectors` — the two portfolios (`luxury`, `council`), each with its own route, intro copy, and category list
+- `gallery` — project list (`sector`, `title`, `category`, `meta`, `blurb`, `image`); `sector` is `'luxury'` or `'council'` and `category` must be one from that sector's list
 
 ## Adding real project photos
 

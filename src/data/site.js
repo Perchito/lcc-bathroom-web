@@ -221,13 +221,44 @@ export const reviews = [
 ];
 
 // Gallery items. Replace `image` with real photos placed in /public/gallery/.
-// `category` must be one of the values in `galleryCategories` (minus 'All').
+//
+// Each project belongs to one `sector` — 'luxury' (private high-end bathrooms,
+// our main line of work) or 'council' (bathroom renovations delivered for the
+// local authority / social housing). `category` must be one of the values in
+// that sector's `categories` list below (minus 'All').
 // `meta` is the small-caps line shown under each project title.
-export const galleryCategories = ['All', 'Bathrooms', 'Kitchens', 'Additions'];
+export const gallerySectors = [
+  {
+    id: 'luxury',
+    path: '/gallery',
+    label: 'Luxury Bathrooms',
+    navLabel: 'Luxury Bathrooms',
+    tagline: 'Private, design-led bathroom and home renovation.',
+    intro:
+      'High-end bathroom, kitchen, and addition work for private homes across ' +
+      'London — our main line of work.',
+    categories: ['All', 'Bathrooms', 'Kitchens', 'Additions'],
+  },
+  {
+    id: 'council',
+    path: '/council-bathrooms',
+    label: 'Council Bathrooms',
+    navLabel: 'Council Bathrooms',
+    tagline: 'Bathroom renovations for the local authority.',
+    intro:
+      'Full bathroom refits, wet rooms, and accessible adaptations delivered ' +
+      'for council and social-housing tenants — on schedule and to spec.',
+    categories: ['All', 'Full refits', 'Wet rooms', 'Accessible adaptations'],
+  },
+];
+
+// Kept for backwards compatibility — the luxury sector's category list.
+export const galleryCategories = gallerySectors[0].categories;
 
 export const gallery = [
   {
     id: 'g1',
+    sector: 'luxury',
     title: 'Master bath, fully rebuilt',
     category: 'Bathrooms',
     meta: 'Full renovation · Riverside',
@@ -236,6 +267,7 @@ export const gallery = [
   },
   {
     id: 'g2',
+    sector: 'luxury',
     title: 'Walk-in shower conversion',
     category: 'Bathrooms',
     meta: 'Accessibility remodel · Oak Hill',
@@ -244,6 +276,7 @@ export const gallery = [
   },
   {
     id: 'g3',
+    sector: 'luxury',
     title: 'Guest bath refresh',
     category: 'Bathrooms',
     meta: 'Cosmetic remodel · Downtown',
@@ -252,6 +285,7 @@ export const gallery = [
   },
   {
     id: 'g4',
+    sector: 'luxury',
     title: 'Open-concept kitchen',
     category: 'Kitchens',
     meta: 'Wall removal + remodel · Westgate',
@@ -260,6 +294,7 @@ export const gallery = [
   },
   {
     id: 'g5',
+    sector: 'luxury',
     title: 'Kitchen island addition',
     category: 'Kitchens',
     meta: 'Cabinetry · Lakeshore',
@@ -268,6 +303,7 @@ export const gallery = [
   },
   {
     id: 'g6',
+    sector: 'luxury',
     title: 'Basement bathroom addition',
     category: 'Additions',
     meta: 'New full bath · Pinecrest',
@@ -276,6 +312,7 @@ export const gallery = [
   },
   {
     id: 'g7',
+    sector: 'luxury',
     title: 'Primary-suite bump-out',
     category: 'Additions',
     meta: '120 sq ft addition · Oak Hill',
@@ -284,6 +321,7 @@ export const gallery = [
   },
   {
     id: 'g8',
+    sector: 'luxury',
     title: 'Powder room, feature wall',
     category: 'Bathrooms',
     meta: 'Cosmetic remodel · Riverside',
@@ -292,17 +330,75 @@ export const gallery = [
   },
   {
     id: 'g9',
+    sector: 'luxury',
     title: 'Heated-floor bathroom',
     category: 'Bathrooms',
     meta: 'Full renovation · Westgate',
     image: '/gallery/project-09.svg',
     blurb: 'Radiant heated porcelain floor with a linear-drain curbless shower.',
   },
+
+  // --- Council / social-housing work ------------------------------------
+  {
+    id: 'c1',
+    sector: 'council',
+    title: 'Tenanted flat, full bathroom refit',
+    category: 'Full refits',
+    meta: 'Void works · Southwark',
+    image: '/gallery/project-03.svg',
+    blurb: 'Strip-out and full replacement — suite, tiling, flooring, and extractor — turned around between tenancies.',
+  },
+  {
+    id: 'c2',
+    sector: 'council',
+    title: 'Level-access wet room',
+    category: 'Wet rooms',
+    meta: 'Adaptation · Lambeth',
+    image: '/gallery/project-02.svg',
+    blurb: 'Tanked level-access wet room with linear drain, fold-down seat, and slip-resistant flooring.',
+  },
+  {
+    id: 'c3',
+    sector: 'council',
+    title: 'Accessible bathroom for a wheelchair user',
+    category: 'Accessible adaptations',
+    meta: 'OT-specified adaptation · Lewisham',
+    image: '/gallery/project-09.svg',
+    blurb: 'Repositioned suite, doc-M grab rails, and a wider doorway to an occupational therapist’s spec.',
+  },
+  {
+    id: 'c4',
+    sector: 'council',
+    title: 'Sheltered-housing bathroom upgrade',
+    category: 'Full refits',
+    meta: 'Planned maintenance · Croydon',
+    image: '/gallery/project-08.svg',
+    blurb: 'Programme of like-for-like bathroom renewals across a sheltered scheme, one unit per day.',
+  },
+  {
+    id: 'c5',
+    sector: 'council',
+    title: 'Over-bath shower to walk-in conversion',
+    category: 'Wet rooms',
+    meta: 'Adaptation · Greenwich',
+    image: '/gallery/project-01.svg',
+    blurb: 'Bath removed and replaced with a half-height walk-in shower and grab rails for an elderly tenant.',
+  },
+  {
+    id: 'c6',
+    sector: 'council',
+    title: 'Damp-affected bathroom reinstatement',
+    category: 'Full refits',
+    meta: 'Responsive repair · Wandsworth',
+    image: '/gallery/project-06.svg',
+    blurb: 'Stripped back to substrate, treated, re-boarded, and re-fitted after a long-standing leak.',
+  },
 ];
 
 export const nav = [
   { to: '/', label: 'Home' },
   { to: '/services', label: 'Services' },
-  { to: '/gallery', label: 'Selected Work' },
+  { to: '/gallery', label: 'Luxury Bathrooms' },
+  { to: '/council-bathrooms', label: 'Council Bathrooms' },
   { to: '/reviews', label: 'Reviews' },
 ];
