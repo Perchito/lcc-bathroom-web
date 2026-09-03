@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-label=" — placeholder project photo">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#12243b"/>
+      <stop offset="1" stop-color="#1f3a5f"/>
+    </linearGradient>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M60 0H0V60" fill="none" stroke="#ffffff" stroke-opacity="0.06" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#g)"/>
+  <rect width="1600" height="1000" fill="url(#grid)"/>
+  <g transform="translate(800 460)" fill="#ffffff" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif">
+    <g transform="translate(0 -110)" fill="none" stroke="#ffffff" stroke-opacity="0.9" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M-70 40 h140 a24 24 0 0 1 -24 24 h-92 a24 24 0 0 1 -24 -24 z"/>
+      <path d="M-70 40 v-72 a20 20 0 0 1 20 -20 h6 a16 16 0 0 1 16 16 v4"/>
+      <circle cx="-28" cy="-36" r="12"/>
+    </g>
+    
+    
+    
+  </g>
+</svg>
