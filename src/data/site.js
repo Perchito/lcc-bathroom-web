@@ -24,10 +24,10 @@ export const company = {
   // Real contact details from the Google Business Profile.
   phone: '07477 570370',
   phoneHref: 'tel:+447477570370',
-  email: 'info@luiscaizaconstruction.com',
-  serviceArea: 'Greater Metro area & surrounding towns',
+  email: 'info@lccbathrooms-services.com',
+  serviceArea: 'London',
   license: 'Licensed, bonded & insured — Lic. #000000',
-  hours: 'Monday–Friday, 7am–5pm · Saturday by appointment',
+  hours: 'Monday–Friday, 7am–5pm · Saturday and Sunday by appointment',
   // Google Business Profile: LCC' Bathroom & Services (5.0, 8 reviews)
   googleReviewsUrl: 'https://www.google.com/maps?cid=7455693700287610574',
 };
