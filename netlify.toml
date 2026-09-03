@@ -1,0 +1,23 @@
+# Netlify build + hosting config.
+# Connect this repo at https://app.netlify.com → "Add new site" → "Import an
+# existing project" → pick this GitHub repo. Netlify reads the settings below.
+
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# Serve the CMS admin app directly (it's a real file at dist/admin/).
+[[redirects]]
+  from = "/admin/*"
+  to = "/admin/:splat"
+  status = 200
+
+# Everything else falls back to the SPA so React Router can handle the route
+# on a hard refresh (e.g. /gallery, /council-bathrooms).
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

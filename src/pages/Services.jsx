@@ -53,7 +53,7 @@ export default function Services() {
 
           <div className="services">
             {services.map((s, i) => (
-              <Reveal key={s.id} delay={Math.min(i, 4) * 70}>
+              <Reveal key={s.title} delay={Math.min(i, 4) * 70}>
                 <article className="service">
                   <div className="service__num">
                     {String(i + 1).padStart(2, '0')}

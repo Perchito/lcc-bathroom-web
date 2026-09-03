@@ -123,7 +123,7 @@ function SelectedWork() {
 
         <div className="works">
           {featured.map((item, i) => (
-            <Reveal key={item.id} delay={i * 90}>
+            <Reveal key={item.title} delay={i * 90}>
               <article className={'work' + (i % 2 === 1 ? ' work--flip' : '')}>
                 <div className="work__figure">
                   <img

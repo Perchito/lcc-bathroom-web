@@ -45,8 +45,14 @@ npm run lint     # oxlint
 
 ## Editing the content
 
-**All site copy lives in one file: [`src/data/site.js`](src/data/site.js).**
-Everything currently in there is placeholder text. Update these to go live:
+**Non-technical editing:** the site has a CMS at **`/admin`** (Sveltia CMS).
+Editable copy lives in JSON files under [`src/content/`](src/content/); the CMS
+writes to those files and the site redeploys automatically. See
+[CMS-SETUP.md](CMS-SETUP.md) for the one-time connection steps.
+
+**In code:** [`src/data/site.js`](src/data/site.js) imports the `src/content/`
+JSON and also holds the structural bits that are *not* in the CMS (navigation,
+gallery sectors and their category lists). Fields you can change:
 
 - `company` — business name, established year, phone, email, license #, service area, hours, hero/statement copy
 - `stats` — the typographic stat line under the hero
@@ -69,19 +75,24 @@ entry's `image` at it in `src/data/site.js` (and update the hero `src` in
 
 ```
 public/
-  gallery/           placeholder project images (replace with real photos)
+  admin/             Sveltia CMS (index.html + config.yml)
+  gallery/           project images
 src/
-  data/site.js       <-- ALL editable content
-  components/         Header, Footer, Reviews, Stars
-  pages/             Home.jsx, Gallery.jsx
+  content/           CMS-editable content (JSON) — settings, services, …
+  data/site.js       adapter: imports src/content/ + structural config
+  components/         Header, Footer, Reveal, Contact, …
+  hooks/             useInViewOnce
+  pages/             Home, Services, Gallery, Reviews
   index.css          design system + component styles (one file)
   App.jsx            routes
   main.jsx           entry + router
+netlify.toml         build + SPA-fallback config
+CMS-SETUP.md         one-time steps to connect the CMS
 PHOTOS.md            which photo goes in which slot
 ```
 
 ## Deploying
 
-It's a static site — `npm run build` and host the `dist/` folder anywhere
-(Netlify, Vercel, GitHub Pages, Cloudflare Pages). For client-side routing to
-work on refresh, configure the host to fall back to `index.html`.
+Hosted on **Netlify** — every push to `main` auto-builds (`npm run build`) and
+publishes `dist/`. `netlify.toml` handles the SPA fallback. See
+[CMS-SETUP.md](CMS-SETUP.md) for the initial connection.
