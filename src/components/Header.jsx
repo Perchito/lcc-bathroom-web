@@ -6,9 +6,18 @@ export default function Header() {
     <header className="header">
       <div className="wrap header__inner">
         <Link to="/" className="wordmark">
-          <span className="wordmark__name">{company.name}</span>
-          <span className="wordmark__tag">
-            Bathroom &amp; Home Construction · Est. {company.established}
+          <img
+            className="wordmark__logo"
+            src="/logo.png"
+            alt=""
+            width="42"
+            height="45"
+          />
+          <span className="wordmark__text">
+            <span className="wordmark__name">{company.name}</span>
+            <span className="wordmark__tag">
+              Bathroom &amp; Home Construction · Est. {company.established}
+            </span>
           </span>
         </Link>
 

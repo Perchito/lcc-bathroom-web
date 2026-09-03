@@ -1,17 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-label="Walk-in shower conversion — photo placeholder">
   <defs>
     <linearGradient id="p" x1="0" y1="0" x2="0.4" y2="1">
-      <stop offset="0" stop-color="#e9e4d9"/>
-      <stop offset="1" stop-color="#d8d1c1"/>
+      <stop offset="0" stop-color="#e7eef2"/>
+      <stop offset="1" stop-color="#d1dbe1"/>
     </linearGradient>
   </defs>
   <rect width="1200" height="900" fill="url(#p)"/>
-  <rect x="24.5" y="24.5" width="1151" height="851" fill="none" stroke="#b9b19c" stroke-width="1"/>
-  <g stroke="#8a8069" stroke-width="2" fill="none" stroke-linecap="round">
+  <rect x="24.5" y="24.5" width="1151" height="851" fill="none" stroke="#c0cbd2" stroke-width="1"/>
+  <g stroke="#7b8992" stroke-width="2" fill="none" stroke-linecap="round">
     <rect x="542" y="358" width="116" height="84" />
     <path d="M542 416 h116" />
     <path d="M580 358 v84 M580 416 a18 18 0 0 0 18 18" />
   </g>
-  <text x="600" y="496" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="34" fill="#5d5849">Walk-in shower conversion</text>
-  <text x="600" y="534" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="3" fill="#8a8069">LUIS CAIZA CONSTRUCTION — PHOTO PLACEHOLDER</text>
+  <text x="600" y="496" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="34" fill="#46535b">Walk-in shower conversion</text>
+  <text x="600" y="534" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="3" fill="#7b8992">LUIS CAIZA CONSTRUCTION — PHOTO PLACEHOLDER</text>
 </svg>
