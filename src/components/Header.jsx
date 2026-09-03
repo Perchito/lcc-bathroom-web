@@ -1,11 +1,16 @@
 import { useState } from 'react'
-import { NavLink, Link } from 'react-router-dom'
+import { NavLink, Link, useLocation } from 'react-router-dom'
 import { company, nav } from '../data/site.js'
 import { asset } from '../asset.js'
 
 export default function Header() {
   const [open, setOpen] = useState(false)
   const close = () => setOpen(false)
+  const { pathname } = useLocation()
+
+  // The gallery nav link covers both portfolios (luxury + council).
+  const isActive = (to) =>
+    to === '/gallery' && pathname === '/council-bathrooms'
 
   return (
     <header className="header">
@@ -50,8 +55,9 @@ export default function Header() {
               to={item.to}
               end={item.to === '/'}
               onClick={close}
-              className={({ isActive }) =>
-                'header__link' + (isActive ? ' is-active' : '')
+              className={({ isActive: routeActive }) =>
+                'header__link' +
+                (routeActive || isActive(item.to) ? ' is-active' : '')
               }
             >
               {item.label}
