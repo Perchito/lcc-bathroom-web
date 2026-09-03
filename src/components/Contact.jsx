@@ -4,7 +4,7 @@ import { company } from '../data/site.js'
 export default function Contact() {
   return (
     <section className="section section--dark" id="contact">
-      <div className="wrap split reveal" data-reveal="">
+      <div className="wrap split">
         <div className="split__aside">
           <p className="label">Start a project</p>
         </div>

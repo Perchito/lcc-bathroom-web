@@ -44,13 +44,8 @@ function StatLine() {
   return (
     <div className="wrap">
       <div className="statline">
-        {stats.map((s, i) => (
-          <div
-            className="statline__item reveal"
-            data-reveal=""
-            style={{ '--d': `${i * 70}ms` }}
-            key={s.label}
-          >
+        {stats.map((s) => (
+          <div className="statline__item" key={s.label}>
             <span className="statline__value">{s.value}</span>
             <span className="statline__label">{s.label}</span>
           </div>
@@ -65,11 +60,7 @@ function SelectedWork() {
   return (
     <section className="section section--paper2" id="work">
       <div className="wrap">
-        <div
-          className="split reveal"
-          data-reveal=""
-          style={{ marginBottom: 'clamp(36px, 5vw, 64px)' }}
-        >
+        <div className="split" style={{ marginBottom: 'clamp(36px, 5vw, 64px)' }}>
           <div className="split__aside">
             <p className="label">Selected work</p>
           </div>
@@ -87,10 +78,7 @@ function SelectedWork() {
         <div className="works">
           {featured.map((item, i) => (
             <article
-              className={
-                'work reveal' + (i % 2 === 1 ? ' work--flip' : '')
-              }
-              data-reveal=""
+              className={'work' + (i % 2 === 1 ? ' work--flip' : '')}
               key={item.id}
             >
               <div className="work__figure">
