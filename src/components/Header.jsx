@@ -1,19 +1,27 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { NavLink, Link, useLocation } from 'react-router-dom'
 import { company, nav } from '../data/site.js'
 import { asset } from '../asset.js'
 
 export default function Header() {
   const [open, setOpen] = useState(false)
+  const [scrolled, setScrolled] = useState(false)
   const close = () => setOpen(false)
   const { pathname } = useLocation()
+
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 8)
+    onScroll()
+    window.addEventListener('scroll', onScroll, { passive: true })
+    return () => window.removeEventListener('scroll', onScroll)
+  }, [])
 
   // The gallery nav link covers both portfolios (luxury + council).
   const isActive = (to) =>
     to === '/gallery' && pathname === '/council-bathrooms'
 
   return (
-    <header className="header">
+    <header className={'header' + (scrolled ? ' header--scrolled' : '')}>
       <div className="wrap header__inner">
         <Link to="/" className="wordmark" onClick={close}>
           <img

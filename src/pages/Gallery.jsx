@@ -48,7 +48,7 @@ export default function Gallery({ defaultSector = 'luxury' }) {
   return (
     <>
       <section className="page-head">
-        <div className="wrap">
+        <div className="wrap reveal" data-reveal="">
           <p className="label">Selected work</p>
           <h1 className="display">{sector.label}</h1>
           <p className="lead" style={{ maxWidth: '52ch' }}>
@@ -103,11 +103,12 @@ export default function Gallery({ defaultSector = 'luxury' }) {
             ))}
           </div>
 
-          <div className="grid">
+          <div className="grid" key={filter}>
             {items.map((item, i) => (
               <button
                 type="button"
                 className="project"
+                style={{ '--i': Math.min(i, 8) }}
                 key={item.id}
                 onClick={() => setActiveIndex(i)}
                 aria-label={`Open ${item.title}`}

@@ -4,7 +4,7 @@ export default function Services() {
   return (
     <>
       <section className="page-head">
-        <div className="wrap">
+        <div className="wrap reveal" data-reveal="">
           <p className="label">What we do</p>
           <h1 className="display">Services</h1>
           <p className="lead" style={{ maxWidth: '52ch' }}>
@@ -15,7 +15,7 @@ export default function Services() {
       </section>
 
       <section className="section section--paper2">
-        <div className="wrap split">
+        <div className="wrap split reveal" data-reveal="">
           <div className="split__aside">
             <p className="label">The company</p>
           </div>
@@ -33,7 +33,8 @@ export default function Services() {
       <section className="section">
         <div className="wrap">
           <div
-            className="split"
+            className="split reveal"
+            data-reveal=""
             style={{ marginBottom: 'clamp(28px, 4vw, 48px)' }}
           >
             <div className="split__aside">
@@ -46,7 +47,12 @@ export default function Services() {
 
           <div className="services">
             {services.map((s, i) => (
-              <article className="service" key={s.id}>
+              <article
+                className="service reveal"
+                data-reveal=""
+                style={{ '--d': `${Math.min(i, 4) * 60}ms` }}
+                key={s.id}
+              >
                 <div className="service__num">
                   {String(i + 1).padStart(2, '0')}
                 </div>
@@ -61,7 +67,8 @@ export default function Services() {
       <section className="section section--dark" id="process">
         <div className="wrap">
           <div
-            className="split"
+            className="split reveal"
+            data-reveal=""
             style={{ marginBottom: 'clamp(32px, 4vw, 52px)' }}
           >
             <div className="split__aside">
@@ -73,8 +80,13 @@ export default function Services() {
           </div>
 
           <div className="steps">
-            {process.map((p) => (
-              <div className="step" key={p.step}>
+            {process.map((p, i) => (
+              <div
+                className="step reveal"
+                data-reveal=""
+                style={{ '--d': `${i * 80}ms` }}
+                key={p.step}
+              >
                 <div className="step__num">{p.step}</div>
                 <h3>{p.title}</h3>
                 <p>{p.description}</p>

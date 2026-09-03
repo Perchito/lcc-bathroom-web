@@ -8,7 +8,7 @@ export default function Reviews() {
   return (
     <>
       <section className="page-head">
-        <div className="wrap">
+        <div className="wrap reveal" data-reveal="">
           <p className="label">Client notes</p>
           <h1 className="display">Reviews</h1>
           <p className="notes__summary" style={{ marginTop: '14px' }}>
@@ -27,8 +27,13 @@ export default function Reviews() {
       <section className="section">
         <div className="wrap">
           <div className="notes">
-            {reviews.map((r) => (
-              <blockquote className="note" key={r.name}>
+            {reviews.map((r, i) => (
+              <blockquote
+                className="note reveal"
+                data-reveal=""
+                style={{ '--d': `${Math.min(i, 3) * 60}ms` }}
+                key={r.name}
+              >
                 <div className="note__by">
                   <div className="note__name">{r.name}</div>
                   <div className="note__place">

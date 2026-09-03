@@ -7,6 +7,7 @@ import Home from './pages/Home.jsx'
 import Services from './pages/Services.jsx'
 import Gallery from './pages/Gallery.jsx'
 import Reviews from './pages/Reviews.jsx'
+import { useReveal } from './useReveal.js'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
@@ -17,6 +18,7 @@ function ScrollToTop() {
 }
 
 export default function App() {
+  useReveal()
   return (
     <>
       <ScrollToTop />

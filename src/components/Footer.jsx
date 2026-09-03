@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="wrap">
-        <div className="footer__top">
+        <div className="footer__top reveal" data-reveal="">
           <div>
             <div className="footer__name">{company.name}</div>
             <p style={{ maxWidth: '32ch', margin: 0 }}>
