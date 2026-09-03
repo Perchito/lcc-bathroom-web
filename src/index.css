@@ -130,6 +130,11 @@ p:last-child { margin-bottom: 0; }
   background: color-mix(in srgb, var(--paper) 88%, transparent);
   backdrop-filter: blur(6px);
   border-bottom: 1px solid var(--rule);
+  transition: box-shadow 0.3s ease, background 0.3s ease;
+}
+.header--scrolled {
+  background: color-mix(in srgb, var(--paper) 94%, transparent);
+  box-shadow: 0 14px 30px -24px rgba(11, 18, 22, 0.5);
 }
 .header__inner {
   display: flex;

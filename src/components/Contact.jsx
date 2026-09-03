@@ -1,4 +1,5 @@
 import { company } from '../data/site.js'
+import Reveal from './Reveal.jsx'
 
 // Site-wide call-to-action band. Rendered once in App, below every page.
 export default function Contact() {
@@ -8,7 +9,7 @@ export default function Contact() {
         <div className="split__aside">
           <p className="label">Start a project</p>
         </div>
-        <div>
+        <Reveal>
           <h2 style={{ marginBottom: '28px' }}>
             Free estimates. Tell us what you have in mind.
           </h2>
@@ -27,7 +28,7 @@ export default function Contact() {
               {company.license}
             </p>
           </div>
-        </div>
+        </Reveal>
       </div>
     </section>
   )

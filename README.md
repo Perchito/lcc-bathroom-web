@@ -4,7 +4,15 @@ Marketing website for **LCC Bathroom & Services** — a family-owned bathroom
 remodeling and general construction company.
 
 Built with [React 19](https://react.dev/) + [Vite](https://vite.dev/) and
-[React Router](https://reactrouter.com/).
+[React Router](https://reactrouter.com/). Motion is handled with
+[react-spring](https://www.react-spring.dev/) — same setup as the
+`fc-cleaning-web` project:
+
+- `src/components/Reveal.jsx` + `src/hooks/useInViewOnce.js` — fade/rise a
+  block in the first time it scrolls into view (`<Reveal delay={} y={}>`)
+- staggered `useSpring` entrances on the home hero
+- react-spring fade / pop on the gallery lightbox
+- OS "reduce motion" is respected globally (`src/main.jsx`)
 
 ## Pages
 
