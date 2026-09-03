@@ -5,19 +5,20 @@ export default function Footer() {
   const year = new Date().getFullYear()
   return (
     <footer className="footer">
-      <div className="container">
-        <div className="footer__grid">
+      <div className="wrap">
+        <div className="footer__top">
           <div>
-            <h4>{company.name}</h4>
-            <p style={{ maxWidth: '34ch' }}>{company.tagline}</p>
-            <p>{company.serviceArea}</p>
-            <p>{company.license}</p>
+            <div className="footer__name">{company.name}</div>
+            <p style={{ maxWidth: '32ch', margin: 0 }}>
+              {company.tagline} {company.serviceArea}.
+            </p>
+            <p style={{ margin: '10px 0 0' }}>{company.license}</p>
           </div>
 
           <div>
             <h4>Services</h4>
             <ul>
-              {services.slice(0, 5).map((s) => (
+              {services.map((s) => (
                 <li key={s.id}>{s.title}</li>
               ))}
             </ul>
@@ -47,9 +48,9 @@ export default function Footer() {
 
         <div className="footer__bottom">
           <span>
-            © {year} {company.name}. All rights reserved.
+            © {year} {company.name}
           </span>
-          <span>Built for the family. Placeholder content — update in src/data/site.js</span>
+          <span>Placeholder content — edit src/data/site.js</span>
         </div>
       </div>
     </footer>

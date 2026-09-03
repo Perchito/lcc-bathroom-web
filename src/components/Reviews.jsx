@@ -6,32 +6,34 @@ export default function Reviews() {
     reviews.reduce((sum, r) => sum + r.rating, 0) / (reviews.length || 1)
 
   return (
-    <section className="section section--alt" id="reviews">
-      <div className="container">
-        <div className="section__head">
-          <p className="section__eyebrow">Reviews</p>
-          <h2>What our clients say</h2>
-          <div className="reviews__summary">
-            <Stars rating={Math.round(avg)} size={22} />
-            <span>
-              {avg.toFixed(1)} average · {reviews.length} reviews
-            </span>
+    <section className="section" id="reviews">
+      <div className="wrap">
+        <div className="split" style={{ marginBottom: 'clamp(36px, 5vw, 60px)' }}>
+          <div className="split__aside">
+            <p className="label">Client notes</p>
           </div>
-          <p className="section__lead">
-            Real feedback from homeowners we&apos;ve worked with. Replace these
-            with your own Google or Facebook reviews.
-          </p>
+          <div>
+            <h2 style={{ marginBottom: '12px' }}>
+              Homeowners on working with us
+            </h2>
+            <p className="notes__summary">
+              {avg.toFixed(1)} / 5 average · {reviews.length} reviews · replace
+              with your own Google &amp; Facebook reviews
+            </p>
+          </div>
         </div>
 
-        <div className="reviews-grid">
+        <div className="notes">
           {reviews.map((r) => (
-            <blockquote className="review" key={r.name + r.location}>
-              <Stars rating={r.rating} />
-              <p className="review__text">&ldquo;{r.text}&rdquo;</p>
-              <footer className="review__by">
-                <strong>{r.name}</strong>
-                {r.location}
-              </footer>
+            <blockquote className="note" key={r.name + r.location}>
+              <div className="note__by">
+                <div className="note__name">{r.name}</div>
+                <div className="note__place">{r.location}</div>
+              </div>
+              <div>
+                <p className="note__quote">&ldquo;{r.text}&rdquo;</p>
+                <Stars rating={r.rating} />
+              </div>
             </blockquote>
           ))}
         </div>

@@ -10,8 +10,11 @@ Built with [React 19](https://react.dev/) + [Vite](https://vite.dev/) and
 
 | Route      | What it is                                                                   |
 | ---------- | --------------------------------------------------------------------------- |
-| `/`        | Landing page — services, process, recent work, and **reviews** at the bottom |
-| `/gallery` | Renovations gallery — filterable grid with a click-to-open lightbox          |
+| `/`        | Home — statement, numbered service list, selected work, process, contact, and **client reviews** at the bottom |
+| `/gallery` | Selected Work — filterable project grid with a click-to-open lightbox        |
+
+The design is editorial / architectural: serif display type (Newsreader),
+generous whitespace, hairline rules, full-bleed photography.
 
 ## Run it locally
 
@@ -33,37 +36,35 @@ npm run lint     # oxlint
 **All site copy lives in one file: [`src/data/site.js`](src/data/site.js).**
 Everything currently in there is placeholder text. Update these to go live:
 
-- `company` — business name, phone, email, license #, service area, hours
-- `stats` — the headline numbers on the landing page
-- `services` — the service cards
-- `process` — the "how it works" steps
+- `company` — business name, established year, phone, email, license #, service area, hours, hero/statement copy
+- `stats` — the typographic stat line under the hero
+- `services` — the numbered service list
+- `process` — the four "how it works" steps
 - `reviews` — replace with real Google / Facebook reviews
-- `gallery` — project list (see below)
+- `gallery` — project list (`title`, `category`, `meta`, `blurb`, `image`)
 
 ## Adding real project photos
 
-1. Drop photos into `public/gallery/` (e.g. `public/gallery/master-bath-1.jpg`).
-2. In `src/data/site.js`, edit the `gallery` array — set each item's `image` to
-   `/gallery/your-file.jpg`, and update `title`, `category`, and `blurb`.
-3. `category` must be one of: `Bathrooms`, `Kitchens`, `Additions` (or add a new
-   one to `galleryCategories`).
+See **[PHOTOS.md](PHOTOS.md)** — it lists exactly which photo belongs in each
+slot, where to get licensed stock images, and how to swap them in.
 
-The placeholder `.svg` files in `public/gallery/` can be deleted once real
-photos are in.
+Short version: drop a JPG into `public/gallery/`, point the matching `gallery`
+entry's `image` at it in `src/data/site.js` (and update the hero `src` in
+`src/pages/Home.jsx` for the first one).
 
 ## Project structure
 
 ```
 public/
-  gallery/            placeholder project images (replace with real photos)
-  hero.svg            hero background
+  gallery/           placeholder project images (replace with real photos)
 src/
-  data/site.js        <-- ALL editable content
-  components/         Header, Footer, Reviews, Stars, Icon
+  data/site.js       <-- ALL editable content
+  components/         Header, Footer, Reviews, Stars
   pages/             Home.jsx, Gallery.jsx
   index.css          design system + component styles (one file)
   App.jsx            routes
   main.jsx           entry + router
+PHOTOS.md            which photo goes in which slot
 ```
 
 ## Deploying

@@ -1,14 +1,15 @@
-import Icon from './Icon.jsx'
-
-export default function Stars({ rating = 5, size = 16 }) {
+// Understated star row for the client notes section.
+export default function Stars({ rating = 5 }) {
   return (
     <span
-      className="stars"
+      className="note__stars"
       role="img"
-      aria-label={`${rating} out of 5 stars`}
+      aria-label={`${rating} out of 5`}
     >
-      {Array.from({ length: 5 }, (_, i) => (
-        <Icon key={i} name="star" size={size} filled={i < rating} />
+      {Array.from({ length: rating }, (_, i) => (
+        <span key={i} aria-hidden="true">
+          &#9733;
+        </span>
       ))}
     </span>
   )

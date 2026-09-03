@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useState, Fragment } from 'react'
 import { gallery, galleryCategories, company } from '../data/site.js'
 
 export default function Gallery() {
@@ -25,8 +25,7 @@ export default function Gallery() {
     if (!open) return
     function onKey(e) {
       if (e.key === 'Escape') setActiveIndex(null)
-      if (e.key === 'ArrowRight')
-        setActiveIndex((i) => (i + 1) % items.length)
+      if (e.key === 'ArrowRight') setActiveIndex((i) => (i + 1) % items.length)
       if (e.key === 'ArrowLeft')
         setActiveIndex((i) => (i - 1 + items.length) % items.length)
     }
@@ -37,57 +36,60 @@ export default function Gallery() {
   return (
     <>
       <section className="page-head">
-        <div className="container">
-          <p className="section__eyebrow" style={{ color: 'var(--amber)' }}>
-            Portfolio
-          </p>
-          <h1>Renovations gallery</h1>
-          <p>
-            A selection of bathroom, kitchen, and addition projects completed by{' '}
-            {company.name}. These are placeholder images — drop real project
-            photos into <code>/public/gallery/</code> and update{' '}
-            <code>src/data/site.js</code>.
+        <div className="wrap">
+          <p className="label">Selected work</p>
+          <h1 className="display">Projects</h1>
+          <p className="lead" style={{ maxWidth: '52ch' }}>
+            Bathroom, kitchen, and addition work completed by {company.name}.
+            These are placeholder images — see <code>PHOTOS.md</code> for what to
+            drop into <code>/public/gallery/</code>.
           </p>
         </div>
       </section>
 
       <section className="section">
-        <div className="container">
+        <div className="wrap">
           <div className="filters" role="tablist" aria-label="Filter projects">
-            {galleryCategories.map((cat) => (
-              <button
-                key={cat}
-                type="button"
-                role="tab"
-                aria-selected={filter === cat}
-                className={'filter' + (filter === cat ? ' is-active' : '')}
-                onClick={() => changeFilter(cat)}
-              >
-                {cat}
-              </button>
+            {galleryCategories.map((cat, i) => (
+              <Fragment key={cat}>
+                {i > 0 && (
+                  <span className="filter__sep" aria-hidden="true">
+                    /
+                  </span>
+                )}
+                <button
+                  type="button"
+                  role="tab"
+                  aria-selected={filter === cat}
+                  className={'filter' + (filter === cat ? ' is-active' : '')}
+                  onClick={() => changeFilter(cat)}
+                >
+                  {cat}
+                </button>
+              </Fragment>
             ))}
           </div>
 
-          <div className="gallery-grid">
+          <div className="grid">
             {items.map((item, i) => (
               <button
                 type="button"
-                className="tile"
+                className="project"
                 key={item.id}
                 onClick={() => setActiveIndex(i)}
                 aria-label={`Open ${item.title}`}
               >
-                <img src={item.image} alt={item.title} loading="lazy" />
-                <span className="tile__caption">
-                  <strong>{item.title}</strong>
-                  <span>{item.category}</span>
-                </span>
+                <div className="project__figure">
+                  <img src={item.image} alt={item.title} loading="lazy" />
+                </div>
+                <div className="project__title">{item.title}</div>
+                <div className="project__meta">{item.meta}</div>
               </button>
             ))}
           </div>
 
           {items.length === 0 && (
-            <p className="section__lead">No projects in this category yet.</p>
+            <p className="lead">No projects in this category yet.</p>
           )}
         </div>
       </section>
@@ -102,23 +104,23 @@ export default function Gallery() {
         >
           <button
             type="button"
-            className="lightbox__close"
+            className="lightbox__btn lightbox__close"
             aria-label="Close"
             onClick={() => setActiveIndex(null)}
           >
-            ✕
+            &times;
           </button>
 
           <button
             type="button"
-            className="lightbox__nav lightbox__nav--prev"
+            className="lightbox__btn lightbox__nav lightbox__nav--prev"
             aria-label="Previous project"
             onClick={(e) => {
               e.stopPropagation()
               setActiveIndex((i) => (i - 1 + items.length) % items.length)
             }}
           >
-            ‹
+            &lsaquo;
           </button>
 
           <figure
@@ -128,20 +130,20 @@ export default function Gallery() {
             <img src={active.image} alt={active.title} />
             <figcaption className="lightbox__cap">
               <strong>{active.title}</strong>
-              {active.blurb ? ` — ${active.blurb}` : ''}
+              <span>{active.meta}</span>
             </figcaption>
           </figure>
 
           <button
             type="button"
-            className="lightbox__nav lightbox__nav--next"
+            className="lightbox__btn lightbox__nav lightbox__nav--next"
             aria-label="Next project"
             onClick={(e) => {
               e.stopPropagation()
               setActiveIndex((i) => (i + 1) % items.length)
             }}
           >
-            ›
+            &rsaquo;
           </button>
         </div>
       )}
