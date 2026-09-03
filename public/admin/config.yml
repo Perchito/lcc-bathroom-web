@@ -10,10 +10,8 @@ backend:
 media_folder: "public/gallery"
 public_folder: "/gallery"
 
-# TODO: after the Netlify site is created, set both of these to its URL
-# (e.g. https://lcc-bathroom.netlify.app or the custom domain).
-site_url: https://lcc-bathroom.netlify.app
-display_url: https://lcc-bathroom.netlify.app
+site_url: https://lccbathrooms-services.netlify.app
+display_url: https://lccbathrooms-services.netlify.app
 
 collections:
   - name: company
