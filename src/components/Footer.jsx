@@ -21,7 +21,7 @@ export default function Footer() {
               <h4>Services</h4>
               <ul>
                 {services.map((s) => (
-                  <li key={s.id}>{s.title}</li>
+                  <li key={s.title}>{s.title}</li>
                 ))}
               </ul>
             </div>

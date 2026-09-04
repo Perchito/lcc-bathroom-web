@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "title": "Bathroom Remodeling",
+      "description": "Full gut renovations and cosmetic refreshes — new layouts, vanities, lighting, and waterproofing detailed to last decades, not seasons."
+    },
+    {
+      "title": "Walk-in Showers & Tubs",
+      "description": "Custom tile showers, frameless glass, and accessible walk-in conversions for aging in place — built with proper slope, drainage, and membrane."
+    },
+    {
+      "title": "Tile & Stone",
+      "description": "Precision tile setting, natural stone, heated floors, and feature walls laid out by hand so the pattern reads right in the finished room."
+    },
+    {
+      "title": "Kitchen Remodeling",
+      "description": "Cabinetry, countertops, backsplashes, and layout changes for the hardest-working room in the house."
+    },
+    {
+      "title": "Additions & Bump-outs",
+      "description": "Room additions, primary-suite expansions, and basement finishing — permitted, framed, and finished by our team."
+    },
+    {
+      "title": "General Carpentry & Repairs",
+      "description": "Framing, drywall, doors, trim, and the punch-list details that other contractors leave unfinished."
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "projects": [
+    {
+      "sector": "luxury",
+      "title": "Master bath, fully rebuilt",
+      "category": "Bathrooms",
+      "meta": "Full renovation · Riverside",
+      "image": "/gallery/project-01.svg",
+      "blurb": "Freestanding tub, curbless tile shower, and a double vanity in a reworked layout."
+    },
+    {
+      "sector": "luxury",
+      "title": "Walk-in shower conversion",
+      "category": "Bathrooms",
+      "meta": "Accessibility remodel · Oak Hill",
+      "image": "/gallery/project-02.svg",
+      "blurb": "An old alcove tub replaced with a low-threshold, grab-bar-ready shower."
+    },
+    {
+      "sector": "luxury",
+      "title": "Guest bath refresh",
+      "category": "Bathrooms",
+      "meta": "Cosmetic remodel · Downtown",
+      "image": "/gallery/project-03.svg",
+      "blurb": "New vanity, mirror, lighting, and floor tile — completed in a single week."
+    },
+    {
+      "sector": "luxury",
+      "title": "Open-concept kitchen",
+      "category": "Kitchens",
+      "meta": "Wall removal + remodel · Westgate",
+      "image": "/gallery/project-04.svg",
+      "blurb": "Removed a load-bearing wall, new cabinetry, quartz counters, tile backsplash."
+    },
+    {
+      "sector": "luxury",
+      "title": "Kitchen island addition",
+      "category": "Kitchens",
+      "meta": "Cabinetry · Lakeshore",
+      "image": "/gallery/project-05.svg",
+      "blurb": "A custom island with seating, storage, and a second prep sink."
+    },
+    {
+      "sector": "luxury",
+      "title": "Basement bathroom addition",
+      "category": "Additions",
+      "meta": "New full bath · Pinecrest",
+      "image": "/gallery/project-06.svg",
+      "blurb": "A full bath framed, plumbed, and permitted in a previously unfinished basement."
+    },
+    {
+      "sector": "luxury",
+      "title": "Primary-suite bump-out",
+      "category": "Additions",
+      "meta": "120 sq ft addition · Oak Hill",
+      "image": "/gallery/project-07.svg",
+      "blurb": "Added floor area for a larger bedroom and a private en-suite bath."
+    },
+    {
+      "sector": "luxury",
+      "title": "Powder room, feature wall",
+      "category": "Bathrooms",
+      "meta": "Cosmetic remodel · Riverside",
+      "image": "/gallery/project-08.svg",
+      "blurb": "Statement tile, a floating vanity, and warm integrated lighting."
+    },
+    {
+      "sector": "luxury",
+      "title": "Heated-floor bathroom",
+      "category": "Bathrooms",
+      "meta": "Full renovation · Westgate",
+      "image": "/gallery/project-09.svg",
+      "blurb": "Radiant heated porcelain floor with a linear-drain curbless shower."
+    },
+    {
+      "sector": "council",
+      "title": "Tenanted flat, full bathroom refit",
+      "category": "Full refits",
+      "meta": "Void works · Southwark",
+      "image": "/gallery/project-03.svg",
+      "blurb": "Strip-out and full replacement — suite, tiling, flooring, and extractor — turned around between tenancies."
+    },
+    {
+      "sector": "council",
+      "title": "Level-access wet room",
+      "category": "Wet rooms",
+      "meta": "Adaptation · Lambeth",
+      "image": "/gallery/project-02.svg",
+      "blurb": "Tanked level-access wet room with linear drain, fold-down seat, and slip-resistant flooring."
+    },
+    {
+      "sector": "council",
+      "title": "Accessible bathroom for a wheelchair user",
+      "category": "Accessible adaptations",
+      "meta": "OT-specified adaptation · Lewisham",
+      "image": "/gallery/project-09.svg",
+      "blurb": "Repositioned suite, doc-M grab rails, and a wider doorway to an occupational therapist’s spec."
+    },
+    {
+      "sector": "council",
+      "title": "Sheltered-housing bathroom upgrade",
+      "category": "Full refits",
+      "meta": "Planned maintenance · Croydon",
+      "image": "/gallery/project-08.svg",
+      "blurb": "Programme of like-for-like bathroom renewals across a sheltered scheme, one unit per day."
+    },
+    {
+      "sector": "council",
+      "title": "Over-bath shower to walk-in conversion",
+      "category": "Wet rooms",
+      "meta": "Adaptation · Greenwich",
+      "image": "/gallery/project-01.svg",
+      "blurb": "Bath removed and replaced with a half-height walk-in shower and grab rails for an elderly tenant."
+    },
+    {
+      "sector": "council",
+      "title": "Damp-affected bathroom reinstatement",
+      "category": "Full refits",
+      "meta": "Responsive repair · Wandsworth",
+      "image": "/gallery/project-06.svg",
+      "blurb": "Stripped back to substrate, treated, re-boarded, and re-fitted after a long-standing leak."
+    }
+  ]
+}

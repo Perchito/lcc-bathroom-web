@@ -206,7 +206,7 @@ export default function Gallery({ defaultSector = 'luxury' }) {
             <div className="grid">
               {items.map((item, i) => (
                 <ProjectCard
-                  key={item.id}
+                  key={item.title}
                   item={item}
                   onOpen={() => setActiveIndex(i)}
                 />

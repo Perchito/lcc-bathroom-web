@@ -1,0 +1,139 @@
+# Sveltia CMS configuration — https://sveltiacms.app
+# Edit content at /admin on the live site. This file defines what's editable.
+
+backend:
+  name: github
+  repo: Perchito/lcc-bathroom-web
+  branch: main
+
+# Uploaded photos are written here and served from this URL path.
+media_folder: "public/gallery"
+public_folder: "/gallery"
+
+site_url: https://lccbathrooms-services.netlify.app
+display_url: https://lccbathrooms-services.netlify.app
+
+collections:
+  - name: company
+    label: "Company info & homepage text"
+    files:
+      - name: settings
+        label: "Business details + homepage"
+        file: "src/content/settings.json"
+        fields:
+          - name: company
+            label: "Business details"
+            widget: object
+            fields:
+              - { name: name, label: "Business name", widget: string }
+              - { name: shortName, label: "Short name", widget: string }
+              - { name: established, label: "Year established", widget: string }
+              - { name: tagline, label: "Headline (big text on the homepage)", widget: string }
+              - { name: heroSupport, label: "Homepage intro paragraph", widget: text }
+              - { name: statement, label: "About us paragraph", widget: text }
+              - { name: yearsInBusiness, label: "Years in business (e.g. 15+)", widget: string }
+              - { name: phone, label: "Phone number (as shown on the site)", widget: string }
+              - name: phoneHref
+                label: "Phone link"
+                widget: string
+                hint: "Advanced — keep the tel:+44... format. Only change if the number changes."
+              - { name: email, label: "Email address", widget: string }
+              - { name: serviceArea, label: "Area you cover", widget: string }
+              - { name: license, label: "License / insurance line", widget: string }
+              - { name: hours, label: "Opening hours", widget: string }
+              - { name: googleReviewsUrl, label: "Google reviews link", widget: string }
+          - name: stats
+            label: "Stat line (small facts under the homepage headline)"
+            widget: list
+            fields:
+              - { name: value, label: "Number or word", widget: string }
+              - { name: label, label: "Caption", widget: string }
+
+  - name: services
+    label: "Services"
+    files:
+      - name: services
+        label: "Services list"
+        file: "src/content/services.json"
+        fields:
+          - name: items
+            label: "Services"
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - { name: title, label: "Service name", widget: string }
+              - { name: description, label: "Description", widget: text }
+
+  - name: process
+    label: "How it works"
+    files:
+      - name: process
+        label: "Process steps"
+        file: "src/content/process.json"
+        fields:
+          - name: items
+            label: "Steps"
+            widget: list
+            summary: "{{fields.step}} — {{fields.title}}"
+            fields:
+              - { name: step, label: "Step number (e.g. 01)", widget: string }
+              - { name: title, label: "Step title", widget: string }
+              - { name: description, label: "Description", widget: text }
+
+  - name: reviews
+    label: "Reviews"
+    files:
+      - name: reviews
+        label: "Client reviews"
+        file: "src/content/reviews.json"
+        fields:
+          - name: items
+            label: "Reviews"
+            widget: list
+            summary: "{{fields.name}} — {{fields.job}}"
+            fields:
+              - { name: name, label: "Client name", widget: string }
+              - { name: job, label: "Job / context (short)", widget: string }
+              - { name: when, label: "Year", widget: string }
+              - name: rating
+                label: "Stars (1 to 5)"
+                widget: number
+                value_type: int
+                min: 1
+                max: 5
+                default: 5
+              - { name: text, label: "Review text", widget: text }
+
+  - name: gallery
+    label: "Gallery / projects"
+    files:
+      - name: gallery
+        label: "Gallery projects"
+        file: "src/content/gallery.json"
+        fields:
+          - name: projects
+            label: "Projects"
+            widget: list
+            summary: "{{fields.title}}  ·  {{fields.sector}}"
+            fields:
+              - name: sector
+                label: "Which gallery"
+                widget: select
+                options:
+                  - { label: "Luxury Bathrooms", value: luxury }
+                  - { label: "Council Bathrooms", value: council }
+              - { name: title, label: "Project title", widget: string }
+              - name: category
+                label: "Category"
+                widget: select
+                hint: "Use a Luxury category (Bathrooms / Kitchens / Additions) for a Luxury project, and a Council category for a Council project."
+                options:
+                  - Bathrooms
+                  - Kitchens
+                  - Additions
+                  - Full refits
+                  - Wet rooms
+                  - Accessible adaptations
+              - { name: meta, label: "Small caption (e.g. 'Full renovation · Riverside')", widget: string }
+              - { name: image, label: "Photo", widget: image }
+              - { name: blurb, label: "One-line description", widget: text }
