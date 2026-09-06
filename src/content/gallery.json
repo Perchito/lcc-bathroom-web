@@ -5,11 +5,11 @@
       "title": "Master bath, fully rebuilt",
       "category": "Bathrooms",
       "meta": "Full renovation · Riverside",
-      "image": "/gallery/project-01.svg",
+      "image": "/gallery/bath1.1.jpeg",
       "images": [
-        "/gallery/project-02.svg",
-        "/gallery/project-03.svg",
-        "/gallery/project-09.svg"
+        "/gallery/bath1.2.jpeg",
+        "/gallery/bath1.3.jpeg",
+        "/gallery/bath1.4.jpeg"
       ],
       "blurb": "Freestanding tub, curbless tile shower, and a double vanity in a reworked layout."
     },
@@ -19,6 +19,7 @@
       "category": "Bathrooms",
       "meta": "Accessibility remodel · Oak Hill",
       "image": "/gallery/project-02.svg",
+      "images": [],
       "blurb": "An old alcove tub replaced with a low-threshold, grab-bar-ready shower."
     },
     {
@@ -27,6 +28,7 @@
       "category": "Bathrooms",
       "meta": "Cosmetic remodel · Downtown",
       "image": "/gallery/project-03.svg",
+      "images": [],
       "blurb": "New vanity, mirror, lighting, and floor tile — completed in a single week."
     },
     {
@@ -35,6 +37,7 @@
       "category": "Kitchens",
       "meta": "Wall removal + remodel · Westgate",
       "image": "/gallery/project-04.svg",
+      "images": [],
       "blurb": "Removed a load-bearing wall, new cabinetry, quartz counters, tile backsplash."
     },
     {
@@ -43,6 +46,7 @@
       "category": "Kitchens",
       "meta": "Cabinetry · Lakeshore",
       "image": "/gallery/project-05.svg",
+      "images": [],
       "blurb": "A custom island with seating, storage, and a second prep sink."
     },
     {
@@ -51,6 +55,7 @@
       "category": "Additions",
       "meta": "New full bath · Pinecrest",
       "image": "/gallery/project-06.svg",
+      "images": [],
       "blurb": "A full bath framed, plumbed, and permitted in a previously unfinished basement."
     },
     {
@@ -59,6 +64,7 @@
       "category": "Additions",
       "meta": "120 sq ft addition · Oak Hill",
       "image": "/gallery/project-07.svg",
+      "images": [],
       "blurb": "Added floor area for a larger bedroom and a private en-suite bath."
     },
     {
@@ -67,6 +73,7 @@
       "category": "Bathrooms",
       "meta": "Cosmetic remodel · Riverside",
       "image": "/gallery/project-08.svg",
+      "images": [],
       "blurb": "Statement tile, a floating vanity, and warm integrated lighting."
     },
     {
@@ -75,6 +82,7 @@
       "category": "Bathrooms",
       "meta": "Full renovation · Westgate",
       "image": "/gallery/project-09.svg",
+      "images": [],
       "blurb": "Radiant heated porcelain floor with a linear-drain curbless shower."
     },
     {
@@ -83,6 +91,7 @@
       "category": "Full refits",
       "meta": "Void works · Southwark",
       "image": "/gallery/project-03.svg",
+      "images": [],
       "blurb": "Strip-out and full replacement — suite, tiling, flooring, and extractor — turned around between tenancies."
     },
     {
@@ -91,6 +100,7 @@
       "category": "Wet rooms",
       "meta": "Adaptation · Lambeth",
       "image": "/gallery/project-02.svg",
+      "images": [],
       "blurb": "Tanked level-access wet room with linear drain, fold-down seat, and slip-resistant flooring."
     },
     {
@@ -99,6 +109,7 @@
       "category": "Accessible adaptations",
       "meta": "OT-specified adaptation · Lewisham",
       "image": "/gallery/project-09.svg",
+      "images": [],
       "blurb": "Repositioned suite, doc-M grab rails, and a wider doorway to an occupational therapist’s spec."
     },
     {
@@ -107,6 +118,7 @@
       "category": "Full refits",
       "meta": "Planned maintenance · Croydon",
       "image": "/gallery/project-08.svg",
+      "images": [],
       "blurb": "Programme of like-for-like bathroom renewals across a sheltered scheme, one unit per day."
     },
     {
@@ -115,6 +127,7 @@
       "category": "Wet rooms",
       "meta": "Adaptation · Greenwich",
       "image": "/gallery/project-01.svg",
+      "images": [],
       "blurb": "Bath removed and replaced with a half-height walk-in shower and grab rails for an elderly tenant."
     },
     {
@@ -123,6 +136,7 @@
       "category": "Full refits",
       "meta": "Responsive repair · Wandsworth",
       "image": "/gallery/project-06.svg",
+      "images": [],
       "blurb": "Stripped back to substrate, treated, re-boarded, and re-fitted after a long-standing leak."
     }
   ]
