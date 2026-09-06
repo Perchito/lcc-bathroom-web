@@ -6,6 +6,11 @@
       "category": "Bathrooms",
       "meta": "Full renovation · Riverside",
       "image": "/gallery/project-01.svg",
+      "images": [
+        "/gallery/project-02.svg",
+        "/gallery/project-03.svg",
+        "/gallery/project-09.svg"
+      ],
       "blurb": "Freestanding tub, curbless tile shower, and a double vanity in a reworked layout."
     },
     {

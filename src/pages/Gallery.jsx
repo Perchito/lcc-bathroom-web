@@ -1,9 +1,18 @@
-import { useEffect, useMemo, useState, Fragment } from 'react'
+import { useEffect, useMemo, useRef, useState, Fragment } from 'react'
 import { Link } from 'react-router-dom'
 import { useSpring, animated } from '@react-spring/web'
 import { gallery, gallerySectors } from '../data/site.js'
 import { asset } from '../asset.js'
 import Reveal from '../components/Reveal.jsx'
+
+// A project can carry a single `image` (the grid thumbnail) plus any number of
+// extra `images`. This returns the full, de-duplicated photo list for a project,
+// always with the main `image` first.
+function photosOf(item) {
+  const extra = Array.isArray(item.images) ? item.images.filter(Boolean) : []
+  const all = [item.image, ...extra].filter(Boolean)
+  return [...new Set(all)]
+}
 
 function ProjectCard({ item, onOpen }) {
   const [hovered, setHovered] = useState(false)
@@ -11,6 +20,8 @@ function ProjectCard({ item, onOpen }) {
     transform: hovered ? 'translateY(-4px)' : 'translateY(0px)',
     config: { tension: 280, friction: 18 },
   })
+
+  const count = photosOf(item).length
 
   return (
     <animated.button
@@ -24,6 +35,11 @@ function ProjectCard({ item, onOpen }) {
     >
       <div className="project__figure">
         <img src={asset(item.image)} alt={item.title} loading="lazy" />
+        {count > 1 && (
+          <span className="project__count" aria-hidden="true">
+            {count} photos
+          </span>
+        )}
       </div>
       <div className="project__title">{item.title}</div>
       <div className="project__meta">{item.meta}</div>
@@ -31,7 +47,7 @@ function ProjectCard({ item, onOpen }) {
   )
 }
 
-function Lightbox({ active, onClose, onPrev, onNext }) {
+function Lightbox({ active, photos, photoIndex, onClose, onPrev, onNext, onDot }) {
   const backdrop = useSpring({
     from: { opacity: 0 },
     to: { opacity: 1 },
@@ -42,6 +58,22 @@ function Lightbox({ active, onClose, onPrev, onNext }) {
     to: { opacity: 1, transform: 'translateY(0px) scale(1)' },
     config: { tension: 210, friction: 26 },
   })
+
+  const touchX = useRef(null)
+  function onTouchStart(e) {
+    touchX.current = e.changedTouches[0].clientX
+  }
+  function onTouchEnd(e) {
+    if (touchX.current == null) return
+    const dx = e.changedTouches[0].clientX - touchX.current
+    touchX.current = null
+    if (Math.abs(dx) < 40) return
+    if (dx < 0) onNext()
+    else onPrev()
+  }
+
+  const src = photos[photoIndex] ?? active.image
+  const multi = photos.length > 1
 
   return (
     <animated.div
@@ -64,7 +96,7 @@ function Lightbox({ active, onClose, onPrev, onNext }) {
       <button
         type="button"
         className="lightbox__btn lightbox__nav lightbox__nav--prev"
-        aria-label="Previous project"
+        aria-label="Previous photo"
         onClick={(e) => {
           e.stopPropagation()
           onPrev()
@@ -77,18 +109,45 @@ function Lightbox({ active, onClose, onPrev, onNext }) {
         style={figure}
         className="lightbox__figure"
         onClick={(e) => e.stopPropagation()}
+        onTouchStart={onTouchStart}
+        onTouchEnd={onTouchEnd}
       >
-        <img src={asset(active.image)} alt={active.title} />
+        <img src={asset(src)} alt={active.title} />
+
+        {multi && (
+          <div className="lightbox__dots" role="tablist" aria-label="Project photos">
+            {photos.map((_, i) => (
+              <button
+                key={i}
+                type="button"
+                role="tab"
+                aria-selected={i === photoIndex}
+                aria-label={`Photo ${i + 1} of ${photos.length}`}
+                className={
+                  'lightbox__dot' + (i === photoIndex ? ' is-active' : '')
+                }
+                onClick={(e) => {
+                  e.stopPropagation()
+                  onDot(i)
+                }}
+              />
+            ))}
+          </div>
+        )}
+
         <figcaption className="lightbox__cap">
           <strong>{active.title}</strong>
-          <span>{active.meta}</span>
+          <span>
+            {active.meta}
+            {multi ? ` · ${photoIndex + 1} / ${photos.length}` : ''}
+          </span>
         </figcaption>
       </animated.figure>
 
       <button
         type="button"
         className="lightbox__btn lightbox__nav lightbox__nav--next"
-        aria-label="Next project"
+        aria-label="Next photo"
         onClick={(e) => {
           e.stopPropagation()
           onNext()
@@ -108,6 +167,7 @@ export default function Gallery({ defaultSector = 'luxury' }) {
   // (and state resets) when you move between the luxury and council portfolios.
   const [filter, setFilter] = useState('All')
   const [activeIndex, setActiveIndex] = useState(null)
+  const [photoIndex, setPhotoIndex] = useState(0)
 
   const sectorItems = useMemo(
     () => gallery.filter((g) => g.sector === sector.id),
@@ -124,23 +184,51 @@ export default function Gallery({ defaultSector = 'luxury' }) {
 
   function changeFilter(cat) {
     setActiveIndex(null) // close any open lightbox before the list changes
+    setPhotoIndex(0)
     setFilter(cat)
   }
 
   const open = activeIndex !== null
   const active = open ? items[activeIndex] : null
+  const photos = active ? photosOf(active) : []
+
+  function openProject(i) {
+    setActiveIndex(i)
+    setPhotoIndex(0)
+  }
+
+  function close() {
+    setActiveIndex(null)
+    setPhotoIndex(0)
+  }
+
+  // One continuous sequence: step through the photos of the current project,
+  // then roll over into the next / previous project.
+  function step(dir) {
+    if (activeIndex === null || items.length === 0) return
+    const current = photosOf(items[activeIndex])
+    const next = photoIndex + dir
+    if (next >= 0 && next < current.length) {
+      setPhotoIndex(next)
+      return
+    }
+    const nextProject = (activeIndex + dir + items.length) % items.length
+    const nextPhotos = photosOf(items[nextProject])
+    setActiveIndex(nextProject)
+    setPhotoIndex(dir > 0 ? 0 : Math.max(0, nextPhotos.length - 1))
+  }
 
   useEffect(() => {
     if (!open) return
     function onKey(e) {
-      if (e.key === 'Escape') setActiveIndex(null)
-      if (e.key === 'ArrowRight') setActiveIndex((i) => (i + 1) % items.length)
-      if (e.key === 'ArrowLeft')
-        setActiveIndex((i) => (i - 1 + items.length) % items.length)
+      if (e.key === 'Escape') close()
+      if (e.key === 'ArrowRight') step(1)
+      if (e.key === 'ArrowLeft') step(-1)
     }
     window.addEventListener('keydown', onKey)
     return () => window.removeEventListener('keydown', onKey)
-  }, [open, items.length])
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [open, activeIndex, photoIndex, items])
 
   return (
     <>
@@ -208,7 +296,7 @@ export default function Gallery({ defaultSector = 'luxury' }) {
                 <ProjectCard
                   key={item.title}
                   item={item}
-                  onOpen={() => setActiveIndex(i)}
+                  onOpen={() => openProject(i)}
                 />
               ))}
             </div>
@@ -222,12 +310,14 @@ export default function Gallery({ defaultSector = 'luxury' }) {
 
       {open && active && (
         <Lightbox
+          key={`${activeIndex}-${photoIndex}`}
           active={active}
-          onClose={() => setActiveIndex(null)}
-          onPrev={() =>
-            setActiveIndex((i) => (i - 1 + items.length) % items.length)
-          }
-          onNext={() => setActiveIndex((i) => (i + 1) % items.length)}
+          photos={photos}
+          photoIndex={photoIndex}
+          onClose={close}
+          onPrev={() => step(-1)}
+          onNext={() => step(1)}
+          onDot={(i) => setPhotoIndex(i)}
         />
       )}
     </>

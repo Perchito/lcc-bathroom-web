@@ -135,5 +135,11 @@ collections:
                   - Wet rooms
                   - Accessible adaptations
               - { name: meta, label: "Small caption (e.g. 'Full renovation · Riverside')", widget: string }
-              - { name: image, label: "Photo", widget: image }
+              - { name: image, label: "Main photo (shown on the gallery grid)", widget: image }
+              - name: images
+                label: "More photos"
+                widget: list
+                required: false
+                hint: "Add extra photos of the same project — visitors can swipe through them in the pop-up view. The main photo above is always shown first."
+                field: { name: image, label: "Photo", widget: image }
               - { name: blurb, label: "One-line description", widget: text }
