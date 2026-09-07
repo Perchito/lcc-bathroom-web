@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import { useSpring, animated } from '@react-spring/web'
 import { company, stats, gallery } from '../data/site.js'
-import { asset } from '../asset.js'
+import { photo } from '../img.js'
 import Reveal from '../components/Reveal.jsx'
 
 // Short, snappy springs — the whole entrance settles in well under a second.
@@ -70,8 +70,11 @@ function Hero() {
         <animated.figure style={visual} className="hero__figure">
           {/* PHOTO 1 — see PHOTOS.md */}
           <img
-            src={asset('gallery/project-01.svg')}
+            {...photo('/gallery/project-01.svg', {
+              sizes: '(min-width: 960px) 44vw, 100vw',
+            })}
             alt="A completed bathroom renovation"
+            fetchPriority="high"
           />
         </animated.figure>
       </div>
@@ -127,9 +130,12 @@ function SelectedWork() {
               <article className={'work' + (i % 2 === 1 ? ' work--flip' : '')}>
                 <div className="work__figure">
                   <img
-                    src={asset(item.image)}
+                    {...photo(item.image, {
+                      sizes: '(min-width: 960px) 48vw, 100vw',
+                    })}
                     alt={item.title}
                     loading="lazy"
+                    decoding="async"
                   />
                 </div>
                 <div className="work__body">

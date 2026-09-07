@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState, Fragment } from 'react'
 import { Link } from 'react-router-dom'
 import { useSpring, animated } from '@react-spring/web'
 import { gallery, gallerySectors } from '../data/site.js'
-import { asset } from '../asset.js'
+import { photo } from '../img.js'
 import Reveal from '../components/Reveal.jsx'
 
 // A project can carry a single `image` (the grid thumbnail) plus any number of
@@ -14,14 +14,86 @@ function photosOf(item) {
   return [...new Set(all)]
 }
 
+const CARD_SIZES = '(min-width: 720px) 45vw, 92vw'
+const LIGHTBOX_SIZES = '(min-width: 1100px) 1000px, 100vw'
+
+// On a card the dots are a non-interactive hint (the card itself is a <button>,
+// so a nested <button> would be invalid). In the lightbox they're clickable.
+function Dots({ count, index, onDot }) {
+  const interactive = typeof onDot === 'function'
+  const Item = interactive ? 'button' : 'span'
+  return (
+    <div
+      className="dots"
+      aria-hidden={interactive ? undefined : true}
+      role={interactive ? 'tablist' : undefined}
+      aria-label={interactive ? 'Project photos' : undefined}
+    >
+      {Array.from({ length: count }, (_, i) => (
+        <Item
+          key={i}
+          className={'dots__dot' + (i === index ? ' is-active' : '')}
+          {...(interactive
+            ? {
+                type: 'button',
+                role: 'tab',
+                'aria-selected': i === index,
+                'aria-label': `Photo ${i + 1} of ${count}`,
+                onClick: (e) => {
+                  e.stopPropagation()
+                  onDot(i)
+                },
+              }
+            : {})}
+        />
+      ))}
+    </div>
+  )
+}
+
 function ProjectCard({ item, onOpen }) {
+  const photos = useMemo(() => photosOf(item), [item])
+  const multi = photos.length > 1
+
   const [hovered, setHovered] = useState(false)
+  const [idx, setIdx] = useState(0)
   const style = useSpring({
     transform: hovered ? 'translateY(-4px)' : 'translateY(0px)',
     config: { tension: 280, friction: 18 },
   })
 
-  const count = photosOf(item).length
+  // Swipe-to-browse on touch, without hijacking a tap (which opens the lightbox)
+  // or a vertical scroll.
+  const start = useRef(null)
+  const swiped = useRef(false)
+
+  function onTouchStart(e) {
+    const t = e.touches[0]
+    start.current = { x: t.clientX, y: t.clientY }
+    swiped.current = false
+  }
+  function onTouchEnd(e) {
+    if (!start.current) return
+    const t = e.changedTouches[0]
+    const dx = t.clientX - start.current.x
+    const dy = t.clientY - start.current.y
+    start.current = null
+    if (multi && Math.abs(dx) > 40 && Math.abs(dx) > Math.abs(dy)) {
+      swiped.current = true
+      setIdx((i) =>
+        dx < 0
+          ? (i + 1) % photos.length
+          : (i - 1 + photos.length) % photos.length,
+      )
+    }
+  }
+  function handleClick() {
+    if (swiped.current) {
+      swiped.current = false
+      return
+    }
+    onOpen(idx)
+  }
 
   return (
     <animated.button
@@ -30,15 +102,27 @@ function ProjectCard({ item, onOpen }) {
       className="project"
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
-      onClick={onOpen}
+      onClick={handleClick}
+      onTouchStart={onTouchStart}
+      onTouchEnd={onTouchEnd}
       aria-label={`Open ${item.title}`}
     >
       <div className="project__figure">
-        <img src={asset(item.image)} alt={item.title} loading="lazy" />
-        {count > 1 && (
-          <span className="project__count" aria-hidden="true">
-            {count} photos
-          </span>
+        <img
+          {...photo(photos[idx], { sizes: CARD_SIZES })}
+          alt={item.title}
+          width="1200"
+          height="900"
+          loading="lazy"
+          decoding="async"
+        />
+        {multi && (
+          <>
+            <span className="project__count" aria-hidden="true">
+              {idx + 1} / {photos.length}
+            </span>
+            <Dots count={photos.length} index={idx} />
+          </>
         )}
       </div>
       <div className="project__title">{item.title}</div>
@@ -112,27 +196,17 @@ function Lightbox({ active, photos, photoIndex, onClose, onPrev, onNext, onDot }
         onTouchStart={onTouchStart}
         onTouchEnd={onTouchEnd}
       >
-        <img src={asset(src)} alt={active.title} />
+        <img
+          {...photo(src, { sizes: LIGHTBOX_SIZES, quality: 78 })}
+          alt={active.title}
+        />
 
         {multi && (
-          <div className="lightbox__dots" role="tablist" aria-label="Project photos">
-            {photos.map((_, i) => (
-              <button
-                key={i}
-                type="button"
-                role="tab"
-                aria-selected={i === photoIndex}
-                aria-label={`Photo ${i + 1} of ${photos.length}`}
-                className={
-                  'lightbox__dot' + (i === photoIndex ? ' is-active' : '')
-                }
-                onClick={(e) => {
-                  e.stopPropagation()
-                  onDot(i)
-                }}
-              />
-            ))}
-          </div>
+          <Dots
+            count={photos.length}
+            index={photoIndex}
+            onDot={onDot}
+          />
         )}
 
         <figcaption className="lightbox__cap">
@@ -192,9 +266,9 @@ export default function Gallery({ defaultSector = 'luxury' }) {
   const active = open ? items[activeIndex] : null
   const photos = active ? photosOf(active) : []
 
-  function openProject(i) {
+  function openProject(i, startAt = 0) {
     setActiveIndex(i)
-    setPhotoIndex(0)
+    setPhotoIndex(startAt)
   }
 
   function close() {
@@ -296,7 +370,7 @@ export default function Gallery({ defaultSector = 'luxury' }) {
                 <ProjectCard
                   key={item.title}
                   item={item}
-                  onOpen={() => openProject(i)}
+                  onOpen={(startAt) => openProject(i, startAt)}
                 />
               ))}
             </div>
