@@ -206,17 +206,19 @@ function Lightbox({ active, photos, photoIndex, onClose, onPrev, onNext, onDot }
         &times;
       </button>
 
-      <button
-        type="button"
-        className="lightbox__btn lightbox__nav lightbox__nav--prev"
-        aria-label="Previous photo"
-        onClick={(e) => {
-          e.stopPropagation()
-          onPrev()
-        }}
-      >
-        &lsaquo;
-      </button>
+      {multi && (
+        <button
+          type="button"
+          className="lightbox__btn lightbox__nav lightbox__nav--prev"
+          aria-label="Previous photo"
+          onClick={(e) => {
+            e.stopPropagation()
+            onPrev()
+          }}
+        >
+          &lsaquo;
+        </button>
+      )}
 
       <animated.figure
         style={figure}
@@ -248,17 +250,19 @@ function Lightbox({ active, photos, photoIndex, onClose, onPrev, onNext, onDot }
         </figcaption>
       </animated.figure>
 
-      <button
-        type="button"
-        className="lightbox__btn lightbox__nav lightbox__nav--next"
-        aria-label="Next photo"
-        onClick={(e) => {
-          e.stopPropagation()
-          onNext()
-        }}
-      >
-        &rsaquo;
-      </button>
+      {multi && (
+        <button
+          type="button"
+          className="lightbox__btn lightbox__nav lightbox__nav--next"
+          aria-label="Next photo"
+          onClick={(e) => {
+            e.stopPropagation()
+            onNext()
+          }}
+        >
+          &rsaquo;
+        </button>
+      )}
     </animated.div>
   )
 }
@@ -306,20 +310,13 @@ export default function Gallery({ defaultSector = 'luxury' }) {
     setPhotoIndex(0)
   }
 
-  // One continuous sequence: step through the photos of the current project,
-  // then roll over into the next / previous project.
+  // Cycle through the photos of the open project only — wrapping around at the
+  // ends, never moving on to another project.
   function step(dir) {
-    if (activeIndex === null || items.length === 0) return
-    const current = photosOf(items[activeIndex])
-    const next = photoIndex + dir
-    if (next >= 0 && next < current.length) {
-      setPhotoIndex(next)
-      return
-    }
-    const nextProject = (activeIndex + dir + items.length) % items.length
-    const nextPhotos = photosOf(items[nextProject])
-    setActiveIndex(nextProject)
-    setPhotoIndex(dir > 0 ? 0 : Math.max(0, nextPhotos.length - 1))
+    if (activeIndex === null) return
+    const count = photosOf(items[activeIndex]).length
+    if (count < 2) return
+    setPhotoIndex((i) => (i + dir + count) % count)
   }
 
   useEffect(() => {
