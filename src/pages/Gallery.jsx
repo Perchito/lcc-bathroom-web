@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState, Fragment } from 'react'
 import { Link } from 'react-router-dom'
 import { useSpring, animated } from '@react-spring/web'
 import { gallery, gallerySectors } from '../data/site.js'
-import { photo } from '../img.js'
+import { photo, blurStyle } from '../img.js'
 import Reveal from '../components/Reveal.jsx'
 
 // A project can carry a single `image` (the grid thumbnail) plus any number of
@@ -51,16 +51,30 @@ function Dots({ count, index, onDot }) {
   )
 }
 
-function ProjectCard({ item, onOpen }) {
+function ProjectCard({ item, onOpen, eager = false }) {
   const photos = useMemo(() => photosOf(item), [item])
   const multi = photos.length > 1
 
   const [hovered, setHovered] = useState(false)
   const [idx, setIdx] = useState(0)
+  const [primed, setPrimed] = useState(false)
   const style = useSpring({
     transform: hovered ? 'translateY(-4px)' : 'translateY(0px)',
     config: { tension: 280, friction: 18 },
   })
+
+  // Once the visitor shows intent (hover on desktop, first touch on mobile),
+  // quietly fetch this project's other photos so swiping is instant.
+  useEffect(() => {
+    if (!primed || !multi) return
+    for (const p of photos) {
+      const pr = photo(p, { sizes: CARD_SIZES })
+      const im = new Image()
+      if (pr.srcSet) im.srcset = pr.srcSet
+      if (pr.sizes) im.sizes = pr.sizes
+      im.src = pr.src
+    }
+  }, [primed, multi, photos])
 
   // Swipe-to-browse on touch, without hijacking a tap (which opens the lightbox)
   // or a vertical scroll.
@@ -68,6 +82,7 @@ function ProjectCard({ item, onOpen }) {
   const swiped = useRef(false)
 
   function onTouchStart(e) {
+    setPrimed(true)
     const t = e.touches[0]
     start.current = { x: t.clientX, y: t.clientY }
     swiped.current = false
@@ -100,20 +115,21 @@ function ProjectCard({ item, onOpen }) {
       type="button"
       style={style}
       className="project"
-      onMouseEnter={() => setHovered(true)}
+      onMouseEnter={() => {
+        setHovered(true)
+        setPrimed(true)
+      }}
       onMouseLeave={() => setHovered(false)}
       onClick={handleClick}
       onTouchStart={onTouchStart}
       onTouchEnd={onTouchEnd}
       aria-label={`Open ${item.title}`}
     >
-      <div className="project__figure">
+      <div className="project__figure" style={blurStyle(photos[idx])}>
         <img
           {...photo(photos[idx], { sizes: CARD_SIZES })}
           alt={item.title}
-          width="1200"
-          height="900"
-          loading="lazy"
+          loading={eager ? 'eager' : 'lazy'}
           decoding="async"
         />
         {multi && (
@@ -159,6 +175,19 @@ function Lightbox({ active, photos, photoIndex, onClose, onPrev, onNext, onDot }
   const src = photos[photoIndex] ?? active.image
   const multi = photos.length > 1
 
+  // Warm the neighbouring photos so left/right feels instant.
+  useEffect(() => {
+    for (const n of [photoIndex - 1, photoIndex + 1]) {
+      const p = photos[n]
+      if (!p) continue
+      const pr = photo(p, { sizes: LIGHTBOX_SIZES })
+      const im = new Image()
+      if (pr.srcSet) im.srcset = pr.srcSet
+      if (pr.sizes) im.sizes = pr.sizes
+      im.src = pr.src
+    }
+  }, [photoIndex, photos])
+
   return (
     <animated.div
       style={backdrop}
@@ -197,8 +226,9 @@ function Lightbox({ active, photos, photoIndex, onClose, onPrev, onNext, onDot }
         onTouchEnd={onTouchEnd}
       >
         <img
-          {...photo(src, { sizes: LIGHTBOX_SIZES, quality: 78 })}
+          {...photo(src, { sizes: LIGHTBOX_SIZES })}
           alt={active.title}
+          decoding="async"
         />
 
         {multi && (
@@ -370,6 +400,7 @@ export default function Gallery({ defaultSector = 'luxury' }) {
                 <ProjectCard
                   key={item.title}
                   item={item}
+                  eager={i < 4}
                   onOpen={(startAt) => openProject(i, startAt)}
                 />
               ))}
@@ -384,7 +415,7 @@ export default function Gallery({ defaultSector = 'luxury' }) {
 
       {open && active && (
         <Lightbox
-          key={`${activeIndex}-${photoIndex}`}
+          key={activeIndex}
           active={active}
           photos={photos}
           photoIndex={photoIndex}

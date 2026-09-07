@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import { useSpring, animated } from '@react-spring/web'
 import { company, stats, gallery } from '../data/site.js'
-import { photo } from '../img.js'
+import { photo, blurStyle } from '../img.js'
 import Reveal from '../components/Reveal.jsx'
 
 // Short, snappy springs — the whole entrance settles in well under a second.
@@ -128,7 +128,7 @@ function SelectedWork() {
           {featured.map((item, i) => (
             <Reveal key={item.title} delay={i * 90}>
               <article className={'work' + (i % 2 === 1 ? ' work--flip' : '')}>
-                <div className="work__figure">
+                <div className="work__figure" style={blurStyle(item.image)}>
                   <img
                     {...photo(item.image, {
                       sizes: '(min-width: 960px) 48vw, 100vw',

@@ -1,0 +1,126 @@
+{
+  "/gallery/bath1.1.jpeg": {
+    "width": 1536,
+    "height": 2048,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/bath1.1-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/bath1.1-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/bath1.1-800.webp"
+      },
+      {
+        "w": 1100,
+        "src": "/gallery/_opt/bath1.1-1100.webp"
+      },
+      {
+        "w": 1400,
+        "src": "/gallery/_opt/bath1.1-1400.webp"
+      },
+      {
+        "w": 1536,
+        "src": "/gallery/_opt/bath1.1-1536.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAABwBACdASoUABsAPxl0sFEspqSisAgBkCMJZwDPoBMB/USwQYjJXZ5TB3vV8AD3iPbDbB+y4I6aVrBzbzbhQw/G1gaeHYLFSuQalyl2v/JNEJgwl5m3vjStdO25zFOazQ3rBDqqSzl04miZ070CGIxN5ZB/YN2LrihHml1pAAA="
+  },
+  "/gallery/bath1.2.jpeg": {
+    "width": 1536,
+    "height": 2048,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/bath1.2-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/bath1.2-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/bath1.2-800.webp"
+      },
+      {
+        "w": 1100,
+        "src": "/gallery/_opt/bath1.2-1100.webp"
+      },
+      {
+        "w": 1400,
+        "src": "/gallery/_opt/bath1.2-1400.webp"
+      },
+      {
+        "w": 1536,
+        "src": "/gallery/_opt/bath1.2-1536.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRq4AAABXRUJQVlA4IKIAAABwBQCdASoUABsAPxmCs1UsqKQjKAqpkCMJZwDOSf/gHSb5LvN4W4B68G0DmARdV8aZnqpAAM2RD4k7mbNugCGO/C1h6NOvb4LAFjQgtQKXTvxVozNz98/IDacAsH4DXxjMJCH/UYzAZhFKOnyZxiDT/q1BcmWZIWWfmJSmUtMtKeafCsUHi3H4r0EuiAnib6jCyF+OvGxk5V72SArixe9foAA="
+  },
+  "/gallery/bath1.3.jpeg": {
+    "width": 1536,
+    "height": 2048,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/bath1.3-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/bath1.3-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/bath1.3-800.webp"
+      },
+      {
+        "w": 1100,
+        "src": "/gallery/_opt/bath1.3-1100.webp"
+      },
+      {
+        "w": 1400,
+        "src": "/gallery/_opt/bath1.3-1400.webp"
+      },
+      {
+        "w": 1536,
+        "src": "/gallery/_opt/bath1.3-1536.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAAAQBQCdASoUABsAPxl0tlOspiUisBgIAZAjCWcAzYQR7hGX+fszW6En0BGULNLRW6EAAPvEGUy+R4RVWP7YD69jQAswT4byUqonYYCtJxvg356L15tEYva4d5NwL8LEeure/ClolZH0svmN3Q6qEyG42oXrDUh2IWOg4bGhGN3Io2DmZuy9yAAA"
+  },
+  "/gallery/bath1.4.jpeg": {
+    "width": 1536,
+    "height": 2048,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/bath1.4-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/bath1.4-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/bath1.4-800.webp"
+      },
+      {
+        "w": 1100,
+        "src": "/gallery/_opt/bath1.4-1100.webp"
+      },
+      {
+        "w": 1400,
+        "src": "/gallery/_opt/bath1.4-1400.webp"
+      },
+      {
+        "w": 1536,
+        "src": "/gallery/_opt/bath1.4-1536.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAACwBACdASoUABsAPxl6s1EsqCSisAgBkCMJZwDHMAsY0bA7xXnXcobQZCBHmGTAAMNG9A/dAF6cquHwqwPcY+Qe7xboJuL66JJ+ZLj530wmggyyej4gk1QpX+R06tV6tZsXJGUaeFncJqN0YdjO8lkOieuOSU+qgIBDCmljdcRT1oTDqHtpGuuT8Oj4AEBy3Rhu+vd4WN4KK0Qz0AA="
+  }
+}
