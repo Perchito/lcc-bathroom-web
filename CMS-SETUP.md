@@ -1,27 +1,4 @@
-# Editing the website
-
-## Recommended: Pages CMS (no GitHub account needed for editors)
-
-Editors use <https://app.pagescms.org>. The forms are defined in `.pages.yml`
-at the repo root. Saving commits to `main` and Cloudflare redeploys in ~1 minute.
-
-One-time setup (repo owner):
-
-1. Go to <https://app.pagescms.org>, **Sign in with GitHub**.
-2. Install the Pages CMS GitHub App when asked — choose **Only select
-   repositories → `Perchito/lcc-bathroom-web`**.
-3. Open the repo in Pages CMS → **Settings / Collaborators** → invite the
-   editor's email address. They get an email and sign in with that — no
-   GitHub account or password to manage.
-
-That's it: no OAuth app, no Worker.
-
----
-
-## Alternative: Sveltia CMS at `/admin`
-
-Kept as a fallback (same content files, config in `public/admin/config.yml`).
-Needs the login helper below and a GitHub account with Write access per editor.
+# CMS setup — one-time steps
 
 The site has a content editor at **<https://lccbathroom-services.com/admin/>**
 ([Sveltia CMS](https://sveltiacms.app/), a free, Git-based CMS). Your dad edits
@@ -35,7 +12,7 @@ Worker. `public/admin/config.yml` already points at it
 
 ---
 
-### 1. Deploy the login helper (Cloudflare)
+## 1. Deploy the login helper (Cloudflare)
 
 1. Open <https://github.com/sveltia/sveltia-cms-auth> and click
    **Deploy to Cloudflare**. Sign in with the Cloudflare account that hosts
@@ -45,7 +22,7 @@ Worker. `public/admin/config.yml` already points at it
 3. In the new Worker → **Settings → Domains & Routes**, make sure
    **workers.dev** is **enabled** (the login popup is served from it).
 
-### 2. Create a GitHub OAuth app
+## 2. Create a GitHub OAuth app
 
 1. GitHub → **Settings → Developer settings → OAuth Apps → New OAuth App**.
 2. Fill in:
@@ -56,7 +33,7 @@ Worker. `public/admin/config.yml` already points at it
 3. **Register application** → **Generate a new client secret**.
 4. Copy the **Client ID** and **Client secret**.
 
-### 3. Give the Worker the credentials
+## 3. Give the Worker the credentials
 
 Cloudflare → Worker `sveltia-cms-auth` → **Settings → Variables and Secrets**.
 Add (type **Secret** for the secret, **Text** for the rest):
@@ -69,7 +46,7 @@ Add (type **Secret** for the secret, **Text** for the rest):
 
 Click **Deploy** after adding them.
 
-### 4. Give your dad access to the repo
+## 4. Give your dad access to the repo
 
 The CMS commits as whoever is logged in, so he needs write access:
 
@@ -78,7 +55,7 @@ The CMS commits as whoever is logged in, so he needs write access:
    role **Write**.
 3. He accepts the email invite.
 
-### 5. Done — how he edits
+## 5. Done — how he edits
 
 He goes to **<https://lccbathroom-services.com/admin/>**, clicks
 **Sign in with GitHub**, and gets a dashboard with sections: *Company info &
