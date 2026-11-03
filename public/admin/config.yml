@@ -5,13 +5,15 @@ backend:
   name: github
   repo: Perchito/lcc-bathroom-web
   branch: main
+  # GitHub login is handled by the sveltia-cms-auth Cloudflare Worker.
+  base_url: https://sveltia-cms-auth.lmateocc99.workers.dev
 
 # Uploaded photos are written here and served from this URL path.
 media_folder: "public/gallery"
 public_folder: "/gallery"
 
-site_url: https://lccbathrooms-services.netlify.app
-display_url: https://lccbathrooms-services.netlify.app
+site_url: https://lccbathroom-services.com
+display_url: https://lccbathroom-services.com
 
 collections:
   - name: company

@@ -1,53 +1,52 @@
 # CMS setup — one-time steps
 
-The site now has a content editor at **`/admin`** ([Sveltia CMS](https://sveltiacms.app/),
-a free, Decap-compatible, Git-based CMS). Your dad edits text and photos through
-forms; hitting **Save** commits the change to this repo and the site rebuilds
-automatically in ~1 minute.
+The site has a content editor at **<https://lccbathroom-services.com/admin/>**
+([Sveltia CMS](https://sveltiacms.app/), a free, Git-based CMS). Your dad edits
+text and photos through forms; hitting **Save** commits the change to this repo
+and Cloudflare rebuilds the site automatically in ~1 minute.
 
-The code is ready. These steps connect it up — do them once, in order.
+The "Sign in with GitHub" button needs a small login helper — the free
+[`sveltia-cms-auth`](https://github.com/sveltia/sveltia-cms-auth) Cloudflare
+Worker. `public/admin/config.yml` already points at it
+(`base_url: https://sveltia-cms-auth.lmateocc99.workers.dev`).
 
 ---
 
-## 1. Move hosting to Netlify
+## 1. Deploy the login helper (Cloudflare)
 
-GitHub Pages can't run the login part of the CMS, so hosting moves to Netlify
-(free). The old `.github/workflows/deploy.yml` has been removed and
-`vite.config.js` now builds for the domain root.
+1. Open <https://github.com/sveltia/sveltia-cms-auth> and click
+   **Deploy to Cloudflare**. Sign in with the Cloudflare account that hosts
+   the site.
+2. Keep the Worker name **`sveltia-cms-auth`** (the config expects
+   `sveltia-cms-auth.lmateocc99.workers.dev`). Deploy.
+3. In the new Worker → **Settings → Domains & Routes**, make sure
+   **workers.dev** is **enabled** (the login popup is served from it).
 
-1. Sign in at <https://app.netlify.com> (use "Log in with GitHub").
-2. **Add new site → Import an existing project → GitHub →** pick
-   `Perchito/lcc-bathroom-web`.
-3. Branch to deploy: `main`. Netlify reads `netlify.toml` — leave build command
-   and publish dir as detected (`npm run build`, `dist`). Click **Deploy**.
-4. When it finishes, note the site URL, e.g. `https://lcc-bathroom.netlify.app`
-   (you can rename it under **Site configuration → Site details → Change site name**,
-   or add a custom domain later).
-
-From now on, every push to `main` (including the CMS's own commits) auto-deploys.
-
-## 2. Put the real site URL in the CMS config
-
-Edit **`public/admin/config.yml`** and set both `site_url` and `display_url` to
-your Netlify URL (or custom domain). Commit and push.
-
-## 3. Create a GitHub OAuth app (for the "Sign in with GitHub" button)
+## 2. Create a GitHub OAuth app
 
 1. GitHub → **Settings → Developer settings → OAuth Apps → New OAuth App**.
 2. Fill in:
    - **Application name:** `LCC Bathroom CMS`
-   - **Homepage URL:** your Netlify site URL
-   - **Authorization callback URL:** `https://api.netlify.com/auth/done`
+   - **Homepage URL:** `https://lccbathroom-services.com`
+   - **Authorization callback URL:**
+     `https://sveltia-cms-auth.lmateocc99.workers.dev/callback`
 3. **Register application** → **Generate a new client secret**.
 4. Copy the **Client ID** and **Client secret**.
 
-## 4. Give Netlify the OAuth credentials
+## 3. Give the Worker the credentials
 
-Netlify → your site → **Site configuration → Access & security → OAuth →
-Authentication providers → Install provider → GitHub**. Paste the Client ID and
-Client secret from step 3. Save.
+Cloudflare → Worker `sveltia-cms-auth` → **Settings → Variables and Secrets**.
+Add (type **Secret** for the secret, **Text** for the rest):
 
-## 5. Give your dad access to the repo
+| Name                   | Value                                 |
+| ---------------------- | ------------------------------------- |
+| `GITHUB_CLIENT_ID`     | Client ID from step 2                 |
+| `GITHUB_CLIENT_SECRET` | Client secret from step 2             |
+| `ALLOWED_DOMAINS`      | `lccbathroom-services.com, www.lccbathroom-services.com` |
+
+Click **Deploy** after adding them.
+
+## 4. Give your dad access to the repo
 
 The CMS commits as whoever is logged in, so he needs write access:
 
@@ -56,21 +55,18 @@ The CMS commits as whoever is logged in, so he needs write access:
    role **Write**.
 3. He accepts the email invite.
 
-## 6. Done — how he edits
+## 5. Done — how he edits
 
-He goes to **`https://your-site/admin/`**, clicks **Sign in with GitHub**, and
-gets a dashboard with sections: *Company info & homepage*, *Services*,
-*How it works*, *Reviews*, *Gallery / projects*. He edits fields, uploads photos
-by drag-and-drop, clicks **Save**. The site updates itself a minute later.
+He goes to **<https://lccbathroom-services.com/admin/>**, clicks
+**Sign in with GitHub**, and gets a dashboard with sections: *Company info &
+homepage*, *Services*, *How it works*, *Reviews*, *Gallery / projects*. He edits
+fields, uploads photos by drag-and-drop, clicks **Save**. The site updates itself
+a minute later.
 
 ---
 
 ## Fallbacks / notes
 
-- **No Netlify OAuth?** Instead of steps 3–4, deploy the
-  [`sveltia-cms-auth`](https://github.com/sveltia/sveltia-cms-auth) Cloudflare
-  Worker (free) and add `base_url: <worker-url>` under `backend:` in
-  `config.yml`.
 - **Quick personal use:** the login screen also has "Sign in using a token" —
   paste a GitHub fine-grained PAT with Contents read/write on this repo. No
   OAuth app needed, but fiddlier to set up per person.
@@ -80,14 +76,12 @@ by drag-and-drop, clicks **Save**. The site updates itself a minute later.
 
 ## What this changed in the codebase
 
-- Editable copy moved from `src/data/site.js` into JSON files under
-  `src/content/` (`settings`, `services`, `process`, `reviews`, `gallery`).
-- `src/data/site.js` is now a thin adapter — it imports those JSON files and
-  keeps the non-editable structural bits (nav, gallery sectors + category lists).
+- Editable copy lives in JSON files under `src/content/` (`settings`,
+  `services`, `process`, `reviews`, `gallery`).
+- `src/data/site.js` is a thin adapter — it imports those JSON files and keeps
+  the non-editable structural bits (nav, gallery sectors + category lists).
 - `public/admin/` holds the CMS (`index.html` loads it, `config.yml` defines the
   forms).
-- `netlify.toml` added; GitHub Pages workflow removed; Vite `base` is now `/`.
 
-**Future code work is unaffected** — design, layout, animations and new pages are
-still edited in code exactly as before. Only add a matching field to
-`config.yml` when you introduce a genuinely new *kind* of editable content.
+**Future code work is unaffected** — only add a matching field to `config.yml`
+when you introduce a genuinely new *kind* of editable content.

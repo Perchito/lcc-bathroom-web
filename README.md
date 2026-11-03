@@ -86,13 +86,14 @@ src/
   index.css          design system + component styles (one file)
   App.jsx            routes
   main.jsx           entry + router
-netlify.toml         build + SPA-fallback config
 CMS-SETUP.md         one-time steps to connect the CMS
 PHOTOS.md            which photo goes in which slot
 ```
 
 ## Deploying
 
-Hosted on **Netlify** — every push to `main` auto-builds (`npm run build`) and
-publishes `dist/`. `netlify.toml` handles the SPA fallback. See
+Hosted on **Cloudflare Workers** (project `lcc-bathroom-web`) at
+<https://lccbathroom-services.com> — every push to `main` auto-builds
+(`npm run build`) and publishes `dist/`, with SPA fallback set in the
+Cloudflare project. See
 [CMS-SETUP.md](CMS-SETUP.md) for the initial connection.
