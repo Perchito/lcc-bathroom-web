@@ -500,6 +500,45 @@ p:last-child { margin-bottom: 0; }
   line-height: 1.7;
 }
 
+/* Quote form (posts to LCC Leads) ------------------------------------ */
+.quote { margin-top: 44px; padding-top: 32px; border-top: 1px solid rgba(240, 246, 249, 0.2); font-family: var(--sans); }
+.quote h3 { margin: 0 0 20px; }
+.quote__grid { display: grid; gap: 16px; }
+@media (min-width: 700px) { .quote__grid { grid-template-columns: 1fr 1fr; } .quote__wide { grid-column: 1 / -1; } }
+.quote label { display: grid; gap: 6px; font-size: 0.85rem; color: #b8c5cd; }
+.quote input, .quote select, .quote textarea {
+  font: inherit; font-size: 1rem; color: var(--paper); background: rgba(240, 246, 249, 0.06);
+  border: 1px solid rgba(240, 246, 249, 0.28); border-radius: 4px; padding: 11px 12px; width: 100%; box-sizing: border-box;
+}
+.quote select option { color: var(--ink); }
+.quote input:focus, .quote select:focus, .quote textarea:focus { outline: 2px solid #8fd8f5; outline-offset: 1px; border-color: transparent; }
+.quote__photos { margin-top: 18px; }
+.quote__file input { padding: 8px; }
+.quote__thumbs { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+.quote__thumbs button { padding: 0; border: 0; background: none; cursor: pointer; }
+.quote__thumbs img { width: 72px; height: 72px; object-fit: cover; border-radius: 4px; display: block; }
+.quote__consent { border: 1px solid rgba(240, 246, 249, 0.2); border-radius: 4px; padding: 14px 16px; margin: 22px 0 0; }
+.quote__consent legend { padding: 0 6px; font-size: 0.85rem; color: var(--paper); }
+.quote__consent p { margin: 0 0 10px; font-size: 0.85rem; color: #b8c5cd; line-height: 1.6; }
+.quote__consent label { display: inline-flex; align-items: center; gap: 8px; margin-right: 20px; color: var(--paper); }
+.quote__consent input { width: auto; }
+.quote__hp { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
+.quote__error { color: #ffb4a8; margin: 16px 0 0; }
+.quote__send {
+  margin-top: 22px; font: inherit; font-weight: 600; font-size: 1rem; color: var(--ink); background: var(--paper);
+  border: 0; border-radius: 4px; padding: 14px 26px; cursor: pointer; min-height: 48px;
+}
+.quote__send:hover { background: #8fd8f5; }
+.quote__send:disabled { opacity: 0.6; cursor: wait; }
+.quote__fine { font-size: 0.8rem; color: #b8c5cd; margin-top: 12px; }
+.quote__fine a { color: var(--paper); }
+.quote--done p { color: #b8c5cd; }
+
+/* Privacy notice ------------------------------------------------------ */
+.prose { max-width: 72ch; font-family: var(--sans); line-height: 1.7; }
+.prose h2 { font-size: 1.4rem; margin: 36px 0 8px; }
+.prose ul { padding-left: 1.2rem; }
+
 /* Footer ------------------------------------------------------------- */
 .footer {
   background: var(--ink);

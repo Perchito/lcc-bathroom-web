@@ -44,6 +44,9 @@ export default function Footer() {
                     <Link to={item.to}>{item.label}</Link>
                   </li>
                 ))}
+                <li>
+                  <Link to="/privacy">Privacy notice</Link>
+                </li>
               </ul>
             </div>
           </div>

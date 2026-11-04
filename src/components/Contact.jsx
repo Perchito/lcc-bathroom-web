@@ -1,5 +1,6 @@
 import { company } from '../data/site.js'
 import Reveal from './Reveal.jsx'
+import QuoteForm from './QuoteForm.jsx'
 
 // Site-wide call-to-action band. Rendered once in App, below every page.
 export default function Contact() {
@@ -28,6 +29,7 @@ export default function Contact() {
               {company.license}
             </p>
           </div>
+          <QuoteForm />
         </Reveal>
       </div>
     </section>
