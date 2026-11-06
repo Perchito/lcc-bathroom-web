@@ -3,6 +3,7 @@ import { useEffect } from 'react'
 import Header from './components/Header.jsx'
 import Footer from './components/Footer.jsx'
 import Contact from './components/Contact.jsx'
+import MobileBar from './components/MobileBar.jsx'
 import Home from './pages/Home.jsx'
 import Services from './pages/Services.jsx'
 import Gallery from './pages/Gallery.jsx'
@@ -41,6 +42,7 @@ export default function App() {
       </main>
       <Contact />
       <Footer />
+      <MobileBar />
     </>
   )
 }

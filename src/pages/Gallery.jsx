@@ -339,9 +339,7 @@ export default function Gallery({ defaultSector = 'luxury' }) {
             <p className="label">Selected work</p>
             <h1 className="display">{sector.label}</h1>
             <p className="lead" style={{ maxWidth: '52ch' }}>
-              {sector.intro} These are placeholder images — see{' '}
-              <code>PHOTOS.md</code> for what to drop into{' '}
-              <code>/public/gallery/</code>.
+              {sector.intro}
             </p>
 
             <div

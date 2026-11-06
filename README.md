@@ -25,8 +25,11 @@ Built with [React 19](https://react.dev/) + [Vite](https://vite.dev/) and
 Both galleries are the same page component with a toggle at the top to switch
 between the two portfolios.
 
-The design is editorial / architectural: serif display type (Newsreader),
-generous whitespace, hairline rules, full-bleed photography.
+The design takes its palette from LCC's own finished work: warm black and
+stone-white with a restrained brass accent, Instrument Serif display type with
+italic accents, Manrope for text. The homepage's scroll motion (hero entrance,
+parallax, photo reveals, the process line) is GSAP + ScrollTrigger in
+`src/pages/Home.jsx`; it is skipped entirely when the OS asks for reduced motion.
 
 ## Run it locally
 

@@ -5,30 +5,40 @@ import QuoteForm from './QuoteForm.jsx'
 // Site-wide call-to-action band. Rendered once in App, below every page.
 export default function Contact() {
   return (
-    <section className="section section--dark" id="contact">
-      <div className="wrap split">
-        <div className="split__aside">
-          <p className="label">Start a project</p>
-        </div>
-        <Reveal>
-          <h2 style={{ marginBottom: '28px' }}>
-            Free estimates. Tell us what you have in mind.
+    <section className="section section--ink contact" id="contact">
+      <div className="wrap contact__grid">
+        <Reveal className="contact__aside">
+          <p className="eyebrow">Start your project</p>
+          <h2>
+            Let&rsquo;s talk about <em>your bathroom.</em>
           </h2>
+          <p className="lead">
+            Free home visit and a clear written quote. No pressure, no fee.
+          </p>
           <div className="contact__lines">
             <a href={company.phoneHref} className="contact__big">
               {company.phone}
             </a>
-            <a href={`mailto:${company.email}`} className="contact__big">
+            <a href={`mailto:${company.email}`} className="contact__mail">
               {company.email}
             </a>
-            <p className="contact__fine">
-              {company.hours}
-              <br />
-              {company.serviceArea}
-              <br />
-              {company.license}
-            </p>
           </div>
+          <dl className="contact__facts">
+            <div>
+              <dt>Hours</dt>
+              <dd>{company.hours}</dd>
+            </div>
+            <div>
+              <dt>Area</dt>
+              <dd>{company.serviceArea}</dd>
+            </div>
+            <div>
+              <dt>Cover</dt>
+              <dd>{company.license}</dd>
+            </div>
+          </dl>
+        </Reveal>
+        <Reveal delay={120}>
           <QuoteForm />
         </Reveal>
       </div>
