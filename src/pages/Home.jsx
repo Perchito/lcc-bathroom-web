@@ -63,7 +63,7 @@ function Hero() {
           >
             <Stars rating={5} />
             <span>
-              <strong>{avg.toFixed(1)}</strong> on Google · {reviews.length} reviews
+              <strong>{avg.toFixed(1)}</strong> on Google · read the reviews
             </span>
           </a>
         </div>
@@ -207,15 +207,25 @@ function Process() {
 
 function ReviewsBlock() {
   if (!reviews.length) return null
-  const [lead, ...rest] = reviews
+  const avg = reviews.reduce((s, r) => s + r.rating, 0) / reviews.length
+  // Lead with the first review short enough to read as a pull quote.
+  const lead = reviews.find((r) => r.text.length <= 450) ?? reviews[0]
+  const rest = reviews.filter((r) => r !== lead)
   return (
     <section className="section section--stone2 voices" id="reviews">
       <div className="wrap">
         <div className="voices__top">
           <div className="voices__score" data-up>
-            <span className="voices__big">5.0</span>
+            <span className="voices__big">{avg.toFixed(1)}</span>
             <Stars rating={5} />
-            <span className="voices__src">{reviews.length} reviews on Google</span>
+            <a
+              className="voices__src"
+              href={company.googleReviewsUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Rated on Google
+            </a>
           </div>
           <figure className="voices__lead" data-up>
             <blockquote className={lead.text.length > 320 ? 'is-long' : ''}>
