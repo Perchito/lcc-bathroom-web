@@ -254,6 +254,14 @@ p:last-child { margin-bottom: 0; }
 .nav-toggle[aria-expanded='true'] .nav-toggle__bar:nth-child(2) { top: 21.5px; transform: rotate(-45deg); }
 
 @media (max-width: 960px) {
+  /* backdrop-filter makes the header the containing block for position:fixed
+     children, which would squash the full-screen menu into the header bar. */
+  html.menu-open .header {
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    background: var(--ink);
+  }
+  html.menu-open .mobilebar { display: none; }
   .nav-toggle { display: block; }
   .header__nav {
     position: fixed;
