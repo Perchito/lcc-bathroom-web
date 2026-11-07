@@ -329,8 +329,8 @@ p:last-child { margin-bottom: 0; }
   .hero__grid { grid-template-columns: minmax(0, 1.12fr) minmax(0, 0.88fr); }
 }
 .hero__title {
-  font-size: clamp(4rem, 9.2vw, 8.4rem);
-  line-height: 0.92;
+  font-size: clamp(3.1rem, 6.2vw, 6.3rem);
+  line-height: 0.95;
   letter-spacing: -0.025em;
   margin: 0 0 32px;
 }

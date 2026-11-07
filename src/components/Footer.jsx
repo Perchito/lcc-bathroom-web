@@ -12,7 +12,9 @@ export default function Footer() {
           <div className="footer__brand">
             <img src={asset('logo-light.png')} alt={company.name} width="96" height="96" />
             <p>
-              {company.tagline} {company.serviceArea}.
+              {company.tagline}
+              <br />
+              Bathroom renovations across {company.serviceArea}.
             </p>
             <Accreditations variant="row" />
           </div>

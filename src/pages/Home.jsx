@@ -19,9 +19,12 @@ const featuredPhotos = [
   ...new Set([featured.image, ...(featured.images || [])].filter(Boolean)),
 ]
 
-// "Bathrooms built to last." → first word upright, the rest in italic.
+// "Transforming spaces, one bathroom at a time." → split after the first comma
+// (or, without one, after the first word); the second half is set in italic.
 function Headline({ text }) {
-  const [first, ...rest] = text.split(' ')
+  const cut = text.indexOf(',')
+  const [first, ...rest] =
+    cut > 0 ? [text.slice(0, cut + 1), text.slice(cut + 1).trim()] : text.split(' ')
   return (
     <h1 className="hero__title">
       <span className="line"><span className="line__in">{first}</span></span>
