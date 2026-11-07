@@ -262,57 +262,87 @@
     },
     {
       "sector": "council",
-      "title": "Tenanted flat, full bathroom refit",
-      "category": "Full refits",
-      "meta": "Void works · Southwark",
-      "image": "/gallery/project-03.svg",
-      "images": [],
-      "blurb": "Strip-out and full replacement — suite, tiling, flooring, and extractor — turned around between tenancies."
-    },
-    {
-      "sector": "council",
-      "title": "Level-access wet room",
+      "title": "Level-access shower room",
       "category": "Wet rooms",
-      "meta": "Adaptation · Lambeth",
-      "image": "/gallery/project-02.svg",
-      "images": [],
-      "blurb": "Tanked level-access wet room with linear drain, fold-down seat, and slip-resistant flooring."
+      "meta": "Council shower room refit",
+      "image": "/gallery/council-wet-room-01.jpg",
+      "images": [
+        "/gallery/council-wet-room-02.jpg",
+        "/gallery/council-wet-room-03.jpg",
+        "/gallery/council-wet-room-04.jpg"
+      ],
+      "blurb": "Wipe-clean wall panels, a level-access shower area with slip-resistant flooring, an electric shower and a close-coupled WC."
     },
     {
       "sector": "council",
-      "title": "Accessible bathroom for a wheelchair user",
-      "category": "Accessible adaptations",
-      "meta": "OT-specified adaptation · Lewisham",
-      "image": "/gallery/project-09.svg",
-      "images": [],
-      "blurb": "Repositioned suite, doc-M grab rails, and a wider doorway to an occupational therapist’s spec."
+      "title": "Kitchen refit",
+      "category": "Kitchens",
+      "meta": "Council kitchen refit",
+      "image": "/gallery/council-kitchen-01.jpg",
+      "images": [
+        "/gallery/council-kitchen-02.jpg",
+        "/gallery/council-kitchen-03.jpg",
+        "/gallery/council-kitchen-04.jpg",
+        "/gallery/council-kitchen-05.jpg",
+        "/gallery/council-kitchen-06.jpg",
+        "/gallery/council-kitchen-07.jpg"
+      ],
+      "blurb": "New white gloss units, dark worktops, a built-in double oven, an extractor and a space for the washing machine."
     },
     {
       "sector": "council",
-      "title": "Sheltered-housing bathroom upgrade",
+      "title": "Bathroom refit with wall cladding",
       "category": "Full refits",
-      "meta": "Planned maintenance · Croydon",
-      "image": "/gallery/project-08.svg",
-      "images": [],
-      "blurb": "Programme of like-for-like bathroom renewals across a sheltered scheme, one unit per day."
+      "meta": "Council bathroom refit",
+      "image": "/gallery/council-bathroom-cladding-01.jpg",
+      "images": [
+        "/gallery/council-bathroom-cladding-02.jpg",
+        "/gallery/council-bathroom-cladding-03.jpg",
+        "/gallery/council-bathroom-cladding-04.jpg",
+        "/gallery/council-bathroom-cladding-05.jpg",
+        "/gallery/council-bathroom-cladding-06.jpg",
+        "/gallery/council-bathroom-cladding-07.jpg",
+        "/gallery/council-bathroom-cladding-08.jpg"
+      ],
+      "blurb": "Wipe-clean wall panels, a new bath, pedestal basin and WC, slip-resistant flooring and a new radiator."
     },
     {
       "sector": "council",
-      "title": "Over-bath shower to walk-in conversion",
-      "category": "Wet rooms",
-      "meta": "Adaptation · Greenwich",
-      "image": "/gallery/project-01.svg",
-      "images": [],
-      "blurb": "Bath removed and replaced with a half-height walk-in shower and grab rails for an elderly tenant."
-    },
-    {
-      "sector": "council",
-      "title": "Damp-affected bathroom reinstatement",
+      "title": "Family bathroom refit",
       "category": "Full refits",
-      "meta": "Responsive repair · Wandsworth",
-      "image": "/gallery/project-06.svg",
+      "meta": "Council bathroom refit",
+      "image": "/gallery/council-bathroom-family-01.jpg",
+      "images": [
+        "/gallery/council-bathroom-family-02.jpg",
+        "/gallery/council-bathroom-family-03.jpg",
+        "/gallery/council-bathroom-family-04.jpg",
+        "/gallery/council-bathroom-family-05.jpg"
+      ],
+      "blurb": "A panelled bath, pedestal basin and close-coupled WC, with grey lower wall cladding and a new radiator."
+    },
+    {
+      "sector": "council",
+      "title": "Bathroom under a sloping ceiling",
+      "category": "Full refits",
+      "meta": "Council bathroom refit",
+      "image": "/gallery/council-bathroom-sloped-01.jpg",
+      "images": [
+        "/gallery/council-bathroom-sloped-02.jpg",
+        "/gallery/council-bathroom-sloped-03.jpg",
+        "/gallery/council-bathroom-sloped-04.jpg",
+        "/gallery/council-bathroom-sloped-05.jpg",
+        "/gallery/council-bathroom-sloped-06.jpg"
+      ],
+      "blurb": "A bath with shower rail, pedestal basin and WC fitted under a sloping ceiling, with wipe-clean wall panels."
+    },
+    {
+      "sector": "council",
+      "title": "White bathroom refit",
+      "category": "Full refits",
+      "meta": "Council bathroom refit",
+      "image": "/gallery/council-bathroom-white-01.jpg",
       "images": [],
-      "blurb": "Stripped back to substrate, treated, re-boarded, and re-fitted after a long-standing leak."
+      "blurb": "A white suite with a panelled bath, pedestal basin and close-coupled WC on slip-resistant flooring."
     }
   ]
 }

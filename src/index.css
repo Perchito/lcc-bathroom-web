@@ -986,9 +986,6 @@ p:last-child { margin-bottom: 0; }
   *, *::before, *::after { transition-duration: 0.01ms !important; }
 }
 
-/* Until real photos replace them, warm the cool SVG placeholders to sit with the palette. */
-.project__figure img[src$='.svg'] { filter: sepia(0.35) saturate(0.7) brightness(0.98); }
-
 /* Reviews are shown exactly as written on Google, line breaks included. */
 .note__quote, .voices__lead blockquote, .voice blockquote { white-space: pre-line; }
 a.voices__src { text-decoration: none; }

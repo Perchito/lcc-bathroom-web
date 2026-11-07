@@ -545,6 +545,875 @@
     ],
     "blur": "data:image/webp;base64,UklGRsYAAABXRUJQVlA4ILoAAABwBgCdASoUACQAPxmGuFcsqKUjpWmZkCMJZwDM0zA4lQYEC3jXEoXo9YGKvfIMXhrRQpLS0USP5dZoPIAA/liJHUBWICVVXmc/pLCUEzhlcKGN9xaPm8phh8Ch9i9Ghh7MIT5ulSOR/CuZxERffwEK1KhXfZpcJbn02qLmFrOq6uxRbiKIhejtju7n/OR9suXQGT+sGs2K3aJI9faOM0ei0HFTEkLuicuVyO0y7shfVoNKtFe0yiAAAAA="
   },
+  "/gallery/council-bathroom-cladding-01.jpg": {
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/council-bathroom-cladding-01-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/council-bathroom-cladding-01-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/council-bathroom-cladding-01-800.webp"
+      },
+      {
+        "w": 1100,
+        "src": "/gallery/_opt/council-bathroom-cladding-01-1100.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/gallery/_opt/council-bathroom-cladding-01-1200.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAADQBACdASoUABsAPxl8tFMsp6SisBgIAZAjCWcAygAHikshxl/otbypXu9IMeCwAAD4h4dz1j0YgvfqV5SybQjyErL5BflpV9rfN+k3rDg9wsibdrFl1QZDpAzlwiGlD7HlGaH32aYyGO4/l118RTFNJDEjTCZHBDB2ODlbBt8JJ4eouV0AAA=="
+  },
+  "/gallery/council-bathroom-cladding-02.jpg": {
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/council-bathroom-cladding-02-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/council-bathroom-cladding-02-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/council-bathroom-cladding-02-800.webp"
+      },
+      {
+        "w": 1100,
+        "src": "/gallery/_opt/council-bathroom-cladding-02-1100.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/gallery/_opt/council-bathroom-cladding-02-1200.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAADQBACdASoUABsAPxl+t1Ssp6UjKAqpkCMJZQABDSqPn3+reL4vlklyYlDbPP/bgACsb2KKIhbvTDZWCNLjUr0qN6wOZYfDXm+bbnHarVyPsxSqfph/2Hep0/ChPUD9IKONpI5KQvbzByeXhhXAWNEwflO9cfhCQhgQAA=="
+  },
+  "/gallery/council-bathroom-cladding-03.jpg": {
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/council-bathroom-cladding-03-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/council-bathroom-cladding-03-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/council-bathroom-cladding-03-800.webp"
+      },
+      {
+        "w": 1100,
+        "src": "/gallery/_opt/council-bathroom-cladding-03-1100.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/gallery/_opt/council-bathroom-cladding-03-1200.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAACwBACdASoUABsAPxmAsVQsqCQjKA1RkCMJZwAAoMES/IJ4xIj+SEY1qI7q95QAAOjhqLBrsYGNnosDimkrGwbYTjDMpGC6OgjZno7kwNeSge0MYP7uUWo7+KyOTAAA"
+  },
+  "/gallery/council-bathroom-cladding-04.jpg": {
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/council-bathroom-cladding-04-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/council-bathroom-cladding-04-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/council-bathroom-cladding-04-800.webp"
+      },
+      {
+        "w": 1100,
+        "src": "/gallery/_opt/council-bathroom-cladding-04-1100.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/gallery/_opt/council-bathroom-cladding-04-1200.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAACQBACdASoUABsAPxl+tFKsqCUisBgIAZAjCWcAx+QxKdwo5pnYdDclDN5ZewgAzdWmwF6ViH9VCG7MxxmNUjgNWgKZTmm/hIpoJABRz78C1IB3SnFWZ0GU1WFswY683dIwvwLzk9DbkILAAAA="
+  },
+  "/gallery/council-bathroom-cladding-05.jpg": {
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/council-bathroom-cladding-05-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/council-bathroom-cladding-05-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/council-bathroom-cladding-05-800.webp"
+      },
+      {
+        "w": 1100,
+        "src": "/gallery/_opt/council-bathroom-cladding-05-1100.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/gallery/_opt/council-bathroom-cladding-05-1200.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAAAwBQCdASoUABsAPw1wsFCsJqSisAwBgCGJZwAAWp/oZ/IWGgx8tBSq9YkktcBnm54nEAD9zqYchPdorp/acCPI2SEdfedxVr3/baD2bCD5sRyqaE7HIf12+imzSzw+kGavfPYCk6CiOpq0FpuxIbI/iYoIRUGmAAA="
+  },
+  "/gallery/council-bathroom-cladding-06.jpg": {
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/council-bathroom-cladding-06-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/council-bathroom-cladding-06-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/council-bathroom-cladding-06-800.webp"
+      },
+      {
+        "w": 1100,
+        "src": "/gallery/_opt/council-bathroom-cladding-06-1100.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/gallery/_opt/council-bathroom-cladding-06-1200.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAABwBACdASoUABsAPxmCs1UsqKQjKAqpkCMJZwAAev5FOSAy1E6lMtTES+CQAAD+FIpZYyqAGFDXVKkSy6ShtkSrRuKgvR0qC7vWdc/7Obl4M0N4XB2Alacxu2wP3LZ9HvQDXl9R7xDLemHfsk1xz56MIeBAAA=="
+  },
+  "/gallery/council-bathroom-cladding-07.jpg": {
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/council-bathroom-cladding-07-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/council-bathroom-cladding-07-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/council-bathroom-cladding-07-800.webp"
+      },
+      {
+        "w": 1100,
+        "src": "/gallery/_opt/council-bathroom-cladding-07-1100.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/gallery/_opt/council-bathroom-cladding-07-1200.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAACwBACdASoUABsAPxl0sVEspqSisBgMAZAjCWcAAHdENGRcJW6JWTEEoA1CD2VIAPZupAz0X/aavEd+L9BrDCLubgNZ1THxVQ0lnTBt21Zu9uoWixopaqzyfZwgXiXoOd5cnySRw0YFsAm06aE4g1eUwULHxIvqP6xsTQ1AIAA="
+  },
+  "/gallery/council-bathroom-cladding-08.jpg": {
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/council-bathroom-cladding-08-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/council-bathroom-cladding-08-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/council-bathroom-cladding-08-800.webp"
+      },
+      {
+        "w": 1100,
+        "src": "/gallery/_opt/council-bathroom-cladding-08-1100.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/gallery/_opt/council-bathroom-cladding-08-1200.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwBACdASoUABsAPxFwsFCsJiSit/VYAYAiCWcA0BhFYdnlhv/elhRdE6ind9QwZYAA96UNJNPq0BND8ryBm+e+u+yS09gf/6YZGwXgPrENQYAAAAA="
+  },
+  "/gallery/council-bathroom-family-01.jpg": {
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/council-bathroom-family-01-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/council-bathroom-family-01-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/council-bathroom-family-01-800.webp"
+      },
+      {
+        "w": 1100,
+        "src": "/gallery/_opt/council-bathroom-family-01-1100.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/gallery/_opt/council-bathroom-family-01-1200.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAADwBACdASoUABsAPxmAtVKsqKUisBgIAZAjCWcAznQqABNofAjsDpMIuvwpCftoiwAA9yaxuiEzLYWXbQFZkMsQ+/BeO8LvOTRe8kyiXUOtBJSlrC6pdxnRVY3i/ACvpP5Fi9lxIoU+NbIBvP+rakQSj+43MgpAAAA="
+  },
+  "/gallery/council-bathroom-family-02.jpg": {
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/council-bathroom-family-02-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/council-bathroom-family-02-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/council-bathroom-family-02-800.webp"
+      },
+      {
+        "w": 1100,
+        "src": "/gallery/_opt/council-bathroom-family-02-1100.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/gallery/_opt/council-bathroom-family-02-1200.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAADwBACdASoUABsAPxl4sVEspySisAgBkCMJZwAAXuCSabApHDV2zJAB6vxhiyvvoYAA/ouRkg2k540/k85i+FeIRZ4SsKJqtKg/jpAf9Awlmr9TdmEcV2mJ4dpjFvlHZBCrEP5YYtIRq7iQSjHcEE1lBvGgKmbAAAA="
+  },
+  "/gallery/council-bathroom-family-03.jpg": {
+    "width": 1600,
+    "height": 1200,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/council-bathroom-family-03-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/council-bathroom-family-03-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/council-bathroom-family-03-800.webp"
+      },
+      {
+        "w": 1100,
+        "src": "/gallery/_opt/council-bathroom-family-03-1100.webp"
+      },
+      {
+        "w": 1400,
+        "src": "/gallery/_opt/council-bathroom-family-03-1400.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/gallery/_opt/council-bathroom-family-03-1600.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAwCdASoUAA8APxl0slCspqSisAgBkCMJZwAAYcH8/gvMibCzdAAAzaIM3XDwS3xD4z0V+KBShR8lUd1Z3GLQyhkYAhwSvswAAA=="
+  },
+  "/gallery/council-bathroom-family-04.jpg": {
+    "width": 1600,
+    "height": 1200,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/council-bathroom-family-04-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/council-bathroom-family-04-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/council-bathroom-family-04-800.webp"
+      },
+      {
+        "w": 1100,
+        "src": "/gallery/_opt/council-bathroom-family-04-1100.webp"
+      },
+      {
+        "w": 1400,
+        "src": "/gallery/_opt/council-bathroom-family-04-1400.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/gallery/_opt/council-bathroom-family-04-1600.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAACQAwCdASoUAA8APxl2slCspySisAgBkCMJZwAAT74/PKZ5STYAAP6Wow2lN3Em4IUarlWmq52bstwTXCx7WS6tQZcboFEsWIz39O2rt3Lg/H4AAAA="
+  },
+  "/gallery/council-bathroom-family-05.jpg": {
+    "width": 1600,
+    "height": 1200,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/council-bathroom-family-05-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/council-bathroom-family-05-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/council-bathroom-family-05-800.webp"
+      },
+      {
+        "w": 1100,
+        "src": "/gallery/_opt/council-bathroom-family-05-1100.webp"
+      },
+      {
+        "w": 1400,
+        "src": "/gallery/_opt/council-bathroom-family-05-1400.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/gallery/_opt/council-bathroom-family-05-1600.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAACQAwCdASoUAA8APxl0slCspqSisAgBkCMJZwAALRvh8Hb49lsAANshTIzGfU0+QgAEF5G/Kn/ECtOSOvn629ZWIbcHUkbDcsiat2h8AAA="
+  },
+  "/gallery/council-bathroom-sloped-01.jpg": {
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/council-bathroom-sloped-01-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/council-bathroom-sloped-01-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/council-bathroom-sloped-01-800.webp"
+      },
+      {
+        "w": 1100,
+        "src": "/gallery/_opt/council-bathroom-sloped-01-1100.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/gallery/_opt/council-bathroom-sloped-01-1200.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAADwBACdASoUABsAPxV0s1CspqSisBgMAZAiiWcAz2QniIgqZG2+Qoqt8k5Jt98NMAAA9x8YSdYTmAkeNY+FW8HMWJBWqe4NQ/Qhb3tQvTI16YpLlyobm2zeuSuIZVeWvEximjvMEf8AAA=="
+  },
+  "/gallery/council-bathroom-sloped-02.jpg": {
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/council-bathroom-sloped-02-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/council-bathroom-sloped-02-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/council-bathroom-sloped-02-800.webp"
+      },
+      {
+        "w": 1100,
+        "src": "/gallery/_opt/council-bathroom-sloped-02-1100.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/gallery/_opt/council-bathroom-sloped-02-1200.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAADwBACdASoUABsAPxF6slCsKCSisBgMAYAiCWkAAJC/udPUpkakx6SFGu/ee6Go4sAA/pSBYRxfepmk0i8rFsBrcBNC9/Lg6NMd60SjgTO9NkU45R4Iaf8vTepeAAAA"
+  },
+  "/gallery/council-bathroom-sloped-03.jpg": {
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/council-bathroom-sloped-03-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/council-bathroom-sloped-03-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/council-bathroom-sloped-03-800.webp"
+      },
+      {
+        "w": 1100,
+        "src": "/gallery/_opt/council-bathroom-sloped-03-1100.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/gallery/_opt/council-bathroom-sloped-03-1200.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAACQBACdASoUABsAPxlwsVGspaSisBgMAZAjCWkAAHM7+ddF4vl9+c9+7hj+4QAA5zBNmvla0/PrduDQF3ZujphqfkJIyN1RKT2a1uziAFuEq6LEDkAnEMwd4WsIAA=="
+  },
+  "/gallery/council-bathroom-sloped-04.jpg": {
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/council-bathroom-sloped-04-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/council-bathroom-sloped-04-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/council-bathroom-sloped-04-800.webp"
+      },
+      {
+        "w": 1100,
+        "src": "/gallery/_opt/council-bathroom-sloped-04-1100.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/gallery/_opt/council-bathroom-sloped-04-1200.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAABwBACdASoUABsAPxl+sVQsqCQjKA1RkCMJZQAAfnCL6hp0u8gfIkI9y5l0AAD9zm88nWmTh6j4aePDpTebSRBJhddT4jUsndWzdZY1yUtxWDsNTtewelh3GawNGp604G9jYLcOkoO1tJAwYVMQrBq9oLd443HxBjKt+YJBSgCOLIF/wW8e0l33YAA="
+  },
+  "/gallery/council-bathroom-sloped-05.jpg": {
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/council-bathroom-sloped-05-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/council-bathroom-sloped-05-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/council-bathroom-sloped-05-800.webp"
+      },
+      {
+        "w": 1100,
+        "src": "/gallery/_opt/council-bathroom-sloped-05-1100.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/gallery/_opt/council-bathroom-sloped-05-1200.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAACwBACdASoUABsAPxl4slEsp6SisAgBkCMJZwDH5BjpJ8OuEMxInZZJcsYQkCGwAPz7AEo39bBr9rQKiISCJ8fB2Bocu/LtuRFJRJcNfYFhKoJyworkThnmqcj0+7A+f3d5u19gk4KrHtCTVhV6a4thuB1H6St7eTU8AA=="
+  },
+  "/gallery/council-bathroom-sloped-06.jpg": {
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/council-bathroom-sloped-06-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/council-bathroom-sloped-06-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/council-bathroom-sloped-06-800.webp"
+      },
+      {
+        "w": 1100,
+        "src": "/gallery/_opt/council-bathroom-sloped-06-1100.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/gallery/_opt/council-bathroom-sloped-06-1200.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAADQBACdASoUABsAPxlytFCspqUisBgMAZAjCWcAAHIwqkcvdEg36nOsoKh/3vDkAAB6sexU5ZV6d+gmsouxoBmz5M0jZI00qkZzKUbFy/p5rjcR8qmuoLBPQ0VUG/fIyrvfl34JSO1LrlXbYUTCAA=="
+  },
+  "/gallery/council-bathroom-white-01.jpg": {
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/council-bathroom-white-01-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/council-bathroom-white-01-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/council-bathroom-white-01-800.webp"
+      },
+      {
+        "w": 1100,
+        "src": "/gallery/_opt/council-bathroom-white-01-1100.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/gallery/_opt/council-bathroom-white-01-1200.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRq4AAABXRUJQVlA4IKIAAAAQBQCdASoUABsAPxl+uFQsqCWjKAqpkCMJaQDQGA8nZuKRatis9qxO8NlPdTesX3oAAPgsg0q5CvnMPiVl3jF0rnTWmscUnl2PvWR7Qo/5ffamTP9O+nbIEw+LNkIorgQGjie+6WKuna38cPIkq4dGkLUppNxjm6EMQw7unD/2KDPXMW7KEynZeoWpCcgK/lNEtZcOnP1Y4sfAFkiwSQqiAAA="
+  },
+  "/gallery/council-kitchen-01.jpg": {
+    "width": 1536,
+    "height": 2048,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/council-kitchen-01-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/council-kitchen-01-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/council-kitchen-01-800.webp"
+      },
+      {
+        "w": 1100,
+        "src": "/gallery/_opt/council-kitchen-01-1100.webp"
+      },
+      {
+        "w": 1400,
+        "src": "/gallery/_opt/council-kitchen-01-1400.webp"
+      },
+      {
+        "w": 1536,
+        "src": "/gallery/_opt/council-kitchen-01-1536.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAAAwBQCdASoUABsAPxl+tVKsqCUisBgIAZAjCWcAACL7nPr/L0PbWXNpm1xvrVLjSVfvAAD+VGfjaEMg/em7T5z88aoGEWrrsFowyDEY/oYBZC1ZFCsjaccQlycgMUp8z8wrcOmJm1N1QJQcbU5Sdl6nzggwL/5Fx/orpx8rA+UxqAcAAAA="
+  },
+  "/gallery/council-kitchen-02.jpg": {
+    "width": 1536,
+    "height": 2048,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/council-kitchen-02-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/council-kitchen-02-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/council-kitchen-02-800.webp"
+      },
+      {
+        "w": 1100,
+        "src": "/gallery/_opt/council-kitchen-02-1100.webp"
+      },
+      {
+        "w": 1400,
+        "src": "/gallery/_opt/council-kitchen-02-1400.webp"
+      },
+      {
+        "w": 1536,
+        "src": "/gallery/_opt/council-kitchen-02-1536.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAABwBACdASoUABsAPw1yrVCsJyQisAwBgCGJZwAAQbMdur9aLmHY+vP0BAVQYAD8f4VAhJtkAkNShIqysW2hfg1o9q27VhdGmKdSx3+C2M+Hp32RCxwptXnu09Ew6pt/mVv+d5UINQESIt/+BtxBP19mT/Z4I/QK9W2gf7RfL6MAQAAA"
+  },
+  "/gallery/council-kitchen-03.jpg": {
+    "width": 1536,
+    "height": 2048,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/council-kitchen-03-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/council-kitchen-03-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/council-kitchen-03-800.webp"
+      },
+      {
+        "w": 1100,
+        "src": "/gallery/_opt/council-kitchen-03-1100.webp"
+      },
+      {
+        "w": 1400,
+        "src": "/gallery/_opt/council-kitchen-03-1400.webp"
+      },
+      {
+        "w": 1536,
+        "src": "/gallery/_opt/council-kitchen-03-1536.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAADwBACdASoUABsAPxl2tFMspqSisBgIAZAjCWcAAHnj9mSUa6sEN2wFFNHNnyJyihQA96XjIx8ZfsxNuuX7cwnmg9kxmQ80/dR1d6dvrcQ6ruEwAbqAuPjBTTFfZgjwmw3qYNfkCsKUK+ot2jGsj3hg05zqYlm1+p1EB/R4jP+RtCFeFAAAAA=="
+  },
+  "/gallery/council-kitchen-04.jpg": {
+    "width": 1536,
+    "height": 2048,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/council-kitchen-04-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/council-kitchen-04-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/council-kitchen-04-800.webp"
+      },
+      {
+        "w": 1100,
+        "src": "/gallery/_opt/council-kitchen-04-1100.webp"
+      },
+      {
+        "w": 1400,
+        "src": "/gallery/_opt/council-kitchen-04-1400.webp"
+      },
+      {
+        "w": 1536,
+        "src": "/gallery/_opt/council-kitchen-04-1536.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAADQBACdASoUABsAPxl2tlOspqUisBgIAZAjCWcAACXFlz8OQbu93o3vPSQ+ne1QwAD+3uGtDZ96Pa0RvjID6uDj3SBUzJ4odgQhR/PYbsSTJMtAv4pYTaKtqWTuecTlj3cyKLXwnL8o8n5m90L8GNhi2Kyk7sT3A+JrBYYn7Xm/LVzHhbIJ/VmTSc4AIAAA"
+  },
+  "/gallery/council-kitchen-05.jpg": {
+    "width": 2048,
+    "height": 1536,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/council-kitchen-05-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/council-kitchen-05-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/council-kitchen-05-800.webp"
+      },
+      {
+        "w": 1100,
+        "src": "/gallery/_opt/council-kitchen-05-1100.webp"
+      },
+      {
+        "w": 1400,
+        "src": "/gallery/_opt/council-kitchen-05-1400.webp"
+      },
+      {
+        "w": 1800,
+        "src": "/gallery/_opt/council-kitchen-05-1800.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAADwAwCdASoUAA8APxl0slCspqSisAgBkCMJZwAAWq2V8XmbmcQkCl4AAP6w2VB58KJkwGA7nmRt00LNP922FFgW0EQsMWOGXaR0aKF6rxO36eggMIa9J/h6D/D6Ifao2ESeZROkTZv7zf/v64AAAA=="
+  },
+  "/gallery/council-kitchen-06.jpg": {
+    "width": 2048,
+    "height": 1536,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/council-kitchen-06-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/council-kitchen-06-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/council-kitchen-06-800.webp"
+      },
+      {
+        "w": 1100,
+        "src": "/gallery/_opt/council-kitchen-06-1100.webp"
+      },
+      {
+        "w": 1400,
+        "src": "/gallery/_opt/council-kitchen-06-1400.webp"
+      },
+      {
+        "w": 1800,
+        "src": "/gallery/_opt/council-kitchen-06-1800.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAACQAwCdASoUAA8APxl2sVCspySisAgBkCMJZwAATqV+jnAQY/iAAPxch5f4WPg3XvLu8ESE+cXVXoX1kKK+yjhF75oSnp6qJmjEmeF0xUSod0KNugJ4iMmqUFVqZ79X6bHvnf5IwPAAAA=="
+  },
+  "/gallery/council-kitchen-07.jpg": {
+    "width": 1536,
+    "height": 2048,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/council-kitchen-07-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/council-kitchen-07-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/council-kitchen-07-800.webp"
+      },
+      {
+        "w": 1100,
+        "src": "/gallery/_opt/council-kitchen-07-1100.webp"
+      },
+      {
+        "w": 1400,
+        "src": "/gallery/_opt/council-kitchen-07-1400.webp"
+      },
+      {
+        "w": 1536,
+        "src": "/gallery/_opt/council-kitchen-07-1536.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRqYAAABXRUJQVlA4IJoAAABwBQCdASoUABsAPxl+uFQsqCWjKAqpkCMJZwAAL5hq2AdA5lDcjXHuCgp+0Se1LVZO/VwAAOHRQvQdwSdxB3Jnk03DansAA9RUmiLAOO5xtQQamnzEfJX01XAnyBt5i49coSxUoG5I9LkabnNbTqG8rrRDftcjKSNntgkxfcEqAQhpZTryTtloZ6tiECBAqeThJwECnO4wyAAA"
+  },
+  "/gallery/council-wet-room-01.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/council-wet-room-01-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/council-wet-room-01-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/council-wet-room-01-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/council-wet-room-01-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAADwBACdASoUACQAPxV2tVCsp6WiqrgN+ZAiiWkA0UQOhHQ4ly7C4nlQ2IIt3jG6KYAA/t9A36bQoLqcDVkUsarXVddGhTb3DjLA0E9nD+9DRkXg0k+bHE/CjmJOm09Vv8aoLlmnFVAAAA=="
+  },
+  "/gallery/council-wet-room-02.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/council-wet-room-02-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/council-wet-room-02-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/council-wet-room-02-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/council-wet-room-02-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAABQBQCdASoUACQAPxmGtVesqKSjpWmZkCMJZwDOsFhLt4gpqw+eV5Ch7jkfhVBla7rxGgAA/eEAJR+iGvu73AycWeGQJQqJhG3A1ZKq83Np2Lxw3qqPw27DeEfjy8stvRzFQwahInx44QiM5hOQwfBtNvcE55ymYNGqJYp8dkYQ6UFRJmt3QUF1S68AAA=="
+  },
+  "/gallery/council-wet-room-03.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/council-wet-room-03-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/council-wet-room-03-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/council-wet-room-03-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/council-wet-room-03-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAACwBQCdASoUACQAPxl+slIsqKSisBqoAZAjCWkAz6ARtjffN4fFRXLzsPRnvG8e1Hl2sOuo84AA9ybZf1kjkIz6EL5HWPAghqJhSNfp3//5zpW2H5KAqwvjUutqeaIqO57mOijXaX1nRUHBbPZId16BhWGeWZngAAA="
+  },
+  "/gallery/council-wet-room-04.jpg": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/council-wet-room-04-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/council-wet-room-04-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/council-wet-room-04-800.webp"
+      },
+      {
+        "w": 1100,
+        "src": "/gallery/_opt/council-wet-room-04-1100.webp"
+      },
+      {
+        "w": 1400,
+        "src": "/gallery/_opt/council-wet-room-04-1400.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/gallery/_opt/council-wet-room-04-1600.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAwCdASoUAAsAPxl4slCspySisAgBkCMJZwDA3CHuV4WJDwHNw2AA/LJ+ygBLZJPy/8WTlFy+JMeyvgXzrqSGHY6CvooVDIAAAA=="
+  },
   "/gallery/dark-marble-brass-01.jpg": {
     "width": 900,
     "height": 1600,

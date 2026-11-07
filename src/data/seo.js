@@ -32,8 +32,8 @@ export const pages = {
   '/council-bathrooms': {
     title: 'Council & Social Housing Bathroom Refits | LCC',
     description:
-      'Bathroom refits, wet rooms and accessible adaptations for council and social-housing homes in London, delivered on schedule and to spec.',
-    image: '/og/home.jpg',
+      'Bathroom and kitchen refits and level-access shower rooms for council and social-housing homes in London. Photos of recent council work.',
+    image: '/og/council.jpg',
   },
   '/reviews': {
     title: 'Reviews: Rated 5.0 on Google | LCC Bathrooms & Services',

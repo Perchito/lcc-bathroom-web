@@ -369,7 +369,9 @@ export default function Gallery({ defaultSector = 'luxury' }) {
       <section className="section">
         <div className="wrap">
           <div className="filters" role="tablist" aria-label="Filter projects">
-            {sector.categories.map((cat, i) => (
+            {sector.categories
+              .filter((cat) => cat === 'All' || sectorItems.some((g) => g.category === cat))
+              .map((cat, i) => (
               <Fragment key={cat}>
                 {i > 0 && (
                   <span className="filter__sep" aria-hidden="true">

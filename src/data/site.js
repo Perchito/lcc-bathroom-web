@@ -46,9 +46,9 @@ export const gallerySectors = [
     navLabel: 'Council Bathrooms',
     tagline: 'Bathroom renovations for the local authority.',
     intro:
-      'Full bathroom refits, wet rooms, and accessible adaptations delivered ' +
-      'for council and social-housing tenants — on schedule and to spec.',
-    categories: ['All', 'Full refits', 'Wet rooms', 'Accessible adaptations'],
+      'Bathroom refits, level-access shower rooms and kitchen refits for ' +
+      'council and social-housing homes in London.',
+    categories: ['All', 'Full refits', 'Wet rooms', 'Accessible adaptations', 'Kitchens'],
   },
 ]
 

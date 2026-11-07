@@ -137,6 +137,7 @@ collections:
                   - Full refits
                   - Wet rooms
                   - Accessible adaptations
+                  - Kitchens
               - { name: meta, label: "Small caption (e.g. 'Full renovation')", widget: string }
               - { name: image, label: "Main photo (shown on the gallery grid)", widget: image }
               - name: images
