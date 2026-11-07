@@ -985,3 +985,52 @@ p:last-child { margin-bottom: 0; }
 .note__quote, .voices__lead blockquote, .voice blockquote { white-space: pre-line; }
 a.voices__src { text-decoration: none; }
 a.voices__src:hover { color: var(--brass-deep); }
+
+/* Step-by-step quote form ------------------------------------------------------- */
+.qz { min-height: 460px; display: flex; flex-direction: column; }
+.qz__top { display: flex; justify-content: space-between; align-items: center; gap: 12px; min-height: 28px; }
+.qz__kicker { margin: 0; font-size: 0.68rem; font-weight: 600; letter-spacing: 0.22em; text-transform: uppercase; color: var(--brass); }
+.qz__back {
+  font: inherit; font-size: 0.8rem; font-weight: 600; color: var(--on-ink-2);
+  background: none; border: 0; padding: 6px 0; cursor: pointer;
+}
+.qz__back:hover { color: var(--on-ink); }
+.qz__bar { height: 2px; margin: 14px 0 34px; background: var(--rule-ink); overflow: hidden; }
+.qz__bar span {
+  display: block; height: 100%; background: var(--brass);
+  transform-origin: left; transition: transform 0.5s var(--ease);
+}
+.qz__step { animation: qz-in 0.45s var(--ease) both; }
+@keyframes qz-in { from { opacity: 0; transform: translateX(18px); } to { opacity: 1; transform: none; } }
+.qz h3 { margin-bottom: 26px; outline: none; }
+.qz__note { margin: -14px 0 22px; font-size: 0.85rem; color: var(--on-ink-2); }
+.quote__grid + .qz__note { margin: 12px 0 0; }
+.qz__sub { margin: 28px 0 12px; font-size: 0.78rem; font-weight: 500; color: var(--on-ink-2); }
+.qz__sub span { opacity: 0.7; }
+
+.qz__choices { display: grid; gap: 10px; grid-template-columns: 1fr 1fr; }
+@media (min-width: 640px) {
+  .qz__choices--3 { grid-template-columns: repeat(3, 1fr); }
+  .qz__choices--4 { grid-template-columns: repeat(4, 1fr); }
+}
+.qz__choice {
+  font: inherit; font-size: 0.92rem; font-weight: 500; line-height: 1.3; text-align: left;
+  color: var(--on-ink); background: rgba(243, 239, 233, 0.03);
+  border: 1px solid rgba(243, 239, 233, 0.18); border-radius: var(--radius);
+  min-height: 64px; padding: 14px 16px; cursor: pointer;
+  transition: border-color 0.2s ease, background 0.2s ease, color 0.2s ease, transform 0.2s var(--ease);
+}
+.qz__choice:hover { border-color: var(--brass); background: rgba(201, 165, 126, 0.08); }
+.qz__choice:active { transform: scale(0.98); }
+.qz__choice.is-on { border-color: var(--brass); background: var(--brass); color: var(--ink); }
+.qz__choice--sm { min-height: 46px; padding: 10px 12px; font-size: 0.85rem; text-align: center; }
+
+.qz__field { display: grid; gap: 8px; margin-bottom: 4px; }
+.qz__field input::placeholder { color: rgba(243, 239, 233, 0.3); }
+.qz__more { margin-top: 26px; border-top: 1px solid var(--rule-ink); padding-top: 18px; }
+.qz__more summary { cursor: pointer; font-size: 0.85rem; font-weight: 600; color: var(--on-ink); list-style-position: inside; }
+.qz__more summary:hover { color: var(--brass); }
+.qz__more[open] summary { margin-bottom: 18px; }
+.qz__more .qz__field { margin-bottom: 18px; }
+.qz .quote__send { margin-top: 28px; }
+.quote--done h3 { margin: 18px 0 12px; }
