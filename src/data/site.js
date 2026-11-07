@@ -35,9 +35,9 @@ export const gallerySectors = [
     navLabel: 'Luxury Bathrooms',
     tagline: 'Private, design-led bathroom and home renovation.',
     intro:
-      'High-end bathroom, kitchen, and addition work for private homes across ' +
-      'London — our main line of work.',
-    categories: ['All', 'Bathrooms', 'Kitchens', 'Additions'],
+      'Bathrooms, shower rooms and cloakrooms we have built for private homes ' +
+      'across London, plus some of the kitchen and carpentry work around them.',
+    categories: ['All', 'Bathrooms', 'Shower rooms', 'Cloakrooms', 'Kitchens & outdoor'],
   },
   {
     id: 'council',

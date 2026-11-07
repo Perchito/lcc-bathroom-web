@@ -122,5 +122,2165 @@
       }
     ],
     "blur": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAACwBACdASoUABsAPxl6s1EsqCSisAgBkCMJZwDHMAsY0bA7xXnXcobQZCBHmGTAAMNG9A/dAF6cquHwqwPcY+Qe7xboJuL66JJ+ZLj530wmggyyej4gk1QpX+R06tV6tZsXJGUaeFncJqN0YdjO8lkOieuOSU+qgIBDCmljdcRT1oTDqHtpGuuT8Oj4AEBy3Rhu+vd4WN4KK0Qz0AA="
+  },
+  "/gallery/blue-tile-walk-in-01.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/blue-tile-walk-in-01-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/blue-tile-walk-in-01-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/blue-tile-walk-in-01-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/blue-tile-walk-in-01-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRsAAAABXRUJQVlA4ILQAAACQBQCdASoUACQAPxl2r1EspyQiqq35kCMJYwC8pBA/4qw2l4GB7hu1mT046cEnaQpyJ8xEAAD+FXYg8LD82SzoFI7TEN5+RDWgd+U7KVb7InGNGUfAuQvgjlNdH0ZvMG37fiCGxcYI7x8zb/6hNOR+FC/kBIwa7NVS0NZ3fswkUz8mVM9JQ1uVeB8voIGFQxyjkY2f4vmw1e/vI3h937+o8T4Vg8Fi1COFxKDbplezZJNCAAA="
+  },
+  "/gallery/blue-tile-walk-in-02.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/blue-tile-walk-in-02-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/blue-tile-walk-in-02-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/blue-tile-walk-in-02-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/blue-tile-walk-in-02-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRrwAAABXRUJQVlA4ILAAAACwBQCdASoUACQAPxmEsFQsqSQjKrgMAZAjCWUAwB+mgSSOyL7h3Q2nA2q0QBp5dppPjs56KcAA/dJy7DgjMM9x4W/0WmDqNiPjHwhYiw16Ho833uujW1eHCUXjlzChNjUTJqjojfx3Hw11/7ILBH80kWBDyno9tGm2Bk1Bi5c0JzNRhT+x9ce8gQDW9yAYHYIWtIP9AYQoEi2uGHfj/CuAXjMJ3vbkLCrXaAq7KQAAAA=="
+  },
+  "/gallery/blue-tile-walk-in-03.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/blue-tile-walk-in-03-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/blue-tile-walk-in-03-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/blue-tile-walk-in-03-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/blue-tile-walk-in-03-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRr4AAABXRUJQVlA4ILIAAAAwBgCdASoUACQAPxl4slIspySiqqwBkCMJYwC45BQukMVaUFnkO5kTzi7xt+z6/SKqJuBTcEq/KmQAAPynIDGVbrJwzUaapvbJBsRLZzYPPldXDUGxHcvUQvMTB49dBNJpM+/kaCoS6ybVGtQHIqSAs1mVPl/xQVfqXpQEZKpofq29ohF5eCXKzoMkOGK5VUb6lh/V3QTV1TwkjWjtQLYS9AWh9eXIngGTK3eqin9DoAAA"
+  },
+  "/gallery/blue-tile-walk-in-04.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/blue-tile-walk-in-04-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/blue-tile-walk-in-04-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/blue-tile-walk-in-04-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/blue-tile-walk-in-04-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAACwBQCdASoUACQAPxl0sFEspqSisBqqqZAjCWUAzUgQCPkNNvfOSgQdIPtZ/pAlJtl/upXPBAAA/h1B5KJhKjjxsVcs/4/BNBZze7SSl3HVzpeSKi2YPlfirCiITCpHv96pHJRBynRK6Gqf42/ejtMPJe75B6gu/tfEWhcv5/qOopGwAAAAAA=="
+  },
+  "/gallery/blue-tile-walk-in-05.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/blue-tile-walk-in-05-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/blue-tile-walk-in-05-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/blue-tile-walk-in-05-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/blue-tile-walk-in-05-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAAAQBQCdASoUACQAPxV4sFCsp6Sjqq35kCKJZwC7ABQp3AqY6XRhUB+mSd4rjWWr0r2AAPnoTdPmLckf87nAO5iOGoxfscfKrBnWQObY5tLVazUw3Yc6CUWQsJqWOKsXbSYpS+ylwTD8/R+KWhWVS+60eoKy8vzmbEDwOqEDuHyBRGJimjAAAA=="
+  },
+  "/gallery/blue-tile-walk-in-06.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/blue-tile-walk-in-06-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/blue-tile-walk-in-06-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/blue-tile-walk-in-06-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/blue-tile-walk-in-06-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRrgAAABXRUJQVlA4IKwAAADQBQCdASoUACQAPxmEulasqCWjpWmZkCMJZwDO7CMzuxXFglkw5idQm1IdpGgiJArCPNJUydMAAP7IgY7o44Z0IxlgR/Fn+pOgpxWBjhC5rcVmYrWHBWXzxtsTl9LGdIR1m5VHZq6hgpDIRsfl+Ue3/uhbYMYtCJD+RXGFRFpzTeUUKymt2bfN/rWpe2u8icCr1UzEDn+KAkXIa4gfSLP3TkHCUDiM/LhgAAAA"
+  },
+  "/gallery/blue-tile-walk-in-07.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/blue-tile-walk-in-07-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/blue-tile-walk-in-07-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/blue-tile-walk-in-07-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/blue-tile-walk-in-07-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRrgAAABXRUJQVlA4IKwAAABwBgCdASoUACQAPxmAs1MsqKSiqrgMAZAjCWUAwCgLerr3Oi1hdwyVWahHc1ouPv61PYIUNHIiw2SGtgAA/bf3kApBxcq4kd33kHBFf+UPcgh3Sg7FLDd4m/ZW04d3XL+JYmuTrGKDSEwViRCYSi4UhC6PPoEnBzEv719MmxRdLAizFeZBuSDwa89FsV+FLRN2Zw7Vfkjl1LuVudlBBxhM/Wq+0eXwLK3QHoAA"
+  },
+  "/gallery/blue-tile-walk-in-08.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/blue-tile-walk-in-08-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/blue-tile-walk-in-08-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/blue-tile-walk-in-08-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/blue-tile-walk-in-08-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAABwBQCdASoUACQAPxl+sVKsqKQiqrgN+ZAjCWUAvzgIljVVbE0trEDxb7Q571GDF3DDPEoAAPiNHewRsyteQVSHGPzGh6i2GtB/EVTD9h1UHDTJTIgCGJwE8f9+d4i1hHRzD8F08+osjGGuf3C9lMWJ4Na7y7DIWBxr5gAtFQAAAA=="
+  },
+  "/gallery/blue-tile-walk-in-09.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/blue-tile-walk-in-09-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/blue-tile-walk-in-09-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/blue-tile-walk-in-09-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/blue-tile-walk-in-09-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRrQAAABXRUJQVlA4IKgAAABQBQCdASoUACQAPxl2r1GspyQisBVdUZAjCWMAv7AGTrdF9mNkF3JVohcHuGiiP6s7TgAA+djhwT6aggFJPX6BQY9ZDKKR5pUYm6rSc6m3JWXOpySnZoH8jOvk37MQe++ouhGXxNHb/CYeRYFlK1y6rz/87mQ1ydQBOR9ZHXupZDs9pXhQLyiE3yuDRtG5AOknZOcoP92HexqSldadzrSOaq9KJk4gAAA="
+  },
+  "/gallery/blue-vanity-bathroom-01.jpg": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/blue-vanity-bathroom-01-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/blue-vanity-bathroom-01-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/blue-vanity-bathroom-01-800.webp"
+      },
+      {
+        "w": 1100,
+        "src": "/gallery/_opt/blue-vanity-bathroom-01-1100.webp"
+      },
+      {
+        "w": 1400,
+        "src": "/gallery/_opt/blue-vanity-bathroom-01-1400.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/gallery/_opt/blue-vanity-bathroom-01-1600.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADwAwCdASoUAAsAPxl0sVCspqSisAgBkCMJZwCw7Bo2AKlckoI1UIdQANyVhnJQUAPmc2rbNIvLdYgLuWg4bSHl5Y6m/LAzxhU8Y/lDPwGKgUBEHk5fUNsAAAA="
+  },
+  "/gallery/blue-vanity-bathroom-02.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/blue-vanity-bathroom-02-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/blue-vanity-bathroom-02-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/blue-vanity-bathroom-02-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/blue-vanity-bathroom-02-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRrgAAABXRUJQVlA4IKwAAADwBQCdASoUACQAPxl6s1SspyQjKrgMAZAjCWcAxCQiys4ZgSwOJ5W+E4T9eMjst+oyXuGj06/IAAD6XE2aCeBnCrkL8igv3tSIoArVMW4NRA6rPo3+yO8ZAcXZjXciHMpT4dkeLHQOOAsC2uSTXJWOkKzhQog8i5Yod0RdBE7YZL6j6Urxy/RZC1v1a+DrCF6cCxcsPI6cNjI4tdozhOobrI59vuZ7iwJkWYAA"
+  },
+  "/gallery/blue-vanity-bathroom-03.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/blue-vanity-bathroom-03-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/blue-vanity-bathroom-03-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/blue-vanity-bathroom-03-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/blue-vanity-bathroom-03-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRq4AAABXRUJQVlA4IKIAAAAwBQCdASoUACQAPxFqslCsJaSisBqtUYAiCWcAw+gGZcWIPV/CKZlLY9vO64gAR2Fm4AD5yNWkFWpxrIUCrv/D6E4GZOkHagPg2a0T3U90dFG9+tKcMfM45it1jhEhI17azhgsfThhixmsNSHmjOBWWh6sdujTWsLn4/o2vDZU3ece7+itQiU2dymHRjPC8GLxSgq5iaipqUgsaxiEQgNZQAA="
+  },
+  "/gallery/botanical-cloakroom-01.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/botanical-cloakroom-01-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/botanical-cloakroom-01-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/botanical-cloakroom-01-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/botanical-cloakroom-01-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRtwAAABXRUJQVlA4INAAAAAwBgCdASoUACQAPxmAtlSsqCSjKqgBkCMJZwC7BbJAw2/fsvQiwFo4SFT1kGql5VpQyXkZVhAWPGdQAP6psmUCRpvJHu13vBbFWaxEE9BeoLeaQc8EzwFi3EOx1zXGURdff2h9riwK0fdz/y06mhEcTYRxSlHwlgPA2RGneMmf8TxCHn0O+vfi3lZauyLKDX7tl75pYFOO1u0ExO4f5gJ1oAWv2PpsR7TeDaQYp+Dol4WFMOhzseau9syR8go+RppKgOmx3agIvwwwaD8TSoAA"
+  },
+  "/gallery/botanical-cloakroom-02.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/botanical-cloakroom-02-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/botanical-cloakroom-02-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/botanical-cloakroom-02-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/botanical-cloakroom-02-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRrQAAABXRUJQVlA4IKgAAADQBQCdASoUACQAPxl2sFCspySiqq35kCMJZwAALpuXNhzW1m3FURm+Gi5TqMjN9fTLQpvQ9HKAAPXNvf1fwQsM/lqZ0nxMt6mFknYP6WgcZn0Ts303koQl6g9LVT6IRd9SYMouPv9uIDu7MMLCT4OPfZfaz9wb6wvCWNUZBLtBV6In0lCLMlu5TjsWVH8X3hUWIzIEIJbISt9vR6CSuVxWH8Ow7PbmYAA="
+  },
+  "/gallery/botanical-cloakroom-03.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/botanical-cloakroom-03-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/botanical-cloakroom-03-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/botanical-cloakroom-03-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/botanical-cloakroom-03-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRt4AAABXRUJQVlA4INIAAABwBgCdASoUACQAPxl+sVKsqKQiqrgN+ZAjCWUAvz7wATwb//L831FRxOvx83twRFOIvGCGp+atKMASk4AA/kZKxk3FEpdRO0qhXkGqzMtoWx2Kq3hPhIECZqT4cibNe/7aOODujkvBdJtkEhNtiuJl8fjJhADR7ChXi4Nd53EN9qQ5/oLQ/Yik/Ical7NQSRJ8e8wWSXJFzuMwSPkupGLNfaZWJypKuuSDHVuME7xKrj3FaiYuIygcgja9uuwRLsUr+5qgTL172BtlCiIuZDAAAAA="
+  },
+  "/gallery/botanical-cloakroom-04.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/botanical-cloakroom-04-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/botanical-cloakroom-04-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/botanical-cloakroom-04-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/botanical-cloakroom-04-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRqoAAABXRUJQVlA4IJ4AAABQBQCdASoUACQAPxmEtVasqCSjpWsxkCMJZwDLaAwljxmC4lFgnyi+7lKuBxSapS185AAA/tlilbZ32UQAavBKlv35HdySF3OQ9mzFNafKReRSbkoEH2zFk6yUUsAt9GMJgGZZgLy6zZRGQBpaS1YKGRoIl4wUr3reirLwCNu4tr/Ch7Gpkjcqlz20pQ/tYfGbbNAfiQCU6+JyegAAAA=="
+  },
+  "/gallery/botanical-cloakroom-05.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/botanical-cloakroom-05-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/botanical-cloakroom-05-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/botanical-cloakroom-05-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/botanical-cloakroom-05-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRswAAABXRUJQVlA4IMAAAADwBQCdASoUACQAPxmGt1csqKSjpWmZkCMJZwDI1Ae5IQDzb2RdP5ghGmDoEWq/Ajbc+lc8BV8IgAD9aYR7ilR5UiG96f0Gu8TJNWFbykBOr7zKPv8UMm41iEyDTTUyiKUmf4GdU3P6yBgMxYIeLC2xZf5BTsZuVOgc3jr7F0L/eKfQRgX94QBNHiIIND3TWKoEqcgkUiXOzN7DKqd8V0/7Dk2IgS2G8U1JEzebwFKptnrekFoZR3ExL9TXQ4AAAAA="
+  },
+  "/gallery/botanical-cloakroom-06.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/botanical-cloakroom-06-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/botanical-cloakroom-06-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/botanical-cloakroom-06-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/botanical-cloakroom-06-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRsYAAABXRUJQVlA4ILoAAABwBgCdASoUACQAPxmGuFcsqKUjpWmZkCMJZwDM0zA4lQYEC3jXEoXo9YGKvfIMXhrRQpLS0USP5dZoPIAA/liJHUBWICVVXmc/pLCUEzhlcKGN9xaPm8phh8Ch9i9Ghh7MIT5ulSOR/CuZxERffwEK1KhXfZpcJbn02qLmFrOq6uxRbiKIhejtju7n/OR9suXQGT+sGs2K3aJI9faOM0ei0HFTEkLuicuVyO0y7shfVoNKtFe0yiAAAAA="
+  },
+  "/gallery/dark-marble-brass-01.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/dark-marble-brass-01-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/dark-marble-brass-01-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/dark-marble-brass-01-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/dark-marble-brass-01-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRrQAAABXRUJQVlA4IKgAAABQBQCdASoUACQAPxmEulasqCWjpWmZkCMJZQDJEB8HVrGW7GE85GZ8uuySB7hQDfIEfqgA/MvX5Kx0pzNPGyiwZH2DArOp9qk4wjFoIIHiebo6705/CdGGhnyo49he4TcprIY32XAN4fhrWh43kO+NsrPQ+UptpykhsBuTk1ooEuzVevM3vYLtq2KqLJd0n7i3rHRetO53ooHMYpucPJ+aDPpayW49AAA="
+  },
+  "/gallery/dark-marble-brass-02.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/dark-marble-brass-02-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/dark-marble-brass-02-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/dark-marble-brass-02-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/dark-marble-brass-02-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAACQBQCdASoUACQAPxV2sVCsp6Siqq35kCKJZwDN/AGRDNHW/6BNLq0/oxvW9VUbunl6h0sLgAD9KImAEMoeJfbzJs+pLaPpO9sZSI2Bi7cint6OszXQ6InEu6jloYSZiDLYApjbDClTTjM2SNOHKrL0S+1q+f/Sm6JodH8g4uHX+PP+KXwfTIX0sSZeAA=="
+  },
+  "/gallery/dark-marble-brass-03.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/dark-marble-brass-03-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/dark-marble-brass-03-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/dark-marble-brass-03-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/dark-marble-brass-03-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRtYAAABXRUJQVlA4IMoAAAAQBgCdASoUACQAPxl+tlSsqCSjKqgBkCMJZQDKABE6LeXcWZCHRc2J3FQ8ul4bGARkToNJSI7owgAA/hi8iXDIEafr+TB5Kn3zOMWg6kMtwuxVfdfqG9mfyipern/u7FarM0rhxs2I73mocs4HXkXdCj6+27XmbmxyAd7nIlWY3Z7RnUCIUpThmlPV1CXGKJTMNyS7bS306QUqB8AmS97B8Df6LVL5qxpn03hhsd13NlZRtqM8z4/BYjt+ks+Vfvjq6sUMFy4uAAAA"
+  },
+  "/gallery/dark-marble-brass-04.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/dark-marble-brass-04-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/dark-marble-brass-04-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/dark-marble-brass-04-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/dark-marble-brass-04-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAACwBQCdASoUACQAPxmAtlSsqCSjKqgBkCMJZQC5IA9z9h+wLkQvdlumIl4yfvYuzE6VOq0ummAA+t3K4w9HzHnrvbHfD0EavzfgjDQtUYbtZScpqr2mb9hO/3DRsrcESfLulfGs0NtVOikFVQ25Z7fUlhMNGrUvHqJ+eOxN22xde3Q0DI7TgEh8z7cK6YgJXoAAAA=="
+  },
+  "/gallery/dark-marble-brass-05.jpg": {
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/dark-marble-brass-05-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/dark-marble-brass-05-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/dark-marble-brass-05-800.webp"
+      },
+      {
+        "w": 1100,
+        "src": "/gallery/_opt/dark-marble-brass-05-1100.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/gallery/_opt/dark-marble-brass-05-1200.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAAAQBQCdASoUABsAPxl4tVMspqUisBgIAZAjCWUAyNQJD/OuBW9C5x8BDis/RT/F0H4AAPy0fEWjXnEqST5elOKTeVXF6bTasf0/eTzyuOmru3S1CkTVhmTC6CXAiI1/7Qhob9W68Li5Dj/pbcLfemSYOyJoZ4v/XP2SXiR/g6Ki0YdHmhkcgGcrgzQAAA=="
+  },
+  "/gallery/dark-marble-brass-06.jpg": {
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/dark-marble-brass-06-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/dark-marble-brass-06-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/dark-marble-brass-06-800.webp"
+      },
+      {
+        "w": 1100,
+        "src": "/gallery/_opt/dark-marble-brass-06-1100.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/gallery/_opt/dark-marble-brass-06-1200.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAADwBACdASoUABsAPxmAt1SsqCUjKAqpkCMJZQDOOBBdQMHBm2nlmp1+rouPrCNu+7AA/iaXFh6EDa51UrW57DordxrtCeXmk0Bxp1p4ljnRAgSrge5D7DE3dyTB4q32GoMmUjGzlId/qsp6MzDgfGLH4WhZlarL5/Yg79sC1ipE1Yk8Dc0b2rBoGkh8vLM6Cm1UAfNE0QAAAA=="
+  },
+  "/gallery/dark-marble-brass-07.jpg": {
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/dark-marble-brass-07-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/dark-marble-brass-07-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/dark-marble-brass-07-800.webp"
+      },
+      {
+        "w": 1100,
+        "src": "/gallery/_opt/dark-marble-brass-07-1100.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/gallery/_opt/dark-marble-brass-07-1200.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRqoAAABXRUJQVlA4IJ4AAAAwBQCdASoUABsAPxmAtVSsqCSjKAqpkCMJZwDIXAuTkxNV3Q4AFlHDzvfrpFEhtuzqAADzJq/durwicOGbKpZoczs1xmVULnzdwQmnH+1mRxCzjhP0PoXA06BxZP3sboahLE1HxTZSQL+oFZP4uNMvnbecMsfPfu27/s47Yso3bvoC5ziFbvhpz49PfDWJ5LbruBHwCU4WMDNLC5PKAA=="
+  },
+  "/gallery/garden-decking-01.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/garden-decking-01-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/garden-decking-01-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/garden-decking-01-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/garden-decking-01-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRqoAAABXRUJQVlA4IJ4AAACwBQCdASoUACQAPxmEs1UsqKQjKrgKAZAjCWMAw3AIcGq3hYPYC9gfg3vedJ9GNj//yEOx6LAA4j5uYw9Z7dIlHuEoiToUYYAgkj4EYCi27J133ntgWrmRHZlQ+jQ6RjCtBEJ+IxRPKYdp8xwOaFbpebHu1/p1ADwLMyErEKws7VROY0ox46PF0uTo8VH+gDepPhh/xvauhCICIs6AAA=="
+  },
+  "/gallery/garden-decking-02.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/garden-decking-02-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/garden-decking-02-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/garden-decking-02-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/garden-decking-02-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAADwBACdASoUACQAPxmAuVWsp6WjJWsxkCMJZQDH5Ak/fp2rsy9kpNMgzA0UVSvF20AA9PWug0wD6L7PCO5p1694XHk9oCaS4vi9wROSrgX99VcmueiYIE9ej96ObaRtldYEdzNCLenof1CqtbbKAs0nrmkTNfeYenVLHEAl7ks88liubtwAnOEL6NGAAA=="
+  },
+  "/gallery/garden-decking-03.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/garden-decking-03-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/garden-decking-03-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/garden-decking-03-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/garden-decking-03-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRroAAABXRUJQVlA4IK4AAABQBQCdASoUACQAPxmEtlYsqCSjpWsxkCMJZQDE2Ab7th8qRgpRlYthIW27Z3LVUmGZ4cAAw1p601UE9/zGXU9eAX8lh7cFy6UI/7GlwAyGyD9S1P05t3741bU0ZO88HmgT6SYippdGjEkvi/KoCRX3JzscsLT8wkhiVrsHOjXUM8TmEm9EaVe6lKbTTmdCCGKJMS/yjN7BWj+Ys4XFdzwgBMq6/YbRUw7wKCUyAAA="
+  },
+  "/gallery/garden-decking-04.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/garden-decking-04-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/garden-decking-04-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/garden-decking-04-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/garden-decking-04-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRroAAABXRUJQVlA4IK4AAADwBQCdASoUACQAPxl+tVUsp6SjKrgKAZAjCUAZxwEwp7f1nvBoXWLrGLnXuW8j6lFOFNNWASxFgADLDe7grX5FBbnziphTJ5345ryg8l7dcUfJMKZFEq+Ehn0jAyDqufpwpJctF/3evYla2vVtD2kQUUwEA8vM1HVINxu2EjObIazryR9QxyMS/jbv0xjUc3FmswF0azLrivBLCkrqtwB2p63SHJUlsgeAjaQAAAA="
+  },
+  "/gallery/garden-decking-05.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/garden-decking-05-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/garden-decking-05-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/garden-decking-05-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/garden-decking-05-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRqwAAABXRUJQVlA4IKAAAAAwBgCdASoUACQAPxmIu1gsqKWjpWgBkCMJZQDNSAnXG5vlINVrSTiATcWSUtWlWToQt3Sf6bENc7YAAM33gSq2ZHBBwh0b9Uc8ar20MTRZYVOKlpGC29hRZgwY57AIXAPblmnBiOX4JjD34QRUCAQQTSrlxlEnCmiTc76W+JEjiXXuSwfNHRwX9uDYLplQJKfJBzQNHUpRx/U8rxgGQAAA"
+  },
+  "/gallery/garden-decking-06.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/garden-decking-06-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/garden-decking-06-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/garden-decking-06-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/garden-decking-06-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRr4AAABXRUJQVlA4ILIAAADQBQCdASoUACQAPxmAuFWsp6UjJWsxkCMJQBXDgRmyyiWXu6qPbV+HWBbZ/atNQPojRHtCi7sYAPo0FKQNZ1RDy5pVw19ZsjaUzyMtg/IuQY63WpL6Dz7ztu8EKJ+peBjCGynVAw/v/JjLokF9089RHP3+/TD5tuZU4f3ezfxGQ45w1v8cWIDHvaQQG8OueEyKpvJh34vjbQ79AGag2t+a3Li1Ujxw7SxeDrq3ojU6AAAA"
+  },
+  "/gallery/green-loft-shower-01.jpg": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/green-loft-shower-01-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/green-loft-shower-01-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/green-loft-shower-01-800.webp"
+      },
+      {
+        "w": 1100,
+        "src": "/gallery/_opt/green-loft-shower-01-1100.webp"
+      },
+      {
+        "w": 1400,
+        "src": "/gallery/_opt/green-loft-shower-01-1400.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/gallery/_opt/green-loft-shower-01-1600.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADwAwCdASoUAAsAPxl2s1EspySisAgBkCMJYwDE2Bk+49ajHyEU6yOgAP3TG6UZtLTMnF4+BBkjy6mepFggzd2DrI7f0K+UNCDVT5lUXSsg4CSuLaLc02G3FfgAAA=="
+  },
+  "/gallery/green-loft-shower-02.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/green-loft-shower-02-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/green-loft-shower-02-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/green-loft-shower-02-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/green-loft-shower-02-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRrYAAABXRUJQVlA4IKoAAAAwBgCdASoUACQAPxl8tVMsp6UiqrgMAZAjCWMAxNgHBvmMVDJxlhP93C0OMkwKkmBLIYnO73hHOM0AAPxaZxAXDZYFHAAm5FEFMklK4NIpbh7egnxsQMcM7jC5lYU8NAnwsvhVEBcgKc2WcIVQc6JldTe8iOzLvlbt7W4hN9oRXBLSV7hvQZGo/R21xEsFiiHyY5dcwUMocX8XlyYnbXe6E3YWo9tiCgAAAA=="
+  },
+  "/gallery/green-loft-shower-03.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/green-loft-shower-03-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/green-loft-shower-03-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/green-loft-shower-03-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/green-loft-shower-03-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAABQBQCdASoUACQAPxl6tVEsqCUiqqwBkCMJZwDKeBEzBOl+FTFdGKnoARqZ5BESqfEJerAA/GMDCkeSjbwhwbsgGhMekSjZuShf8WP1xU0qimVekOELK6HyXErWPOB53SXwELIAP1W7ppDy6dVd3HUbqsgfsnAsilJyg+4kObTx1vfNp9jl2F+7bmaQyy0YqbCSzCDd3nSAAA=="
+  },
+  "/gallery/green-loft-shower-04.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/green-loft-shower-04-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/green-loft-shower-04-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/green-loft-shower-04-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/green-loft-shower-04-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRqwAAABXRUJQVlA4IKAAAADQBQCdASoUACQAPxl4slIspySiqqwBkCMJZQDI1AulzRuhIX+PTTBj1kq0FJ7nzVAd0Idq5xPAAPcDy+eMTGiOFuW0NJKBHUm0M53HjTksOAZpJxNTS+UHR8ts7OFLJPt5uIBiQQITHCkqWt4gra2SxC+lLo47UL47R0DsOvaNzUgr69U0EESFzyftddIXiAR/ygYlhu4mrJ3X6XOzdFAA"
+  },
+  "/gallery/green-loft-shower-05.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/green-loft-shower-05-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/green-loft-shower-05-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/green-loft-shower-05-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/green-loft-shower-05-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAABwBQCdASoUACQAPxV8s1CsqCSiqrgN+ZAiiWUAyywHi3C+3X6Ba834pJ07BAgkJQ+Awh8AAPb3SvBMaYB8G3PFtibweVEcJE8/ZjmfEtfjRbcMl+WW+k4BOrPcvviM9lLtBK/R8hVm3CZlTJfwsn+rB+v/HAYJkKysiFLKQoRTUTOH+/PsE9E0LoU3oG+luZ8DjFRcysxGbSDFwAA="
+  },
+  "/gallery/green-loft-shower-06.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/green-loft-shower-06-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/green-loft-shower-06-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/green-loft-shower-06-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/green-loft-shower-06-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRsYAAABXRUJQVlA4ILoAAAAQBgCdASoUACQAPxl4slIspySiqqwBkCMJZQDLLBVlvjHh8FkQlvow4doNE8lw+Z7azgUdhXyLIoAA/rGFSbnsqddq6kPQtO8fCUvswaO6yfT/m51yjdLhrt3LQsjw475QI3+oB8b+W+tDSzzWx3H7V6izmM4AlKEMROGUR7Zs13gcdNwg53B1Wk9t/RJP3D8TpozsLfTeTT87CR/SH+qeO3ZuNnSyIFEdimljp1V60OOel+JUzoU9wAA="
+  },
+  "/gallery/green-loft-shower-07.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/green-loft-shower-07-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/green-loft-shower-07-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/green-loft-shower-07-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/green-loft-shower-07-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRqAAAABXRUJQVlA4IJQAAADwBQCdASoUACQAPxl+tlKsqCUiqrgMAZAjCWUAzjgLQoXFfBd63nrv0MJnY9ZQZzWlOAP+LQ6MgAD+495ZjTI4DwPovxcAtbHO4ZqB9yG+1+xLfN0LVjFPksivhKc5nTShESXuacBj2pZ6P2O6FB/8hgbjLrcSare7fsr3ETJ16RgSKMH6GYVRgm2vbMGRZ3qXiYAA"
+  },
+  "/gallery/green-loft-shower-08.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/green-loft-shower-08-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/green-loft-shower-08-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/green-loft-shower-08-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/green-loft-shower-08-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAABQBQCdASoUACQAPxl0s1GspqSiqrgN+ZAjCWcA0bwLiSI7Z3WRJb2vxrjaagk1P5CIySAA/u6JsY5gvhYTV87xgOdhf6bS3RGWLGq4LKc/C1dcSsExrh//KAYGeeXx4W5JQKqgMETgtN/9ksrmcIyt+jeBMFU1Ro47mCSOQzApAAAA"
+  },
+  "/gallery/grey-shower-room-01.jpg": {
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/grey-shower-room-01-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/grey-shower-room-01-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/grey-shower-room-01-800.webp"
+      },
+      {
+        "w": 1100,
+        "src": "/gallery/_opt/grey-shower-room-01-1100.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/gallery/_opt/grey-shower-room-01-1200.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAADQBACdASoUABsAPxl4slCspySisAgBkCMJZQDBzAMWJ2+b95juqHmT+Z4ese2PAAD3IWGOMZ8hlj7cy/cMfek+hutGpQ6b1YSBVHDLBl4tNfT3FzQfzcsXPDsGLJH0LQXrCsrNn/Utgw+si2XwCgYxsrnKjX4mTzH6aSB09mcHvM8eKquKr2wVuGWHXBKM1BgAAA=="
+  },
+  "/gallery/grey-shower-room-02.jpg": {
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/grey-shower-room-02-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/grey-shower-room-02-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/grey-shower-room-02-800.webp"
+      },
+      {
+        "w": 1100,
+        "src": "/gallery/_opt/grey-shower-room-02-1100.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/gallery/_opt/grey-shower-room-02-1200.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAADQBACdASoUABsAPxl4tFOspqSisBgIAZAjCWUAuwArj/TWCwPpq3Ao9MF2MIOwAAD8UjxGmrq06cRBXSM4AwmoJruCcS9n93AlHA8ZYE2NxXhlr0Y9fGLQZEc96vjCGfDWiag2BlCu8Z4q+JsETd/LltayzMxtPc1mDJnYCmVCW7m0F3MzAnBtalFFjsAA"
+  },
+  "/gallery/kitchen-metro-tile-01.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/kitchen-metro-tile-01-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/kitchen-metro-tile-01-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/kitchen-metro-tile-01-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/kitchen-metro-tile-01-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRrYAAABXRUJQVlA4IKoAAAAQBgCdASoUACQAPxl2tlUspiSjKrgKAZAjCWMAtOg6ff+tw3L7pwopYzN9KrjdAGrmSE4B43D2LAAA/q88zDQSAQXaGOQEmbA1rAG+tZqCMAiOxmB3chy1of/V9n5/DZjR6CsvEpshI0dfeeQAy6j8SKVyMh/oedxrI3fPpMi9sgVhhVW9+HrfGEZ2ZesbE85D+yA4VwbZOFHyfpI6GTC/ADOHWBdETrnQAA=="
+  },
+  "/gallery/led-mirror-shower-room-01.jpg": {
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/led-mirror-shower-room-01-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/led-mirror-shower-room-01-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/led-mirror-shower-room-01-800.webp"
+      },
+      {
+        "w": 1100,
+        "src": "/gallery/_opt/led-mirror-shower-room-01-1100.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/gallery/_opt/led-mirror-shower-room-01-1200.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAACQBACdASoUABsAPxmAtlSsqCSjKAqpkCMJZQC7M0xAfY/tcpVVATG+QinNygAA3064cfwZdYM8MasJdEQpZcqAdOVt+vrtKQpV66HjX4oqWJjEKJjp831c+ITuLIFYxZiEsW6OEU8df6nzI82wn72sQIOBKnmGAYQn1pGj2ozy9FxjdG/XgAAA"
+  },
+  "/gallery/lit-niche-shower-room-01.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/lit-niche-shower-room-01-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/lit-niche-shower-room-01-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/lit-niche-shower-room-01-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/lit-niche-shower-room-01-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAAAwBQCdASoUACQAPxmEt1csqCUjpWmZkCMJZQC3uCCGiCavYkVA7jFg9V2NLV//8Lq5wAD9EVPNQSLe42G9scmdzrJAvw90JDPisn6qMW3Ct8EfU0t1f4U8m3AVmve8F8fG67Y7l2YQ2K0jwUjRvwJVy9xYh8Mkm41tuYaKsciWBbxtT/B8cVH2zZd40to1TyHHK+T4UFSlrHBoAAA="
+  },
+  "/gallery/lit-niche-shower-room-02.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/lit-niche-shower-room-02-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/lit-niche-shower-room-02-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/lit-niche-shower-room-02-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/lit-niche-shower-room-02-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRqYAAABXRUJQVlA4IJoAAABwBQCdASoUACQAPxV2sVCsp6Sjqq35kCKJYwDH5AhPrrIsnylmqU03hvaZLK3fuFGvD2AAAPp1apkHF73Z4A4vMK1nx6Bbjc4Wzb+pPXfAytM7rs1l/n0h9Dv5zF3Lv6GbbjFRS5wy/Z2/WF2hc2saoK/SXeVanNi7Kz8D+4Dynss83EsjXxn+KBY40GjyyymbaYbvgioAAAAA"
+  },
+  "/gallery/lit-niche-shower-room-03.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/lit-niche-shower-room-03-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/lit-niche-shower-room-03-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/lit-niche-shower-room-03-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/lit-niche-shower-room-03-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAADwBACdASoUACQAPxl6slIsp6SisBqoAZAjCWcAxNgEXG3YLQNcBZ6kR9I2SFRO9gAA+CEg2jQXYVYUp/NtpAarrZetijyQ/rgF4JIbjp9Gp0F8j6xASrAN/rBPFkBaSkpqo+/5QO7pEQFXG920sVLTUUR03mRZEk9wAtbZ7N/3IoAA"
+  },
+  "/gallery/lit-niche-shower-room-04.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/lit-niche-shower-room-04-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/lit-niche-shower-room-04-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/lit-niche-shower-room-04-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/lit-niche-shower-room-04-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAADQBACdASoUACQAPxmAslOsqCQiqqoBkCMJZwDLpAb4CiE+wxyCfH2XWglDX+76gAD5zOXV8SE+OYQaK73hYtSGOoKJ++VqAwXc+qZskTETuA2EQc9pDs5UoUFqlw8fTv1XPvSb6Wn6TJ8XsKz4g30ykCVf82uJUaNnxD/Ob55kf2d6gAAAAA=="
+  },
+  "/gallery/loft-freestanding-bath-01.jpg": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/loft-freestanding-bath-01-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/loft-freestanding-bath-01-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/loft-freestanding-bath-01-800.webp"
+      },
+      {
+        "w": 1100,
+        "src": "/gallery/_opt/loft-freestanding-bath-01-1100.webp"
+      },
+      {
+        "w": 1400,
+        "src": "/gallery/_opt/loft-freestanding-bath-01-1400.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/gallery/_opt/loft-freestanding-bath-01-1600.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAABwAwCdASoUAAsAPxl2s1EspySisAgBkCMJZQAAKHWXj3AUIAAAzY+9X5nN0MxvQeo2FG0ZLfl7oSrt9tWDxONEe5CfWcI3Gvg1ruUq1AAAAA=="
+  },
+  "/gallery/loft-freestanding-bath-02.jpg": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/loft-freestanding-bath-02-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/loft-freestanding-bath-02-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/loft-freestanding-bath-02-800.webp"
+      },
+      {
+        "w": 1100,
+        "src": "/gallery/_opt/loft-freestanding-bath-02-1100.webp"
+      },
+      {
+        "w": 1400,
+        "src": "/gallery/_opt/loft-freestanding-bath-02-1400.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/gallery/_opt/loft-freestanding-bath-02-1600.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADQAwCdASoUAAsAPxl2s1CspySisAgBkCMJZwAAYW44Jw8J1EysrvAA3EIdT71Oju/Q1iFiIJycbcmeMSfcqQZh2h+Iz70C4AA="
+  },
+  "/gallery/loft-freestanding-bath-03.jpg": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/loft-freestanding-bath-03-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/loft-freestanding-bath-03-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/loft-freestanding-bath-03-800.webp"
+      },
+      {
+        "w": 1100,
+        "src": "/gallery/_opt/loft-freestanding-bath-03-1100.webp"
+      },
+      {
+        "w": 1400,
+        "src": "/gallery/_opt/loft-freestanding-bath-03-1400.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/gallery/_opt/loft-freestanding-bath-03-1600.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAACQAwCdASoUAAsAPxl0sVCspqSisAgBkCMJZwAALYE3UwA/QzSgAMlG6Hl+6Cg0Rf1/T8ONS4VEeyFYUhKqVIWdpAXva1ZQwW7zK3cHgAA="
+  },
+  "/gallery/loft-freestanding-bath-04.jpg": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/loft-freestanding-bath-04-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/loft-freestanding-bath-04-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/loft-freestanding-bath-04-800.webp"
+      },
+      {
+        "w": 1100,
+        "src": "/gallery/_opt/loft-freestanding-bath-04-1100.webp"
+      },
+      {
+        "w": 1400,
+        "src": "/gallery/_opt/loft-freestanding-bath-04-1400.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/gallery/_opt/loft-freestanding-bath-04-1600.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADwAwCdASoUAAsAPxl2slCspySisAgBkCMJZQC+SBxsShXKaQWX/IOAAP4/bXuUo8H8ZYsqOvoAnoq+HB/WAlomrmJfmG6P4Zdn1XagqWZeSgNcqi1AAA=="
+  },
+  "/gallery/loft-freestanding-bath-05.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/loft-freestanding-bath-05-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/loft-freestanding-bath-05-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/loft-freestanding-bath-05-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/loft-freestanding-bath-05-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAACwBQCdASoUACQAPxl0tVMspiUisBVaqZAjCWcAzuxKBFXuVhrmV8rGlGVwQIALpgxCvFG5r5AA9uuaapfC78VLCIxDRLY4NTLCdu0bdgwe62yAmZCtve8wIZPSbj00K2adIbHUwndyHgOsDGxcnNJsuQ5YPM7GIRiRKvX6K3/dKevLxOMTZfEAAAA="
+  },
+  "/gallery/loft-freestanding-bath-06.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/loft-freestanding-bath-06-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/loft-freestanding-bath-06-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/loft-freestanding-bath-06-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/loft-freestanding-bath-06-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAABwBQCdASoUACQAPxl2s1KspqSisBqoAZAjCWcAyvAKxJxW5oARF/4PlxDeSs6ZRUompCIAAP0cE3D2fHOKLx978UyMOBHqelqBggcSUo0vGQe7IWbYl8WPjVRs/fd4WfuMjfcprEYdglNiVl/rv1FXVgW6KfqgzqNgWgMwwYmm4hoNzAA="
+  },
+  "/gallery/loft-freestanding-bath-07.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/loft-freestanding-bath-07-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/loft-freestanding-bath-07-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/loft-freestanding-bath-07-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/loft-freestanding-bath-07-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAACwBACdASoUACQAPxmGuFWsqSUjKrgIAZAjCWcAyRABmPFDt49nTKtox6rJOs5gAPcR6utLQr2UY+TIjhhw4OC7Ag4qWMUESlhmCxlg8a9rOe41G5JwzeAoOgAHuMAYY8gbQP4/JM7GSm8IcrbdpS7v4AA="
+  },
+  "/gallery/loft-freestanding-bath-08.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/loft-freestanding-bath-08-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/loft-freestanding-bath-08-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/loft-freestanding-bath-08-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/loft-freestanding-bath-08-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAAAwBQCdASoUACQAPxl4tFQspqSjKrgMAZAjCWcAygAb8yZkjza1PBH52f0c1X1NQY/YEADmQpwg1wVehPpoI1HtOlbgW5sDO9gkjDbWYzW1FlI6zhm2YhuEljemn2BWcDOIuDzMa+dKxobgfDNRKXvtBb5vJEEMrnLAAAAA"
+  },
+  "/gallery/loft-freestanding-bath-09.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/loft-freestanding-bath-09-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/loft-freestanding-bath-09-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/loft-freestanding-bath-09-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/loft-freestanding-bath-09-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRqwAAABXRUJQVlA4IKAAAAAwBQCdASoUACQAPxl8sVSspyQjKrgMAZAjCWcAz6AgOQzeZoVXYlkWqIp5u4+ANNZQwAD+cQXVBn9yR1AxHnXYss+4+w6YNKwMQ09Po1XSeJqiK5s5+bxokCo3ONhqvcAAzbOvUESojIlUE8Zh8zhuM9isFEQl1c55zMNjfVP6xwkIUIr26xj6BAp1NERuElbSjri1btkA6C/n0JsKggAA"
+  },
+  "/gallery/loft-freestanding-bath-10.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/loft-freestanding-bath-10-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/loft-freestanding-bath-10-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/loft-freestanding-bath-10-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/loft-freestanding-bath-10-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAACQBACdASoUACQAPxl2tVGspyUipW5hkCMJZwDKADrYB9/qRUHBfo9igSczZwAA9x8MQKgbi3K2lSqQOBwva8NPQAm42kqIu2wGwp++5iIiAwYdgWgKQzPmSHaRjs9imxFqRPww5LgUDH54tAAAAA=="
+  },
+  "/gallery/marble-cloakroom-01.jpg": {
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/marble-cloakroom-01-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/marble-cloakroom-01-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/marble-cloakroom-01-800.webp"
+      },
+      {
+        "w": 1100,
+        "src": "/gallery/_opt/marble-cloakroom-01-1100.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/gallery/_opt/marble-cloakroom-01-1200.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRqwAAABXRUJQVlA4IKAAAAAQBQCdASoUABsAPxl2sFCspySisAgBkCMJagCsABEMbrAOXNs5BX2vZgGVv8Gtza1AAPooYIH95vyOS/Fasdag5YbkHCfzhTAGw9rCQKPXYiJuaPG95iAYoxClrrIRBzI1VmAwd9IuVnaRfD5m1FLok388HIDW305s0XbzW0SHdTLQmuZ14kW8xCScV0Ay/vCFrZOrodG87MNwHCsHKAAA"
+  },
+  "/gallery/marble-led-bathroom-01.jpg": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/marble-led-bathroom-01-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/marble-led-bathroom-01-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/marble-led-bathroom-01-800.webp"
+      },
+      {
+        "w": 1100,
+        "src": "/gallery/_opt/marble-led-bathroom-01-1100.webp"
+      },
+      {
+        "w": 1400,
+        "src": "/gallery/_opt/marble-led-bathroom-01-1400.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/gallery/_opt/marble-led-bathroom-01-1600.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAABwAwCdASoUAAsAPxl4s1CspySisAgBkCMJZQAAKoGNHpwFdSAA+CVoLYnEXu3ZKMtC0kTc/Kjf9lIeadrRwne67hNmFDJA2JULi44FADVT15gA"
+  },
+  "/gallery/marble-led-bathroom-02.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/marble-led-bathroom-02-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/marble-led-bathroom-02-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/marble-led-bathroom-02-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/marble-led-bathroom-02-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAAAwBQCdASoUACQAPxmGt1csqKUjpWmZkCMJZwDNwBujG1BCWRQsAgFhWjxllt5aqeGORAD51oaE22IUlyAP0Dd/OsIFTnM4qUhcBcIlapi3LSopSuxPHjTBwD8/HhhcERJlFsL9+YSGlGscOObgzKKMGo7hmsXgVUESXoAWBpyjTQ1DpntGz0Xhexo5pIoAAAA="
+  },
+  "/gallery/marble-led-bathroom-03.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/marble-led-bathroom-03-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/marble-led-bathroom-03-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/marble-led-bathroom-03-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/marble-led-bathroom-03-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAADQBACdASoUACQAPxl+tFOsqCSipW5hkCMJZ1/2W/IivLa8E1NXXY72TfWFb/AbwAD+d/wtzW+Dq+WWguMUysAOoszuMOMva17xLkIHkU2lSmhLczV0496JYsUgsG2Z7Kl90a/DTZX47KM9O7lrvWfHWgcqrjxLcJu7ooPK3zCvDFUJgGkE+A5UgAA="
+  },
+  "/gallery/marble-led-bathroom-04.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/marble-led-bathroom-04-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/marble-led-bathroom-04-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/marble-led-bathroom-04-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/marble-led-bathroom-04-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAAAwBQCdASoUACQAPwlur1CrpqSnNVgMAXAhCWkA0FQKADSPeSoIoPLD0bF/1kLuEjLsAAC1tU2jYng3MO/oLr5vP7+IWlAgucRzLhSh1QHK0QEW0hzLVHRXivevnWb5znk4yS4uJ+wgkIpZqAiQjnoag6NAuBq17vmo0csAAAA="
+  },
+  "/gallery/marble-led-bathroom-05.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/marble-led-bathroom-05-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/marble-led-bathroom-05-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/marble-led-bathroom-05-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/marble-led-bathroom-05-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAABwBQCdASoUACQAPxlutFEspaUisBqqqZAjCWkAyNQR9fQt1ytoTmEb+7B2A8+v4HXmZK0QAP0c3RFe7W4Kx5aUjzeWAHJ8ZTx/Fd5CXKxaLoQ1e7gWLvRkc0j3fwGAhyf4bLzSafq1ufOUplXnopUKP28ZNOqrJh0AAAAA"
+  },
+  "/gallery/marble-led-bathroom-06.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/marble-led-bathroom-06-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/marble-led-bathroom-06-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/marble-led-bathroom-06-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/marble-led-bathroom-06-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAAAQBQCdASoUACQAPxFyrlCsJqQitVgIAYAiCWcAygBBvG0oNJBBRtdksaZeEkqWhgDAAM0LtY0voagyVK1i4sLXzhivomnztbEL1DLWCP0b09o7tLA2xAo6JWGwKgw+iVFPDoiJvGzN4tCl+bawwtbvOF//mxEAAAA="
+  },
+  "/gallery/marble-shower-room-01.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/marble-shower-room-01-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/marble-shower-room-01-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/marble-shower-room-01-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/marble-shower-room-01-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRr4AAABXRUJQVlA4ILIAAADwBQCdASoUACQAPxlyslGspqSisBVdUZAjCUAXvjBghQzQ3n3fr9G963lqQGFbh8uobQ9QucKeEAD+q9u7dsZEZ1JIglO7H3EAAtg7Lb4zR/LVTk8BNrmG6xj6wl4eU6Sj0m+iLu60xhNtCCFchLeDWPwYerSRqTYa7zk5Hug9Xzjx20q/GvMob8FXerTsNmIVmEF3/NgbGzXspq5O5q6Yrss5gn8j1nPX1AUpVFOK/hAA"
+  },
+  "/gallery/marble-shower-room-02.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/marble-shower-room-02-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/marble-shower-room-02-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/marble-shower-room-02-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/marble-shower-room-02-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAAAQBgCdASoUACQAPxmAuFYsp6UjqrgIAZAjCUAX5wQl8MSjgo3FGI4d4/X8hlqpBAzf8qrpHsT9IeAA/TLQ5vYgYzEE8iOUd3USYZvI0q+RPGFDfkZjwagjiG11qAPr1RdnZ83wP3dzE5W/hXJljCKh5YcycgnVT/6a6q/3k9ay5Zss3CQEbIEy+qOvuCYw7CEP6YOFetjI9IBoAAA="
+  },
+  "/gallery/marble-shower-room-03.jpg": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/marble-shower-room-03-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/marble-shower-room-03-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/marble-shower-room-03-800.webp"
+      },
+      {
+        "w": 1100,
+        "src": "/gallery/_opt/marble-shower-room-03-1100.webp"
+      },
+      {
+        "w": 1400,
+        "src": "/gallery/_opt/marble-shower-room-03-1400.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/gallery/_opt/marble-shower-room-03-1600.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAwCdASoUAAsAPxl2slEspySisAgBkCMJZQC7MoADATi/fRMarQAA/GHrAm5vTuNjwSYECRgvHmoavD9rq8W3HlO+b+9/4GZx6BPwfIAAAA=="
+  },
+  "/gallery/marble-shower-room-04.jpg": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/marble-shower-room-04-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/marble-shower-room-04-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/marble-shower-room-04-800.webp"
+      },
+      {
+        "w": 1100,
+        "src": "/gallery/_opt/marble-shower-room-04-1100.webp"
+      },
+      {
+        "w": 1400,
+        "src": "/gallery/_opt/marble-shower-room-04-1400.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/gallery/_opt/marble-shower-room-04-1600.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAACwAwCdASoUAAsAPxl0sVCspqSisAgBkCMJZQC06B8vjGHIrQI40ADNQpzC/DbZIJELPj9bISiB567itHQ81enjTi68A+FPVecTyzpPQAA="
+  },
+  "/gallery/marble-shower-room-05.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/marble-shower-room-05-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/marble-shower-room-05-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/marble-shower-room-05-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/marble-shower-room-05-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAACQBQCdASoUACQAPwl2rlCrqCQitVv4AXAhCWQAwNxKMEPOHQToHvaYQcbNZ/mpK3WLMKCaAADJExBPKR7DyLbS96qvgcsgwGNz40jMAtvZCPefux7cXAHYiWN1lkkvMx0RIuL0xIEdVRzF5Xam1uzRaOjCTwpTLFkE+s7h7p6+nZF/ouElZRjs6phlgJkut9keVeFNKO8AAA=="
+  },
+  "/gallery/marble-shower-room-06.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/marble-shower-room-06-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/marble-shower-room-06-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/marble-shower-room-06-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/marble-shower-room-06-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAACwBQCdASoUACQAPxlytVCspqUisBqqqZAjCWUAwoAFbs+WIEZhE9Pak4YxHusn+B50qKA9qAAA+IvY8ExM2negARsIaM1rasiHcSICfVALYG8uqOA+IUZM5sCPpCuZ7WFGXtZs/xuP6c3jpMz99U+7dPGQJzDfKQxAgFbpqj8z203J19pLtBrEryfWq9h1Ajz0yAQgAAA="
+  },
+  "/gallery/marble-shower-room-07.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/marble-shower-room-07-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/marble-shower-room-07-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/marble-shower-room-07-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/marble-shower-room-07-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAACwBACdASoUACQAPxFsq1CsJaOitVgMAYAiCWcAyywT6k+lABI/j9RwqwZv2fEAAPxag8atXqnbPWbVUgy+XyMAfICN0AOIbVAePjOGXiNEVD0J+5aSJxwGf40Je8bIIeuBxCnbSs1m8KC43UK2AAAA"
+  },
+  "/gallery/patterned-floor-bath-01.jpg": {
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/patterned-floor-bath-01-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/patterned-floor-bath-01-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/patterned-floor-bath-01-800.webp"
+      },
+      {
+        "w": 1100,
+        "src": "/gallery/_opt/patterned-floor-bath-01-1100.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/gallery/_opt/patterned-floor-bath-01-1200.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADwAwCdASoUABsAPw1wsVCsJqUisAwBgCGJZ2M+ADgknCZXlStKhFsAAP7hgh6mJybPtLSVx42iSwk2AGXgGZeJePbYTrOJcBDznS6WpebB41ZPutyuxyVBLz/VB2DkUAA="
+  },
+  "/gallery/patterned-floor-bath-02.jpg": {
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/patterned-floor-bath-02-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/patterned-floor-bath-02-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/patterned-floor-bath-02-800.webp"
+      },
+      {
+        "w": 1100,
+        "src": "/gallery/_opt/patterned-floor-bath-02-1100.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/gallery/_opt/patterned-floor-bath-02-1200.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAwBACdASoUABsAPxlyr1EspqQisAgBkCMJZwDL4B2cYQH4g+YI5VXZPwAA/Xd0jBMrngAW0159tz8q2ES+E284Ib4r9xQGK3NGuvyN7Jl8/dO8w+8TWwuL3cAAAA=="
+  },
+  "/gallery/sage-family-bathroom-01.jpg": {
+    "width": 721,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/sage-family-bathroom-01-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/sage-family-bathroom-01-560.webp"
+      },
+      {
+        "w": 721,
+        "src": "/gallery/_opt/sage-family-bathroom-01-721.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRsQAAABXRUJQVlA4ILgAAABwBQCdASoUACwAPxmEulasqCWjpWmZkCMJZwDOsE36x1wfmkurpNHgkXpF66JBzqfuwQAAAPxJE4UfXDN0CfB80j4fg8IWkvY7lMMrFtgs+l/RpQ4U5CPO4Xc1sdRqtJCheHIxBd9Sdnu3rRlPEYljgDkKAwV8STaWy4lyrDyVWKOegHfUH8UQTddvgBpIoa1NtDRCzvXPZf4T2fN9jYdSKyMmL1dpJLEm2kVPoLChWO3YiC3jthAA"
+  },
+  "/gallery/sage-family-bathroom-02.jpg": {
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/sage-family-bathroom-02-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/sage-family-bathroom-02-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/sage-family-bathroom-02-800.webp"
+      },
+      {
+        "w": 1100,
+        "src": "/gallery/_opt/sage-family-bathroom-02-1100.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/gallery/_opt/sage-family-bathroom-02-1200.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRqYAAABXRUJQVlA4IJoAAADQBACdASoUABsAPxl+uVQsqCWjKAqpkCMJZwDIXC/TSSWXvwLaQE8smguglTcAAAD9mkQaGPCvjecTMKablrc+C5Pw25UZ//yvbXn73+FR7+93sYGExFQGCTsyz+IncE2EbAbXZsESnGFLdWvmawGaadsAwRCL9k+Yz0fCFVhLYbGOhaOpFpAveKk6k0sXu9P/FU71MPrBJeAA"
+  },
+  "/gallery/sage-family-bathroom-03.jpg": {
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/sage-family-bathroom-03-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/sage-family-bathroom-03-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/sage-family-bathroom-03-800.webp"
+      },
+      {
+        "w": 1100,
+        "src": "/gallery/_opt/sage-family-bathroom-03-1100.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/gallery/_opt/sage-family-bathroom-03-1200.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAADwBACdASoUABsAPxl+s1MsqCSisBgIAZAjCWUAwNw0gqlECgLRvWeEC8Zg5Fd/AAAA3iZ5wiVdE4GEbjHLhjhBgDcaNVuyUbT9Vh3lQUBQzXjmt4HudoN0ZvwB2LhDC82pstSE8Qn2tbgfo9P1yOFTqRoz7pioVRbRJQObwYuge63+E+AAAA=="
+  },
+  "/gallery/sage-family-bathroom-04.jpg": {
+    "width": 721,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/sage-family-bathroom-04-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/sage-family-bathroom-04-560.webp"
+      },
+      {
+        "w": 721,
+        "src": "/gallery/_opt/sage-family-bathroom-04-721.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRqAAAABXRUJQVlA4IJQAAAAQBgCdASoUACwAPxl8rlMsp6OiqqwBkCMJZwDEJET4AOp6+ALo/BJ+uTh5zWDUYq3aPfvevULgkjgA/s4D1S0TNu/ysTznhggJkZmTZvy9w9+EspKc5sC+c2g45PvuVl0pfg2JjJxBU0fMKexi8f9EFJJZOVBd1kPw9R1ogY5yuA2xgBdjZ2GdqucAPOqNMOkxwAAA"
+  },
+  "/gallery/sage-family-bathroom-05.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/sage-family-bathroom-05-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/sage-family-bathroom-05-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/sage-family-bathroom-05-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/sage-family-bathroom-05-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRsYAAABXRUJQVlA4ILoAAAAwBgCdASoUACQAPxmEtFasqCQjpWsxkCMJZwDMHC1ywJezWLq8A4J74Jb7PAMHKiqotg+Ce+AUfuwAAPchekKfZ+8trkB6G4Uhc+AQvDdAJOULEKk6/yjbT4BV+C9rcKDNmaZPx25Zf0Ku9RILnrKM5sLr82CFWYnQS1t9VuHkrPoTQ1Ulvj0ZLY8jYZiNus6qppUfw0WFULnsPLzlLCo/Vibk6BXtg8HzE0f0prw/647FmEe3FwAAAAA="
+  },
+  "/gallery/sage-family-bathroom-06.jpg": {
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/sage-family-bathroom-06-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/sage-family-bathroom-06-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/sage-family-bathroom-06-800.webp"
+      },
+      {
+        "w": 1100,
+        "src": "/gallery/_opt/sage-family-bathroom-06-1100.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/gallery/_opt/sage-family-bathroom-06-1200.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAAAQBQCdASoUABsAPxl6tFMspySisBgIAZAjCWMAyRAtHczB264e7ZHQ++Mt6C/IyFagAP2bBTDivJyb5Nb5YEte0lT5k6fN3+Ncgg9HecE0yYG3d+PXn6d8hIlXJCblPo3HFfPAyZXDR8Uy5jCVk/k/SEQwFEFzjErpStugv8vrDyTBT1PR4GuZdfn9jTqU3K0R+BrKAAA="
+  },
+  "/gallery/shower-over-bath-01.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/shower-over-bath-01-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/shower-over-bath-01-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/shower-over-bath-01-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/shower-over-bath-01-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRq4AAABXRUJQVlA4IKIAAAAQBgCdASoUACQAPxmAtVSsqCSjKqgBkCMJaQDR+BboYrWLXbjzhxEo5me+OKC+yCSU6QlOBDhoeAAA9Gxhbxgu+izwC5xpzhWTP1OpL/8KROP9Fe1zK4I6qbWLGXRvBAHWo+6a1Lxf4lldcfuZ3F7dHiFMv7WWvk5tLTXmXbE/l7MOGTY9nkdHFKbodKR8hJCwnB4EyrvIbvG6P4udAj0AAAA="
+  },
+  "/gallery/shower-over-bath-02.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/shower-over-bath-02-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/shower-over-bath-02-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/shower-over-bath-02-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/shower-over-bath-02-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAACwBQCdASoUACQAPxl+uFYspyUjqrgIAZAjCWkAzjgivG1PwnX/UFlJg40IZKYmEGIguLD3IEAA/HEfgy/KpvTlZIPFoMD5hKZchEfBfmEVVxnvGkYmW6wdNkuncyCs+OEoPTmZ/HAi6ZsKpHMje8pi5suAV+NCaewAAA=="
+  },
+  "/gallery/shower-over-bath-03.jpg": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/shower-over-bath-03-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/shower-over-bath-03-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/shower-over-bath-03-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/gallery/_opt/shower-over-bath-03-900.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAABQBQCdASoUACQAPxl6slGsp6SiqqwBkCMJaQAAMX7DHHgu2xhN1g/lwSvGpIGuLhM2eAAA/K4IfDGeHVS9OMrp8nMNVfJgYNR2wqnxdNS9lgc/RllW+dGSZQx0hTqngRsAvZzWWldb2mAmrC7ZA8MvbP6AAAAA"
+  },
+  "/gallery/warm-stone-shower-room-01.jpg": {
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/warm-stone-shower-room-01-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/warm-stone-shower-room-01-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/warm-stone-shower-room-01-800.webp"
+      },
+      {
+        "w": 1100,
+        "src": "/gallery/_opt/warm-stone-shower-room-01-1100.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/gallery/_opt/warm-stone-shower-room-01-1200.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAACwBACdASoUABsAPxl2tlOspqUisBgIAZAjCUAYUAHlofNegLZHOANoOf/2DUvAAMv82cnger5MPJVfx6+qQewaoDSgHWl6HdPe5aJInYICDP7uZPIpqJqE+50WRTTXNc41p57V6PbbWXUYz7Zxyu+MfKeZoH/AJnM2mTse/G1PpxfRBMAAAA=="
+  },
+  "/gallery/warm-stone-shower-room-02.jpg": {
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/warm-stone-shower-room-02-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/warm-stone-shower-room-02-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/warm-stone-shower-room-02-800.webp"
+      },
+      {
+        "w": 1100,
+        "src": "/gallery/_opt/warm-stone-shower-room-02-1100.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/gallery/_opt/warm-stone-shower-room-02-1200.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAADQBACdASoUABsAPxl2sFCspySisAgBkCMJZQC/7Bk0llscvTSdQkmbOg/5ZZn1oAD+1WDc7eRk8XRnz7XdLfuOFVRpEaRELvwistytaD11iPjs21S7+nCxGaMCUUYQLlAGPtwCulJ1j9GjjBL8iJoSeDrAASTnJnLmwC4BEzo66bFgAAA="
+  },
+  "/gallery/warm-stone-shower-room-03.jpg": {
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/warm-stone-shower-room-03-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/warm-stone-shower-room-03-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/warm-stone-shower-room-03-800.webp"
+      },
+      {
+        "w": 1100,
+        "src": "/gallery/_opt/warm-stone-shower-room-03-1100.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/gallery/_opt/warm-stone-shower-room-03-1200.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAADwBACdASoUABsAPxmAs1UsqCQjKAqpkCMJZQAAJt/ONWcyEMzbaB2iqztTYcF52sAA9lSQmG5q6upMpnT8/I/vAUxers0QgV+N6dz7BGv56iLq5q024KFKRZSZER8bYb8NuTs/O9esI9lQyUyDMDNWUcR1/jv2L08NPvE2nsAAAA=="
+  },
+  "/gallery/warm-stone-shower-room-04.jpg": {
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/warm-stone-shower-room-04-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/warm-stone-shower-room-04-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/warm-stone-shower-room-04-800.webp"
+      },
+      {
+        "w": 1100,
+        "src": "/gallery/_opt/warm-stone-shower-room-04-1100.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/gallery/_opt/warm-stone-shower-room-04-1200.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAABwBQCdASoUABsAPxl2tVMspqUisBgIAZAjCUAXZmq4nwgTVhquMxbDkMr1zTgpSpuaCagAAP7NgjwYgX25yVrsx0UN4V6/e2xqtR6MQuPp9E+WzKADz9pxOE8FmdqoUUUFJToQnXOwHWVvMaga/VbikDlIcjC4iC9Vvlu11cvP+V68Rw1AJmvqnGSaAA=="
+  },
+  "/gallery/warm-stone-shower-room-05.jpg": {
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/warm-stone-shower-room-05-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/warm-stone-shower-room-05-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/warm-stone-shower-room-05-800.webp"
+      },
+      {
+        "w": 1100,
+        "src": "/gallery/_opt/warm-stone-shower-room-05-1100.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/gallery/_opt/warm-stone-shower-room-05-1200.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAADwBACdASoUABsAPxl4s1EspySisAgBkCMJYwCxH0xCO8r6ChcQSshYIlv+ZxYoy+AA/rCd6wKW+V2ea6BFjkALcYmF1oElBjk76/LgEuR75nC1IfXD+b+PVrwOn0zdn9oZNNlUouIL7Vig1e1VzGoFRImucRAA"
+  },
+  "/gallery/warm-stone-shower-room-06.jpg": {
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/warm-stone-shower-room-06-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/warm-stone-shower-room-06-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/warm-stone-shower-room-06-800.webp"
+      },
+      {
+        "w": 1100,
+        "src": "/gallery/_opt/warm-stone-shower-room-06-1100.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/gallery/_opt/warm-stone-shower-room-06-1200.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAACwBACdASoUABsAPxl0sFCspqSisAgBkCMJYwC7AAn1VKXbVqJ269U1hpsIZyDAAKIDAcqQJFfaJlTA8U/6YBvBJrFYQyO5M+dA2+tMG8EAl/hFsqJ/poTOMh4fhwAncVmR/cvNkO1zxWVva77qyN+V5dFo6vNkLid+AAAA"
   }
 }

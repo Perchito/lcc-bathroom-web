@@ -128,15 +128,16 @@ collections:
               - name: category
                 label: "Category"
                 widget: select
-                hint: "Use a Luxury category (Bathrooms / Kitchens / Additions) for a Luxury project, and a Council category for a Council project."
+                hint: "Use a Luxury category (Bathrooms / Shower rooms / Cloakrooms / Kitchens & outdoor) for a Luxury project, and a Council category for a Council project."
                 options:
                   - Bathrooms
-                  - Kitchens
-                  - Additions
+                  - Shower rooms
+                  - Cloakrooms
+                  - Kitchens & outdoor
                   - Full refits
                   - Wet rooms
                   - Accessible adaptations
-              - { name: meta, label: "Small caption (e.g. 'Full renovation · Riverside')", widget: string }
+              - { name: meta, label: "Small caption (e.g. 'Full renovation')", widget: string }
               - { name: image, label: "Main photo (shown on the gallery grid)", widget: image }
               - name: images
                 label: "More photos"

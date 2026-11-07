@@ -2,88 +2,263 @@
   "projects": [
     {
       "sector": "luxury",
-      "title": "Master bath, fully rebuilt",
+      "title": "Marble and basketweave bathroom",
       "category": "Bathrooms",
-      "meta": "Full renovation · Riverside",
+      "meta": "Full renovation",
       "image": "/gallery/bath1.1.jpeg",
       "images": [
         "/gallery/bath1.2.jpeg",
         "/gallery/bath1.3.jpeg",
         "/gallery/bath1.4.jpeg"
       ],
-      "blurb": "Freestanding tub, curbless tile shower, and a double vanity in a reworked layout."
+      "blurb": "Marble-effect porcelain walls, a black-and-white basketweave mosaic floor, matte black fittings, lit shower niches and a frameless corner shower."
     },
     {
       "sector": "luxury",
-      "title": "Walk-in shower conversion",
+      "title": "Loft bathroom with freestanding bath",
       "category": "Bathrooms",
-      "meta": "Accessibility remodel · Oak Hill",
-      "image": "/gallery/project-02.svg",
-      "images": [],
-      "blurb": "An old alcove tub replaced with a low-threshold, grab-bar-ready shower."
+      "meta": "Full renovation",
+      "image": "/gallery/loft-freestanding-bath-01.jpg",
+      "images": [
+        "/gallery/loft-freestanding-bath-02.jpg",
+        "/gallery/loft-freestanding-bath-03.jpg",
+        "/gallery/loft-freestanding-bath-04.jpg",
+        "/gallery/loft-freestanding-bath-05.jpg",
+        "/gallery/loft-freestanding-bath-06.jpg",
+        "/gallery/loft-freestanding-bath-07.jpg",
+        "/gallery/loft-freestanding-bath-08.jpg",
+        "/gallery/loft-freestanding-bath-09.jpg",
+        "/gallery/loft-freestanding-bath-10.jpg"
+      ],
+      "blurb": "A freestanding bath under the dormer windows, a lit recess, white metro tiles and a bold geometric floor, with a separate glass shower."
     },
     {
       "sector": "luxury",
-      "title": "Guest bath refresh",
+      "title": "Dark marble and brushed brass",
       "category": "Bathrooms",
-      "meta": "Cosmetic remodel · Downtown",
-      "image": "/gallery/project-03.svg",
-      "images": [],
-      "blurb": "New vanity, mirror, lighting, and floor tile — completed in a single week."
+      "meta": "Full renovation",
+      "image": "/gallery/dark-marble-brass-01.jpg",
+      "images": [
+        "/gallery/dark-marble-brass-02.jpg",
+        "/gallery/dark-marble-brass-03.jpg",
+        "/gallery/dark-marble-brass-04.jpg",
+        "/gallery/dark-marble-brass-05.jpg",
+        "/gallery/dark-marble-brass-06.jpg",
+        "/gallery/dark-marble-brass-07.jpg"
+      ],
+      "blurb": "Large-format dark marble-effect tiles floor to ceiling, brushed brass brassware and towel rail, a wall-hung WC and a glass-screened bath."
     },
     {
       "sector": "luxury",
-      "title": "Open-concept kitchen",
-      "category": "Kitchens",
-      "meta": "Wall removal + remodel · Westgate",
-      "image": "/gallery/project-04.svg",
-      "images": [],
-      "blurb": "Removed a load-bearing wall, new cabinetry, quartz counters, tile backsplash."
-    },
-    {
-      "sector": "luxury",
-      "title": "Kitchen island addition",
-      "category": "Kitchens",
-      "meta": "Cabinetry · Lakeshore",
-      "image": "/gallery/project-05.svg",
-      "images": [],
-      "blurb": "A custom island with seating, storage, and a second prep sink."
-    },
-    {
-      "sector": "luxury",
-      "title": "Basement bathroom addition",
-      "category": "Additions",
-      "meta": "New full bath · Pinecrest",
-      "image": "/gallery/project-06.svg",
-      "images": [],
-      "blurb": "A full bath framed, plumbed, and permitted in a previously unfinished basement."
-    },
-    {
-      "sector": "luxury",
-      "title": "Primary-suite bump-out",
-      "category": "Additions",
-      "meta": "120 sq ft addition · Oak Hill",
-      "image": "/gallery/project-07.svg",
-      "images": [],
-      "blurb": "Added floor area for a larger bedroom and a private en-suite bath."
-    },
-    {
-      "sector": "luxury",
-      "title": "Powder room, feature wall",
+      "title": "Marble bathroom with lit shelf",
       "category": "Bathrooms",
-      "meta": "Cosmetic remodel · Riverside",
-      "image": "/gallery/project-08.svg",
-      "images": [],
-      "blurb": "Statement tile, a floating vanity, and warm integrated lighting."
+      "meta": "Full renovation",
+      "image": "/gallery/marble-led-bathroom-01.jpg",
+      "images": [
+        "/gallery/marble-led-bathroom-02.jpg",
+        "/gallery/marble-led-bathroom-03.jpg",
+        "/gallery/marble-led-bathroom-04.jpg",
+        "/gallery/marble-led-bathroom-05.jpg",
+        "/gallery/marble-led-bathroom-06.jpg"
+      ],
+      "blurb": "White marble-effect porcelain, a long LED-lit shelf above the bath, brass fittings and a softly lit floating WC."
     },
     {
       "sector": "luxury",
-      "title": "Heated-floor bathroom",
+      "title": "Green loft shower room",
+      "category": "Shower rooms",
+      "meta": "Full renovation",
+      "image": "/gallery/green-loft-shower-01.jpg",
+      "images": [
+        "/gallery/green-loft-shower-02.jpg",
+        "/gallery/green-loft-shower-03.jpg",
+        "/gallery/green-loft-shower-04.jpg",
+        "/gallery/green-loft-shower-05.jpg",
+        "/gallery/green-loft-shower-06.jpg",
+        "/gallery/green-loft-shower-07.jpg",
+        "/gallery/green-loft-shower-08.jpg"
+      ],
+      "blurb": "Deep green walls over white metro tiles, a round LED mirror, open shelving under the eaves and a walk-in shower."
+    },
+    {
+      "sector": "luxury",
+      "title": "Blue-tiled walk-in shower",
       "category": "Bathrooms",
-      "meta": "Full renovation · Westgate",
-      "image": "/gallery/project-09.svg",
+      "meta": "Full renovation",
+      "image": "/gallery/blue-tile-walk-in-01.jpg",
+      "images": [
+        "/gallery/blue-tile-walk-in-02.jpg",
+        "/gallery/blue-tile-walk-in-03.jpg",
+        "/gallery/blue-tile-walk-in-04.jpg",
+        "/gallery/blue-tile-walk-in-05.jpg",
+        "/gallery/blue-tile-walk-in-06.jpg",
+        "/gallery/blue-tile-walk-in-07.jpg",
+        "/gallery/blue-tile-walk-in-08.jpg",
+        "/gallery/blue-tile-walk-in-09.jpg"
+      ],
+      "blurb": "Hand-finished blue wall tiles in a walk-in shower, marble-effect floor, a blue vanity and a lit recess behind the bath."
+    },
+    {
+      "sector": "luxury",
+      "title": "Botanical cloakroom",
+      "category": "Cloakrooms",
+      "meta": "Cloakroom refit",
+      "image": "/gallery/botanical-cloakroom-01.jpg",
+      "images": [
+        "/gallery/botanical-cloakroom-02.jpg",
+        "/gallery/botanical-cloakroom-03.jpg",
+        "/gallery/botanical-cloakroom-04.jpg",
+        "/gallery/botanical-cloakroom-05.jpg",
+        "/gallery/botanical-cloakroom-06.jpg"
+      ],
+      "blurb": "Statement botanical wallpaper above marble-effect tiles, a washstand with chrome legs and a hexagon mosaic floor."
+    },
+    {
+      "sector": "luxury",
+      "title": "Marble shower room with lit vanity",
+      "category": "Shower rooms",
+      "meta": "Full renovation",
+      "image": "/gallery/marble-shower-room-01.jpg",
+      "images": [
+        "/gallery/marble-shower-room-02.jpg",
+        "/gallery/marble-shower-room-03.jpg",
+        "/gallery/marble-shower-room-04.jpg",
+        "/gallery/marble-shower-room-05.jpg",
+        "/gallery/marble-shower-room-06.jpg",
+        "/gallery/marble-shower-room-07.jpg"
+      ],
+      "blurb": "Marble-effect walls and floor, a dark floating vanity with under-lighting, built-in shelving and a glass shower."
+    },
+    {
+      "sector": "luxury",
+      "title": "Sage family bathroom",
+      "category": "Bathrooms",
+      "meta": "Full renovation",
+      "image": "/gallery/sage-family-bathroom-01.jpg",
+      "images": [
+        "/gallery/sage-family-bathroom-02.jpg",
+        "/gallery/sage-family-bathroom-03.jpg",
+        "/gallery/sage-family-bathroom-04.jpg",
+        "/gallery/sage-family-bathroom-05.jpg",
+        "/gallery/sage-family-bathroom-06.jpg"
+      ],
+      "blurb": "Sage-green walls, wood-effect floor tiles, a tiled bath with a long niche, a walk-in shower and a tall towel radiator."
+    },
+    {
+      "sector": "luxury",
+      "title": "Warm stone shower room",
+      "category": "Shower rooms",
+      "meta": "Shower room refit",
+      "image": "/gallery/warm-stone-shower-room-01.jpg",
+      "images": [
+        "/gallery/warm-stone-shower-room-02.jpg",
+        "/gallery/warm-stone-shower-room-03.jpg",
+        "/gallery/warm-stone-shower-room-04.jpg",
+        "/gallery/warm-stone-shower-room-05.jpg",
+        "/gallery/warm-stone-shower-room-06.jpg"
+      ],
+      "blurb": "Warm stone-effect tiles, gold brassware and towel rail, a compact basin unit and a sliding-door shower."
+    },
+    {
+      "sector": "luxury",
+      "title": "Shower room with lit niches",
+      "category": "Shower rooms",
+      "meta": "Shower room refit",
+      "image": "/gallery/lit-niche-shower-room-01.jpg",
+      "images": [
+        "/gallery/lit-niche-shower-room-02.jpg",
+        "/gallery/lit-niche-shower-room-03.jpg",
+        "/gallery/lit-niche-shower-room-04.jpg"
+      ],
+      "blurb": "Textured wall tiles with three LED-lit niches, a frameless glass shower and brass fittings."
+    },
+    {
+      "sector": "luxury",
+      "title": "Patterned-floor bathroom",
+      "category": "Bathrooms",
+      "meta": "Full renovation",
+      "image": "/gallery/patterned-floor-bath-01.jpg",
+      "images": [
+        "/gallery/patterned-floor-bath-02.jpg"
+      ],
+      "blurb": "A patterned floor, freestanding bath, wall-hung vanity and a glass shower with a lit niche."
+    },
+    {
+      "sector": "luxury",
+      "title": "Bathroom with double blue vanity",
+      "category": "Bathrooms",
+      "meta": "Full renovation",
+      "image": "/gallery/blue-vanity-bathroom-01.jpg",
+      "images": [
+        "/gallery/blue-vanity-bathroom-02.jpg",
+        "/gallery/blue-vanity-bathroom-03.jpg"
+      ],
+      "blurb": "A double-basin blue vanity, recessed mirror shelf, black shower fittings and a hexagon mosaic floor."
+    },
+    {
+      "sector": "luxury",
+      "title": "Marble cloakroom",
+      "category": "Cloakrooms",
+      "meta": "Cloakroom refit",
+      "image": "/gallery/marble-cloakroom-01.jpg",
       "images": [],
-      "blurb": "Radiant heated porcelain floor with a linear-drain curbless shower."
+      "blurb": "Bold marble walls, a stone vessel basin, a framed mirror and brass wall lights."
+    },
+    {
+      "sector": "luxury",
+      "title": "Grey shower room",
+      "category": "Shower rooms",
+      "meta": "Shower room refit",
+      "image": "/gallery/grey-shower-room-01.jpg",
+      "images": [
+        "/gallery/grey-shower-room-02.jpg"
+      ],
+      "blurb": "A quadrant shower, vanity storage and grey tiling in a compact room."
+    },
+    {
+      "sector": "luxury",
+      "title": "Shower room with LED mirror",
+      "category": "Shower rooms",
+      "meta": "Shower room refit",
+      "image": "/gallery/led-mirror-shower-room-01.jpg",
+      "images": [],
+      "blurb": "Stone-effect tiles, a walk-in shower, an illuminated mirror and a wall-hung WC."
+    },
+    {
+      "sector": "luxury",
+      "title": "Shower-over-bath refit",
+      "category": "Bathrooms",
+      "meta": "Bathroom refit",
+      "image": "/gallery/shower-over-bath-01.jpg",
+      "images": [
+        "/gallery/shower-over-bath-02.jpg",
+        "/gallery/shower-over-bath-03.jpg"
+      ],
+      "blurb": "Dark floor tiles, a shower screen over the bath and a wall-hung basin."
+    },
+    {
+      "sector": "luxury",
+      "title": "Kitchen with metro tiles",
+      "category": "Kitchens & outdoor",
+      "meta": "Kitchen works",
+      "image": "/gallery/kitchen-metro-tile-01.jpg",
+      "images": [],
+      "blurb": "White metro tiles, open oak shelves and a stainless steel extractor."
+    },
+    {
+      "sector": "luxury",
+      "title": "Garden decking and side return",
+      "category": "Kitchens & outdoor",
+      "meta": "Carpentry",
+      "image": "/gallery/garden-decking-01.jpg",
+      "images": [
+        "/gallery/garden-decking-02.jpg",
+        "/gallery/garden-decking-03.jpg",
+        "/gallery/garden-decking-04.jpg",
+        "/gallery/garden-decking-05.jpg",
+        "/gallery/garden-decking-06.jpg"
+      ],
+      "blurb": "Composite decking laid along the side return and garden, on a new timber frame."
     },
     {
       "sector": "council",
