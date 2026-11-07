@@ -13,7 +13,27 @@
     "serviceArea": "London",
     "license": "Licensed, bonded & insured — Lic. #000000",
     "hours": "Monday–Friday, 7am–5pm · Saturday and Sunday by appointment",
-    "googleReviewsUrl": "https://www.google.com/maps?cid=7455693700287610574"
+    "googleReviewsUrl": "https://www.google.com/maps?cid=7455693700287610574",
+    "legalName": "LCC Bathrooms & Services Ltd",
+    "companyNumber": "16697148",
+    "vatNumber": "503718018",
+    "registeredAddress": "Flat 3 Holmwood Mansions, Uxbridge Road, London, W3 9SB",
+    "location": "London, United Kingdom",
+    "footerBlurb": "Professional bathroom renovations and property improvement services across London.",
+    "hoursList": [
+      {
+        "days": "Monday – Friday",
+        "time": "7am – 5pm"
+      },
+      {
+        "days": "Saturday",
+        "time": "By appointment"
+      },
+      {
+        "days": "Sunday",
+        "time": "By appointment"
+      }
+    ]
   },
   "stats": [
     {

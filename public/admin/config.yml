@@ -44,6 +44,18 @@ collections:
               - { name: license, label: "License / insurance line", widget: string }
               - { name: hours, label: "Opening hours", widget: string }
               - { name: googleReviewsUrl, label: "Google reviews link", widget: string }
+              - { name: location, label: "Location shown in the footer", widget: string }
+              - { name: footerBlurb, label: "Footer description", widget: text }
+              - name: hoursList
+                label: "Business hours (footer table)"
+                widget: list
+                fields:
+                  - { name: days, label: "Days", widget: string }
+                  - { name: time, label: "Hours", widget: string }
+              - { name: legalName, label: "Registered company name", widget: string }
+              - { name: companyNumber, label: "Company registration number", widget: string }
+              - { name: vatNumber, label: "VAT registration number", widget: string }
+              - { name: registeredAddress, label: "Registered office address", widget: string }
           - name: stats
             label: "Stat line (small facts under the homepage headline)"
             widget: list

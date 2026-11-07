@@ -8,7 +8,7 @@ export default function MobileBar() {
         Call us
       </a>
       <a href="#contact" className="mobilebar__btn mobilebar__btn--brass">
-        Free quote
+        Get in touch
       </a>
     </div>
   )
