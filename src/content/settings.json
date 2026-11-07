@@ -4,8 +4,8 @@
     "shortName": "LCC",
     "established": "2009",
     "tagline": "Bathrooms built to last.",
-    "heroSupport": "Design-led bathroom remodeling and home construction for houses across the metro. One accountable crew, from demolition to the final coat of paint.",
-    "statement": "LCC Bathroom & Services is a family-run remodeling company. We have spent more than fifteen years rebuilding bathrooms, kitchens, and additions with a small, skilled crew that handles every trade in-house — no rotating cast of subcontractors, no surprises on the invoice. The result is careful work, delivered on the schedule we promised.",
+    "heroSupport": "Design-led bathroom renovations for homes across London. One accountable team, from strip-out to the final coat of paint.",
+    "statement": "LCC Bathroom & Services is a family-run renovation company. We have spent more than fifteen years rebuilding bathrooms, kitchens, and additions with a small, skilled crew that handles every trade in-house — no rotating cast of subcontractors, no surprises on the invoice. The result is careful work, delivered on the schedule we promised.",
     "yearsInBusiness": "15+",
     "phone": "07477 570370",
     "phoneHref": "tel:+447477570370",
@@ -16,9 +16,21 @@
     "googleReviewsUrl": "https://www.google.com/maps?cid=7455693700287610574"
   },
   "stats": [
-    { "value": "15 years", "label": "in business" },
-    { "value": "600+", "label": "projects completed" },
-    { "value": "In-house", "label": "crew, every trade" },
-    { "value": "Licensed", "label": "bonded & insured" }
+    {
+      "value": "15 years",
+      "label": "in business"
+    },
+    {
+      "value": "600+",
+      "label": "projects completed"
+    },
+    {
+      "value": "In-house",
+      "label": "crew, every trade"
+    },
+    {
+      "value": "Licensed",
+      "label": "bonded & insured"
+    }
   ]
 }

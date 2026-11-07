@@ -10,7 +10,8 @@
     "prebuild": "npm run images",
     "build": "vite build",
     "lint": "oxlint",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "postbuild": "node scripts/prerender-head.mjs"
   },
   "dependencies": {
     "@react-spring/web": "^10.1.2",

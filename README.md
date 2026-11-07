@@ -1,7 +1,7 @@
 # LCC Bathroom Web
 
 Marketing website for **LCC Bathroom & Services** — a family-owned bathroom
-remodeling and general construction company.
+renovation company in London.
 
 Built with [React 19](https://react.dev/) + [Vite](https://vite.dev/) and
 [React Router](https://reactrouter.com/). Motion is handled with
@@ -100,3 +100,11 @@ Hosted on **Cloudflare Workers** (project `lcc-bathroom-web`) at
 (`npm run build`) and publishes `dist/`, with SPA fallback set in the
 Cloudflare project. See
 [CMS-SETUP.md](CMS-SETUP.md) for the initial connection.
+
+## SEO and link previews
+
+Page titles, descriptions and share images live in `src/data/seo.js`. After
+`vite build`, `scripts/prerender-head.mjs` writes a copy of `index.html` for each
+route (`dist/services.html`, …) with those tags filled in, plus `sitemap.xml` and
+`robots.txt`. The 1200×630 share images are in `public/og/`. Add a route there
+too when you add a page.
