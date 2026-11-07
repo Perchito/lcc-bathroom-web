@@ -19,6 +19,7 @@ import galleryContent from '../content/gallery.json'
 
 export const company = settings.company
 export const stats = settings.stats
+export const accreditations = settings.accreditations || []
 export const services = servicesContent.items
 export const process = processContent.items
 export const reviews = reviewsContent.items

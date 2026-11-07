@@ -6,6 +6,7 @@ import { company, stats, services, process, reviews, gallery } from '../data/sit
 import { photo, blurStyle } from '../img.js'
 import Stars from '../components/Stars.jsx'
 import Arrow from '../components/Arrow.jsx'
+import Accreditations from '../components/Accreditations.jsx'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -325,6 +326,10 @@ export default function Home() {
   return (
     <div ref={root}>
       <Hero />
+      <Accreditations
+        title="Checked and approved for the work we do."
+        lead="We are a Constructionline member and PQS Health & Safety approved (SSIP), the same checks councils, housing associations and main contractors ask for."
+      />
       <ServicesBlock />
       <FeaturedProject />
       <Process />

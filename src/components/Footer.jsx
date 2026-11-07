@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { company, services, nav } from '../data/site.js'
 import { asset } from '../asset.js'
+import Accreditations from './Accreditations.jsx'
 
 export default function Footer() {
   const year = new Date().getFullYear()
@@ -13,6 +14,7 @@ export default function Footer() {
             <p>
               {company.tagline} {company.serviceArea}.
             </p>
+            <Accreditations variant="row" />
           </div>
 
           <div>

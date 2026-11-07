@@ -32,5 +32,17 @@
       "value": "Licensed",
       "label": "bonded & insured"
     }
+  ],
+  "accreditations": [
+    {
+      "name": "Constructionline",
+      "caption": "Constructionline member",
+      "image": "/accreditations/constructionline.png"
+    },
+    {
+      "name": "PQS Health & Safety Approved, SSIP registered member",
+      "caption": "PQS Health & Safety approved · SSIP registered",
+      "image": "/accreditations/pqs-ssip.png"
+    }
   ]
 }

@@ -4,6 +4,7 @@ import { useSpring, animated } from '@react-spring/web'
 import { gallery, gallerySectors } from '../data/site.js'
 import { photo, blurStyle } from '../img.js'
 import Reveal from '../components/Reveal.jsx'
+import Accreditations from '../components/Accreditations.jsx'
 
 // A project can carry a single `image` (the grid thumbnail) plus any number of
 // extra `images`. This returns the full, de-duplicated photo list for a project,
@@ -365,6 +366,13 @@ export default function Gallery({ defaultSector = 'luxury' }) {
           </div>
         </Reveal>
       </section>
+
+      {sector.id === 'council' && (
+        <Accreditations
+          title="Approved for council and social-housing work."
+          lead="Constructionline member and PQS Health & Safety approved (SSIP registered), so we are ready for your supplier checks."
+        />
+      )}
 
       <section className="section">
         <div className="wrap">

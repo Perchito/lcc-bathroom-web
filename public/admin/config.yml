@@ -50,6 +50,14 @@ collections:
             fields:
               - { name: value, label: "Number or word", widget: string }
               - { name: label, label: "Caption", widget: string }
+          - name: accreditations
+            label: "Accreditations (logos shown on the homepage, council page and footer)"
+            widget: list
+            summary: "{{fields.caption}}"
+            fields:
+              - { name: name, label: "Name (read out to screen readers)", widget: string }
+              - { name: caption, label: "Caption under the logo", widget: string }
+              - { name: image, label: "Logo", widget: image, media_folder: "/public/accreditations", public_folder: "/accreditations" }
 
   - name: services
     label: "Services"
