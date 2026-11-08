@@ -51,7 +51,7 @@ function Hero() {
             {company.heroSupport}
           </p>
           <div className="hero__actions" data-in>
-            <a href="#contact" className="btn btn--brass">
+            <a href="#quote" className="btn btn--brass">
               Request a free quote <Arrow />
             </a>
             <Link to="/gallery" className="btn btn--ghost">

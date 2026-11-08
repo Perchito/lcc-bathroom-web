@@ -684,6 +684,8 @@ p:last-child { margin-bottom: 0; }
   .contact__grid { grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); align-items: start; }
   .contact__aside { position: sticky; top: calc(var(--header-h) + 40px); }
 }
+/* "Get in touch" / "Free quote" buttons jump straight to the form (#quote). */
+.contact__form { scroll-margin-top: 16px; }
 .contact h2 { margin-bottom: 22px; }
 .contact .lead { margin-bottom: 36px; }
 .contact__lines { display: grid; gap: 16px; margin-bottom: 32px; }

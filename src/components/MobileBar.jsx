@@ -7,7 +7,7 @@ export default function MobileBar() {
       <a href={company.phoneHref} className="mobilebar__btn">
         Call us
       </a>
-      <a href="#contact" className="mobilebar__btn mobilebar__btn--brass">
+      <a href="#quote" className="mobilebar__btn mobilebar__btn--brass">
         Get in touch
       </a>
     </div>

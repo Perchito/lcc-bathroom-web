@@ -48,9 +48,11 @@ export default function Contact() {
             </div>
           </dl>
         </Reveal>
-        <Reveal delay={120}>
-          <QuoteForm />
-        </Reveal>
+        <div id="quote" className="contact__form">
+          <Reveal delay={120}>
+            <QuoteForm />
+          </Reveal>
+        </div>
       </div>
     </section>
   )

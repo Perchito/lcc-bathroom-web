@@ -64,7 +64,7 @@ export default function Header() {
           <a href={company.phoneHref} className="header__phone" onClick={close}>
             {company.phone}
           </a>
-          <a href="#contact" className="btn btn--outline header__cta" onClick={close}>
+          <a href="#quote" className="btn btn--outline header__cta" onClick={close}>
             Free quote
           </a>
         </nav>
