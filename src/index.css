@@ -73,7 +73,15 @@ p:last-child { margin-bottom: 0; }
 .wrap { max-width: var(--maxw); margin: 0 auto; padding-inline: var(--gutter); }
 .section { padding-block: var(--section-y); }
 
-.section--stone2, .section--paper2 { background: var(--stone-2); }
+/* Light sections sit on soft white marble (generated texture, mirrored so it
+   repeats down tall pages without a seam). stone-2 bands are multiplied darker. */
+.section:not(.section--ink):not(.section--dark) {
+  background: var(--stone) url('/marble-light.webp') center top / max(100%, 1800px) auto repeat-y;
+}
+.section.section--stone2, .section.section--paper2 {
+  background-color: var(--stone-2);
+  background-blend-mode: multiply;
+}
 .section--ink, .section--dark { background: var(--ink); color: var(--on-ink); }
 .section--ink h2 em, .section--dark h2 em,
 .section--ink h1 em, .section--dark h1 em { color: var(--brass); }
@@ -583,7 +591,9 @@ p:last-child { margin-bottom: 0; }
   flex-direction: column;
   gap: 16px;
   padding: 28px;
-  background: var(--stone);
+  background: rgba(255, 255, 255, 0.62);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
   border: 1px solid var(--rule);
   border-radius: var(--radius);
 }
