@@ -16,7 +16,7 @@ export default function Footer() {
   const year = new Date().getFullYear()
   const legal = company.legalName || company.name
   return (
-    <footer className="footer section--marble">
+    <footer className="footer">
       <div className="wrap">
         <div className="footer__top">
           <div className="footer__brand">

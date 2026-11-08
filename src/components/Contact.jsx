@@ -12,7 +12,7 @@ const PROMISES = [
 // Site-wide call-to-action band. Rendered once in App, below every page.
 export default function Contact() {
   return (
-    <section className="section section--ink section--marble contact" id="contact">
+    <section className="section section--ink contact" id="contact">
       <div className="wrap contact__grid">
         <Reveal className="contact__aside">
           <p className="eyebrow">Plan your bathroom</p>
