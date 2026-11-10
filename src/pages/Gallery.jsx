@@ -370,7 +370,7 @@ export default function Gallery({ defaultSector = 'luxury' }) {
       {sector.id === 'council' && (
         <Accreditations
           title="Approved for council and social-housing work."
-          lead="Constructionline member and PQS Health & Safety approved (SSIP registered), so we are ready for your supplier checks."
+          lead="Constructionline member and PQS Health & Safety approved (SSIP registered), and insured for £5m public and £10m employers' liability, so we are ready for your supplier checks."
         />
       )}
 

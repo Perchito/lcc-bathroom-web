@@ -11,7 +11,7 @@
     "phoneHref": "tel:+447477570370",
     "email": "info@lccbathroom-services.com",
     "serviceArea": "London",
-    "license": "Licensed, bonded & insured — Lic. #000000",
+    "license": "Fully insured: £5m public liability, £10m employers' liability",
     "hours": "Monday–Friday, 7am–5pm · Saturday and Sunday by appointment",
     "googleReviewsUrl": "https://www.google.com/maps?cid=7455693700287610574",
     "legalName": "LCC Bathrooms & Services Ltd",
@@ -63,6 +63,34 @@
       "name": "PQS Health & Safety Approved, SSIP registered member",
       "caption": "PQS Health & Safety approved · SSIP registered",
       "image": "/accreditations/pqs-ssip.png"
+    },
+    {
+      "name": "AXA Insurance",
+      "caption": "£5m public liability (AXA)",
+      "image": "/accreditations/axa.jpg",
+      "document": "/insurance/public-liability-certificate.pdf"
+    },
+    {
+      "name": "Tide Insurance",
+      "caption": "£10m employers' liability (Tide / Admiral)",
+      "image": "/accreditations/tide-insurance.jpg",
+      "document": "/insurance/employers-liability-certificate.pdf"
+    },
+    {
+      "name": "Tide Insurance contract works",
+      "caption": "£100k contract works cover (Tide / Admiral)",
+      "image": "/accreditations/tide-insurance.jpg",
+      "document": "/insurance/contract-works-certificate.pdf"
+    },
+    {
+      "name": "Micro Business",
+      "caption": "Micro Business member",
+      "image": "/accreditations/micro-business.jpg"
+    },
+    {
+      "name": "HSQE",
+      "caption": "HSQE registered",
+      "image": "/accreditations/hsqe.jpg"
     }
   ]
 }

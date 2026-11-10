@@ -331,7 +331,7 @@ export default function Home() {
       <Hero />
       <Accreditations
         title="Checked and approved for the work we do."
-        lead="We are a Constructionline member and PQS Health & Safety approved (SSIP), the same checks councils, housing associations and main contractors ask for."
+        lead="We are a Constructionline member and PQS Health & Safety approved (SSIP) and fully insured, with £5m public and £10m employers' liability: the same checks councils, housing associations and main contractors ask for."
       />
       <ServicesBlock />
       <FeaturedProject />

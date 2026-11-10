@@ -6,12 +6,27 @@ import { asset } from '../asset.js'
 export default function Accreditations({ variant = 'band', title, lead }) {
   if (!accreditations.length) return null
 
-  const logos = accreditations.map((a) => (
+  // The footer shows each logo once, even if several entries share it.
+  const items = variant === 'row'
+    ? accreditations.filter((a, i) => accreditations.findIndex((b) => b.image === a.image) === i)
+    : accreditations
+
+  const logos = items.map((a) => (
     <figure className="accred__item" key={a.name}>
       <div className="accred__logo">
         <img src={asset(a.image)} alt={a.name} loading="lazy" decoding="async" />
       </div>
-      {variant === 'band' && <figcaption>{a.caption}</figcaption>}
+      {variant === 'band' && (
+        <figcaption>
+          {a.caption}
+          {a.document && (
+            <>
+              {' · '}
+              <a href={asset(a.document)} target="_blank" rel="noopener">View certificate</a>
+            </>
+          )}
+        </figcaption>
+      )}
     </figure>
   ))
 
