@@ -1095,11 +1095,13 @@ a.voices__src:hover { color: var(--brass-deep); }
 .accred__logo img { display: block; width: auto; height: auto; max-width: min(100%, 260px); max-height: clamp(70px, 8vw, 116px); }
 .accred__item figcaption { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.04em; color: var(--muted); }
 .accred--row {
-  display: inline-flex; flex-wrap: wrap; align-items: center; gap: 12px 18px; margin-top: 22px;
-  padding: 12px 18px; background: #fff; border-radius: 6px;
+  display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; width: 100%;
+  max-width: 520px; margin-top: 22px; padding: 14px; background: #fff; border-radius: 6px;
 }
 .accred--row .accred__item { gap: 0; }
-.accred--row .accred__item + .accred__item { padding-left: 18px; border-left: 1px solid #e4dfd7; }
-.accred--row .accred__logo { height: auto; padding: 0; border: 0; background: none; }
+.accred--row .accred__logo {
+  display: flex; align-items: center; justify-content: center;
+  height: 58px; padding: 4px; border: 0; background: none;
+}
 .accred--row .accred__logo img,
-.footer__brand .accred--row img { width: auto; height: auto; margin: 0; max-width: 140px; max-height: 46px; }
+.footer__brand .accred--row img { width: auto; height: auto; margin: 0; max-width: 100%; max-height: 44px; object-fit: contain; }
