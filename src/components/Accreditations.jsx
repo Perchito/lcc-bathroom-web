@@ -16,17 +16,7 @@ export default function Accreditations({ variant = 'band', title, lead }) {
       <div className="accred__logo">
         <img src={asset(a.image)} alt={a.name} loading="lazy" decoding="async" />
       </div>
-      {variant === 'band' && (
-        <figcaption>
-          {a.caption}
-          {a.document && (
-            <>
-              {' · '}
-              <a href={asset(a.document)} target="_blank" rel="noopener">View certificate</a>
-            </>
-          )}
-        </figcaption>
-      )}
+      {variant === 'band' && <figcaption>{a.caption}</figcaption>}
     </figure>
   ))
 

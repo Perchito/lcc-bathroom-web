@@ -70,7 +70,6 @@ collections:
               - { name: name, label: "Name (read out to screen readers)", widget: string }
               - { name: caption, label: "Caption under the logo", widget: string }
               - { name: image, label: "Logo", widget: image, media_folder: "/public/accreditations", public_folder: "/accreditations" }
-              - { name: document, label: "Certificate PDF (optional)", widget: file, required: false, media_folder: "/public/insurance", public_folder: "/insurance" }
 
   - name: services
     label: "Services"

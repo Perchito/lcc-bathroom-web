@@ -1091,7 +1091,6 @@ a.voices__src:hover { color: var(--brass-deep); }
 /* Fixed pixel limits (not %): iOS Safari doesn't resolve a percentage max-height here. */
 .accred__logo img { display: block; width: auto; height: auto; max-width: min(100%, 260px); max-height: clamp(70px, 8vw, 116px); }
 .accred__item figcaption { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.04em; color: var(--muted); }
-.accred__item figcaption a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
 .accred--row {
   display: inline-flex; flex-wrap: wrap; align-items: center; gap: 12px 18px; margin-top: 22px;
   padding: 12px 18px; background: #fff; border-radius: 6px;

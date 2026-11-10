@@ -67,20 +67,17 @@
     {
       "name": "AXA Insurance",
       "caption": "£5m public liability (AXA)",
-      "image": "/accreditations/axa.jpg",
-      "document": "/insurance/public-liability-certificate.pdf"
+      "image": "/accreditations/axa.jpg"
     },
     {
       "name": "Tide Insurance",
       "caption": "£10m employers' liability (Tide / Admiral)",
-      "image": "/accreditations/tide-insurance.jpg",
-      "document": "/insurance/employers-liability-certificate.pdf"
+      "image": "/accreditations/tide-insurance.jpg"
     },
     {
       "name": "Tide Insurance contract works",
       "caption": "£100k contract works cover (Tide / Admiral)",
-      "image": "/accreditations/tide-insurance.jpg",
-      "document": "/insurance/contract-works-certificate.pdf"
+      "image": "/accreditations/tide-insurance.jpg"
     },
     {
       "name": "Micro Business",
