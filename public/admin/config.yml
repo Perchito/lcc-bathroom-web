@@ -44,6 +44,8 @@ collections:
               - { name: license, label: "License / insurance line", widget: string }
               - { name: hours, label: "Opening hours", widget: string }
               - { name: googleReviewsUrl, label: "Google reviews link", widget: string }
+              - { name: instagramUrl, label: "Instagram link", widget: string, required: false }
+              - { name: facebookUrl, label: "Facebook link", widget: string, required: false }
               - { name: location, label: "Location shown in the footer", widget: string }
               - { name: footerBlurb, label: "Footer description", widget: text }
               - name: hoursList
