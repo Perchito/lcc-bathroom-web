@@ -1085,18 +1085,33 @@ a.voices__src:hover { color: var(--brass-deep); }
 
 /* Accreditations ------------------------------------------------------------------ */
 .accred-band { padding-block: clamp(56px, 7vw, 96px); }
-.accred-band__grid { display: grid; gap: 36px clamp(40px, 6vw, 96px); align-items: center; }
-@media (min-width: 960px) { .accred-band__grid { grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); } }
+.accred-band__head { text-align: center; max-width: 760px; }
+.accred-band__head .lead { margin-inline: auto; }
+.accred-band__head .eyebrow { justify-content: center; }
+.accred-band__head .eyebrow::after { content: ''; width: 28px; height: 1px; background: currentColor; flex-shrink: 0; }
 .accred-band h2 { font-size: clamp(2rem, 3.6vw, 3rem); margin-bottom: 18px; }
-.accred { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
-.accred__item { display: flex; flex-direction: column; gap: 12px; }
-.accred__logo {
-  display: flex; align-items: center; justify-content: center; height: clamp(120px, 13vw, 176px);
-  padding: clamp(14px, 2vw, 24px); background: #fff; border: 1px solid var(--rule); border-radius: var(--radius);
+.marquee {
+  margin-top: clamp(32px, 4vw, 48px); padding-block: clamp(18px, 2.4vw, 28px); overflow: hidden;
+  border-block: 1px solid var(--rule);
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+  mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
 }
-/* Fixed pixel limits (not %): iOS Safari doesn't resolve a percentage max-height here. */
-.accred__logo img { display: block; width: auto; height: auto; max-width: min(100%, 260px); max-height: clamp(70px, 8vw, 116px); }
-.accred__item figcaption { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.04em; color: var(--muted); }
+.marquee__track { display: flex; width: max-content; animation: marquee 32s linear infinite; }
+.marquee:hover .marquee__track { animation-play-state: paused; }
+.marquee__set { display: flex; align-items: center; gap: clamp(16px, 2vw, 24px); padding-right: clamp(16px, 2vw, 24px); }
+@keyframes marquee { to { transform: translateX(-50%); } }
+@media (prefers-reduced-motion: reduce) {
+  .marquee__track { animation: none; flex-wrap: wrap; justify-content: center; width: auto; }
+  .marquee__set[aria-hidden] { display: none; }
+  .marquee__set { flex-wrap: wrap; justify-content: center; padding-right: 0; }
+}
+.marquee .accred__item { margin: 0; }
+.marquee .accred__logo {
+  display: flex; align-items: center; justify-content: center; height: clamp(68px, 7vw, 84px);
+  padding: 10px clamp(14px, 1.6vw, 22px); background: #fff; border: 1px solid var(--rule); border-radius: var(--radius);
+}
+/* Fixed pixel heights: iOS Safari doesn't resolve a percentage max-height here. */
+.marquee .accred__logo img { display: block; width: auto; height: clamp(42px, 4.4vw, 56px); max-width: 190px; object-fit: contain; }
 .accred--row {
   display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; width: 100%;
   max-width: 520px; margin-top: 22px; padding: 14px; background: #fff; border-radius: 6px;
