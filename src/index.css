@@ -185,6 +185,9 @@ p:last-child { margin-bottom: 0; }
   border-bottom: 1px solid transparent;
   transition: border-color 0.4s ease, box-shadow 0.4s ease;
 }
+@media (max-width: 960px) {
+  .header, .header__nav { background-size: 640px auto; background-position: 30% 0; background-repeat: repeat; }
+}
 .header--scrolled {
   border-bottom-color: var(--rule);
   box-shadow: 0 12px 30px -20px rgba(0, 0, 0, 0.25);
