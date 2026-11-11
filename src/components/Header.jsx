@@ -31,7 +31,7 @@ export default function Header() {
         <Link to="/" className="wordmark" onClick={close} aria-label={`${company.name}, home`}>
           <img
             className="wordmark__logo"
-            src={asset('logo.png')}
+            src={asset('lcc-logo.png')}
             alt=""
             width="48"
             height="48"

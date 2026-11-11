@@ -197,7 +197,7 @@ p:last-child { margin-bottom: 0; }
   min-height: var(--header-h);
 }
 .wordmark { display: flex; align-items: center; gap: 12px; text-decoration: none; color: var(--text); }
-.wordmark__logo { width: 64px; height: 64px; flex-shrink: 0; }
+.wordmark__logo { width: 64px; height: 64px; object-fit: contain; flex-shrink: 0; }
 .wordmark__text { display: flex; flex-direction: column; line-height: 1.15; }
 .wordmark__name { font-family: var(--serif); font-size: 1.55rem; letter-spacing: 0.04em; }
 .wordmark__tag {
