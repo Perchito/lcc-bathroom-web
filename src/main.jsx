@@ -1,5 +1,5 @@
 import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
+import { createRoot, hydrateRoot } from 'react-dom/client'
 import { BrowserRouter } from 'react-router-dom'
 import { Globals } from '@react-spring/web'
 import './index.css'
@@ -13,10 +13,15 @@ if (
   Globals.assign({ skipAnimation: true })
 }
 
-createRoot(document.getElementById('root')).render(
+const app = (
   <StrictMode>
     <BrowserRouter basename={import.meta.env.BASE_URL}>
       <App />
     </BrowserRouter>
-  </StrictMode>,
+  </StrictMode>
 )
+
+// Built pages arrive already rendered (src/entry-server.jsx); `npm run dev` doesn't.
+const root = document.getElementById('root')
+if (root.hasChildNodes()) hydrateRoot(root, app)
+else createRoot(root).render(app)

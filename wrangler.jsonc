@@ -1,0 +1,11 @@
+// Cloudflare Worker config: a static site from dist/ (no Worker script).
+// Unknown URLs get dist/404.html with a real 404 status, so search engines
+// don't index made-up paths as copies of the homepage.
+{
+  "name": "lcc-bathroom-web",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "404-page"
+  }
+}

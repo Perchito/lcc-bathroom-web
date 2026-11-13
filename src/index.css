@@ -352,6 +352,22 @@ p:last-child { margin-bottom: 0; }
 }
 .hero__title .line { display: block; overflow: hidden; padding-bottom: 0.08em; margin-bottom: -0.08em; }
 .hero__title .line__in { display: inline-block; }
+
+/* Hero entrance. CSS rather than GSAP so it plays on the prerendered page
+   before any JavaScript arrives. The photo itself isn't animated, so it can
+   paint (and count as the page's main content) straight away. */
+@media (prefers-reduced-motion: no-preference) {
+  .hero__title .line__in { animation: hero-rise 1.1s cubic-bezier(0.22, 1, 0.36, 1) backwards; }
+  .hero__title .line + .line .line__in { animation-delay: 0.12s; }
+  [data-hero] [data-in] { animation: hero-fade 0.8s cubic-bezier(0.22, 1, 0.36, 1) 0.25s backwards; }
+  [data-hero] [data-inset] { animation: hero-fade 1s cubic-bezier(0.22, 1, 0.36, 1) 0.7s backwards; }
+  [data-hero] [data-stat] { animation: hero-fade 0.7s cubic-bezier(0.22, 1, 0.36, 1) 0.6s backwards; }
+  [data-hero] [data-stat]:nth-child(2) { animation-delay: 0.67s; }
+  [data-hero] [data-stat]:nth-child(3) { animation-delay: 0.74s; }
+  [data-hero] [data-stat]:nth-child(4) { animation-delay: 0.81s; }
+}
+@keyframes hero-rise { from { transform: translateY(110%); } }
+@keyframes hero-fade { from { opacity: 0; transform: translateY(18px); } }
 .hero__title em { color: var(--brass); }
 .hero__support {
   font-size: clamp(1.02rem, 1.3vw, 1.15rem);
@@ -1048,7 +1064,7 @@ a.voices__src:hover { color: var(--brass-deep); }
   display: block; height: 100%; background: var(--brass);
   transform-origin: left; transition: transform 0.5s var(--ease);
 }
-.qz__step { animation: qz-in 0.45s var(--ease) both; }
+.qz__step { animation: qz-in 0.45s var(--ease) backwards; }
 @keyframes qz-in { from { opacity: 0; transform: translateX(18px); } to { opacity: 1; transform: none; } }
 .qz h3 { margin-bottom: 26px; outline: none; }
 .qz__note { margin: -14px 0 22px; font-size: 0.85rem; color: var(--on-ink-2); }

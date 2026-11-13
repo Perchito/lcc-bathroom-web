@@ -10,6 +10,7 @@ import Services from './pages/Services.jsx'
 import Gallery from './pages/Gallery.jsx'
 import Reviews from './pages/Reviews.jsx'
 import Privacy from './pages/Privacy.jsx'
+import NotFound from './pages/NotFound.jsx'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
@@ -39,7 +40,7 @@ export default function App() {
           />
           <Route path="/reviews" element={<Reviews />} />
           <Route path="/privacy" element={<Privacy />} />
-          <Route path="*" element={<Home />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
       <Contact />
