@@ -33,22 +33,41 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "HomeAndConstructionBusiness",
-        "@id": "https://lccbathroom-services.com/#business",
-        "name": "LCC Bathrooms & Services",
-        "legalName": "LCC Bathrooms & Services Ltd",
-        "vatID": "GB503718018",
-        "identifier": { "@type": "PropertyValue", "propertyID": "Companies House", "value": "16697148" },
-        "url": "https://lccbathroom-services.com/",
-        "logo": "https://lccbathroom-services.com/logo.png",
-        "image": "https://lccbathroom-services.com/og/home.jpg",
-        "telephone": "+447477570370",
-        "email": "info@lccbathroom-services.com",
-        "areaServed": { "@type": "City", "name": "London" },
-        "address": { "@type": "PostalAddress", "addressLocality": "London", "addressCountry": "GB" },
-        "openingHours": "Mo-Fr 07:00-17:00",
-        "hasMap": "https://www.google.com/maps?cid=7455693700287610574",
-        "sameAs": ["https://www.google.com/maps?cid=7455693700287610574", "https://www.instagram.com/lccbathroomservicesltd", "https://www.facebook.com/share/1DwovGLSdy/"]
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://lccbathroom-services.com/#website",
+            "url": "https://lccbathroom-services.com/",
+            "name": "LCC Bathrooms & Services",
+            "inLanguage": "en-GB",
+            "publisher": { "@id": "https://lccbathroom-services.com/#business" }
+          },
+          {
+            "@type": "HomeAndConstructionBusiness",
+            "@id": "https://lccbathroom-services.com/#business",
+            "name": "LCC Bathrooms & Services",
+            "legalName": "LCC Bathrooms & Services Ltd",
+            "vatID": "GB503718018",
+            "identifier": { "@type": "PropertyValue", "propertyID": "Companies House", "value": "16697148" },
+            "url": "https://lccbathroom-services.com/",
+            "logo": "https://lccbathroom-services.com/logo.png",
+            "image": "https://lccbathroom-services.com/og/home.jpg",
+            "telephone": "+447477570370",
+            "email": "info@lccbathroom-services.com",
+            "areaServed": { "@type": "AdministrativeArea", "name": "Greater London" },
+            "address": { "@type": "PostalAddress", "addressLocality": "London", "addressRegion": "Greater London", "addressCountry": "GB" },
+            "openingHoursSpecification": [
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                "opens": "07:00",
+                "closes": "17:00"
+              }
+            ],
+            "hasMap": "https://www.google.com/maps?cid=7455693700287610574",
+            "sameAs": ["https://www.google.com/maps?cid=7455693700287610574", "https://www.instagram.com/lccbathroomservicesltd", "https://www.facebook.com/share/1DwovGLSdy/"]
+          }
+        ]
       }
     </script>
 

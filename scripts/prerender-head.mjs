@@ -23,6 +23,31 @@ function swap(source, re, value, route) {
   return source.replace(re, value)
 }
 
+// Breadcrumb (and Service, where the page has one) for every page but the
+// homepage. The business itself is described once, in index.html.
+function pageSchema(url, page) {
+  if (!page.name) return null
+  const graph = [
+    {
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE_URL}/` },
+        { '@type': 'ListItem', position: 2, name: page.name, item: url },
+      ],
+    },
+  ]
+  if (page.service) {
+    graph.push({
+      '@type': 'Service',
+      ...page.service,
+      url,
+      provider: { '@id': `${SITE_URL}/#business` },
+      areaServed: { '@type': 'AdministrativeArea', name: 'Greater London' },
+    })
+  }
+  return { '@context': 'https://schema.org', '@graph': graph }
+}
+
 function headFor(route, page) {
   const url = SITE_URL + route
   const image = SITE_URL + page.image
@@ -34,6 +59,8 @@ function headFor(route, page) {
   out = swap(out, /(<meta\s+property="og:description"\s+content=")[^"]*(")/, `$1${esc(page.description)}$2`, route)
   out = swap(out, /(<meta property="og:url" content=")[^"]*(")/, `$1${url}$2`, route)
   out = swap(out, /(<meta property="og:image" content=")[^"]*(")/, `$1${image}$2`, route)
+  const ld = pageSchema(url, page)
+  if (ld) out = swap(out, /<\/head>/, `  <script type="application/ld+json">${JSON.stringify(ld)}</script>\n  </head>`, route)
   out = swap(out, /<div id="root"><\/div>/, `<div id="root">${render(route)}</div>`, route)
   return out
 }
