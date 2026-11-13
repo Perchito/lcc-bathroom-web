@@ -8,7 +8,7 @@
     "predev": "npm run images",
     "dev": "vite",
     "prebuild": "npm run images",
-    "build": "vite build",
+    "build": "vite build && vite build --ssr src/entry-server.jsx --outDir dist-ssr",
     "lint": "oxlint",
     "preview": "vite preview",
     "postbuild": "node scripts/prerender-head.mjs"

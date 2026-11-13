@@ -20,6 +20,7 @@ const MAX_PHOTOS = 6
 // Keep the ad tags from the page they landed on, even after they click around the site
 const TRACK_KEYS = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term', 'fbclid', 'gclid']
 function tracking() {
+  if (typeof window === 'undefined') return {}
   try {
     const qs = new URLSearchParams(window.location.search)
     const fresh = Object.fromEntries(TRACK_KEYS.filter((k) => qs.get(k)).map((k) => [k, qs.get(k)]))

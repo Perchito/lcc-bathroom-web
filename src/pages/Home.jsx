@@ -1,14 +1,11 @@
-import { useLayoutEffect, useRef } from 'react'
+import { useEffect, useRef } from 'react'
 import { Link } from 'react-router-dom'
-import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { company, stats, services, process, reviews, gallery } from '../data/site.js'
 import { photo, blurStyle } from '../img.js'
 import Stars from '../components/Stars.jsx'
 import Arrow from '../components/Arrow.jsx'
 import Accreditations from '../components/Accreditations.jsx'
 
-gsap.registerPlugin(ScrollTrigger)
 
 // The homepage leads with the first luxury project that has a full photo set
 // (the gallery's SVG placeholders never appear here).
@@ -265,61 +262,63 @@ function ReviewsBlock() {
 
 // Motion: one GSAP context for the page. With "reduce motion" on, none of this
 // runs, so nothing is hidden or moved and everything renders in place.
+// The hero entrance is CSS (.hero in index.css) so the prerendered page shows
+// straight away; GSAP loads after hydration and only drives the scroll effects.
 function useHomeMotion(root) {
-  useLayoutEffect(() => {
-    const ctx = gsap.context(() => {
-      gsap.matchMedia().add('(prefers-reduced-motion: no-preference)', () => {
-        const ease = 'power3.out'
-        gsap
-          .timeline({ defaults: { ease } })
-          .from('.hero__title .line__in', { yPercent: 110, duration: 1.1, stagger: 0.12 })
-          .from('[data-hero] [data-in]', { y: 18, autoAlpha: 0, duration: 0.8, stagger: 0.08 }, 0.25)
-          .from('.hero__main', { clipPath: 'inset(100% 0% 0% 0%)', duration: 1.3, ease: 'expo.out' }, 0.1)
-          .from('.hero__main img', { scale: 1.18, duration: 1.6, ease: 'expo.out' }, 0.1)
-          .from('[data-inset]', { y: 40, autoAlpha: 0, duration: 1 }, 0.7)
-          .from('[data-stat]', { y: 14, autoAlpha: 0, duration: 0.7, stagger: 0.07 }, 0.6)
+  useEffect(() => {
+    let ctx
+    let cancelled = false
+    Promise.all([import('gsap'), import('gsap/ScrollTrigger')]).then(([{ default: gsap }, { ScrollTrigger }]) => {
+      if (cancelled) return
+      gsap.registerPlugin(ScrollTrigger)
+      ctx = gsap.context(() => {
+        gsap.matchMedia().add('(prefers-reduced-motion: no-preference)', () => {
+          const ease = 'power3.out'
+          const heroScrub = { trigger: '.hero', start: 'top top', end: 'bottom top', scrub: true }
+          gsap.to('.hero__main img', { yPercent: 8, ease: 'none', scrollTrigger: heroScrub })
+          gsap.to('[data-inset]', { yPercent: -30, ease: 'none', scrollTrigger: { ...heroScrub } })
 
-        const heroScrub = { trigger: '.hero', start: 'top top', end: 'bottom top', scrub: true }
-        gsap.to('.hero__main img', { yPercent: 8, ease: 'none', scrollTrigger: heroScrub })
-        gsap.to('[data-inset]', { yPercent: -30, ease: 'none', scrollTrigger: { ...heroScrub } })
+          gsap.utils.toArray('[data-up]').forEach((el) => {
+            gsap.from(el, {
+              y: 28,
+              autoAlpha: 0,
+              duration: 0.9,
+              ease,
+              scrollTrigger: { trigger: el, start: 'top 90%', once: true },
+            })
+          })
 
-        gsap.utils.toArray('[data-up]').forEach((el) => {
-          gsap.from(el, {
-            y: 28,
-            autoAlpha: 0,
-            duration: 0.9,
-            ease,
-            scrollTrigger: { trigger: el, start: 'top 90%', once: true },
+          gsap.utils.toArray('[data-reveal]').forEach((el, i) => {
+            gsap.from(el, {
+              clipPath: 'inset(0% 0% 100% 0%)',
+              duration: 1.2,
+              delay: i * 0.12,
+              ease: 'expo.out',
+              scrollTrigger: { trigger: el, start: 'top 88%', once: true },
+            })
+            gsap.fromTo(
+              el.querySelector('img'),
+              { yPercent: -5 },
+              {
+                yPercent: 5,
+                ease: 'none',
+                scrollTrigger: { trigger: el, start: 'top bottom', end: 'bottom top', scrub: true },
+              },
+            )
+          })
+
+          gsap.from('[data-line]', {
+            scaleX: 0,
+            ease: 'none',
+            scrollTrigger: { trigger: '.process__track', start: 'top 80%', end: 'bottom 55%', scrub: true },
           })
         })
-
-        gsap.utils.toArray('[data-reveal]').forEach((el, i) => {
-          gsap.from(el, {
-            clipPath: 'inset(0% 0% 100% 0%)',
-            duration: 1.2,
-            delay: i * 0.12,
-            ease: 'expo.out',
-            scrollTrigger: { trigger: el, start: 'top 88%', once: true },
-          })
-          gsap.fromTo(
-            el.querySelector('img'),
-            { yPercent: -5 },
-            {
-              yPercent: 5,
-              ease: 'none',
-              scrollTrigger: { trigger: el, start: 'top bottom', end: 'bottom top', scrub: true },
-            },
-          )
-        })
-
-        gsap.from('[data-line]', {
-          scaleX: 0,
-          ease: 'none',
-          scrollTrigger: { trigger: '.process__track', start: 'top 80%', end: 'bottom 55%', scrub: true },
-        })
-      })
-    }, root)
-    return () => ctx.revert()
+      }, root)
+    })
+    return () => {
+      cancelled = true
+      ctx?.revert()
+    }
   }, [root])
 }
 
