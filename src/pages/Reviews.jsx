@@ -14,7 +14,7 @@ export default function Reviews() {
             <p className="label">Client notes</p>
             <h1 className="display">Reviews</h1>
             <p className="notes__summary" style={{ marginTop: '14px' }}>
-              {avg.toFixed(1)} / 5 average ·{' '}
+              {avg.toFixed(1)} / 5 average{company.googleReviewCount && ` from ${company.googleReviewCount} Google reviews`} ·{' '}
               <a
                 href={company.googleReviewsUrl}
                 target="_blank"

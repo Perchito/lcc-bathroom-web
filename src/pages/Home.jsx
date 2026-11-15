@@ -64,7 +64,7 @@ function Hero() {
           >
             <Stars rating={5} />
             <span>
-              <strong>{avg.toFixed(1)}</strong> on Google · read the reviews
+              <strong>{avg.toFixed(1)}</strong> on Google{company.googleReviewCount && ` from ${company.googleReviewCount} reviews`} · read them
             </span>
           </a>
         </div>
@@ -257,7 +257,7 @@ function ReviewsBlock() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Rated on Google
+              {company.googleReviewCount ? `${company.googleReviewCount} Google reviews` : 'Rated on Google'}
             </a>
           </div>
           <figure className="voices__lead" data-up>
