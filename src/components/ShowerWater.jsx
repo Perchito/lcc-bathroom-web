@@ -54,7 +54,7 @@ export default function ShowerWater({ imgRef, holes, floor }) {
         y: oy + y * dh,
         fy: oy + floor(y) * dh,
         // the thread holds together for a while, then breaks into drops
-        breakAt: 0.25 + ((i * 37) % 23) / 60,
+        breakAt: 0.08 + ((i * 37) % 23) / 150,
         drops: streams[i]?.drops ?? [],
       }))
     }
@@ -66,7 +66,6 @@ export default function ShowerWater({ imgRef, holes, floor }) {
       last = t
       ctx.clearRect(0, 0, canvas.clientWidth, canvas.clientHeight)
       ctx.lineCap = 'round'
-      const speed = 22 * unit * dt
 
       for (const s of streams) {
         const fall = s.fy - s.y
@@ -84,15 +83,16 @@ export default function ShowerWater({ imgRef, holes, floor }) {
         ctx.stroke()
 
         // drops: short motion-blurred streaks, catching the warm light
-        if (Math.random() < 0.55 * dt) s.drops.push({ y: s.y + Math.random() * fall * 0.3, a: 0.15 + Math.random() * 0.3, len: 8 + Math.random() * 12, dx: 0 })
+        if (Math.random() < 0.1 * dt) s.drops.push({ y: s.y, a: 0.15 + Math.random() * 0.3, len: 8 + Math.random() * 12, dx: 0 })
         ctx.lineWidth = Math.max(0.6, 0.9 * unit)
         s.drops = s.drops.filter((d) => {
-          d.y += speed
+          // slow off the nozzle, picking up speed as it falls
+          d.y += (6 + 10 * ((d.y - s.y) / fall)) * unit * dt
           if (d.y >= s.fy) return false
           // drops wander a touch sideways as the thread breaks up
           d.dx += (Math.random() - 0.5) * 0.25 * unit * dt
           const k = (d.y - s.y) / fall
-          const a = d.a * Math.min(1, k * 3) * (1 - k * 0.5)
+          const a = d.a * (1 - k * 0.5)
           ctx.strokeStyle = `rgba(240, 236, 228, ${a})`
           ctx.beginPath()
           ctx.moveTo(s.x + d.dx, Math.max(s.y, d.y - d.len * unit))
@@ -102,7 +102,7 @@ export default function ShowerWater({ imgRef, holes, floor }) {
         })
 
         // a faint flicker where it hits the floor
-        if (Math.random() < 0.25 * dt) {
+        if (Math.random() < 0.1 * dt) {
           ctx.fillStyle = `rgba(240, 236, 228, ${0.15 + Math.random() * 0.2})`
           ctx.beginPath()
           ctx.ellipse(s.x + (Math.random() - 0.5) * 6 * unit, s.fy, 2.2 * unit, 0.7 * unit, 0, 0, Math.PI * 2)
