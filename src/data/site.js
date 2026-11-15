@@ -26,7 +26,7 @@ export const reviews = reviewsContent.items
 
 // --- Structural config (not in the CMS) ------------------------------------
 
-// The two portfolios. `id` on each gallery project (in gallery.json) must be
+// The gallery portfolios (one for now; the toggle shows when there are two or more). `id` on each gallery project (in gallery.json) must be
 // one of these ids; `category` must be one of that sector's `categories`.
 export const gallerySectors = [
   {
@@ -36,20 +36,8 @@ export const gallerySectors = [
     navLabel: 'Luxury Bathrooms',
     tagline: 'Private, design-led bathroom and home renovation.',
     intro:
-      'Bathrooms, shower rooms and cloakrooms we have built for private homes ' +
-      'across London, plus some of the kitchen and carpentry work around them.',
-    categories: ['All', 'Bathrooms', 'Shower rooms', 'Cloakrooms', 'Kitchens & outdoor'],
-  },
-  {
-    id: 'council',
-    path: '/council-bathrooms',
-    label: 'Council Bathrooms',
-    navLabel: 'Council Bathrooms',
-    tagline: 'Bathroom renovations for the local authority.',
-    intro:
-      'Bathroom refits, level-access shower rooms and kitchen refits for ' +
-      'council and social-housing homes in London.',
-    categories: ['All', 'Full refits', 'Wet rooms', 'Accessible adaptations', 'Kitchens'],
+      'Bathrooms, shower rooms and cloakrooms we have built for homes across London.',
+    categories: ['All', 'Bathrooms', 'Shower rooms', 'Cloakrooms'],
   },
 ]
 
@@ -63,4 +51,44 @@ export const nav = [
   { to: '/services', label: 'Services' },
   { to: '/gallery', label: 'Gallery' },
   { to: '/reviews', label: 'Reviews' },
+]
+
+// Areas named on the Services page ("Recent jobs include homes in …").
+export const areas = ['Barnes', 'Richmond', 'Tooting']
+
+// Services page FAQ. Answers come from the owner's questionnaire (Nov 2026);
+// keep them true: no prices on the site, guarantee is 1 year.
+export const faq = [
+  {
+    q: 'How much does a new bathroom cost?',
+    a: 'It depends on the size of the room, the work involved and the materials you choose, so we don’t list fixed prices. After a free home visit we send a clear written quote.',
+  },
+  {
+    q: 'How long does a bathroom renovation take?',
+    a: 'Around 10 working days for most bathrooms. Bigger or more complex rooms take longer, and we agree the dates with you before we start.',
+  },
+  {
+    q: 'Do I need to move out?',
+    a: 'No. You can stay at home while we work.',
+  },
+  {
+    q: 'Will I have a working toilet?',
+    a: 'Yes. We make sure you have a working toilet every night.',
+  },
+  {
+    q: 'Can I buy my own suite and tiles?',
+    a: 'Yes. We can supply everything, or you can buy your own materials if you prefer.',
+  },
+  {
+    q: 'Is the work guaranteed?',
+    a: 'Yes. Every job comes with a written 1-year workmanship guarantee, and we are insured for £5m public liability and £10m employers’ liability.',
+  },
+  {
+    q: 'How do payments work?',
+    a: 'Payment stages depend on the size of the project. We set them out in your written quote before any work starts.',
+  },
+  {
+    q: 'Which areas do you cover?',
+    a: 'All of London. Recent jobs include homes in Barnes, Richmond and Tooting.',
+  },
 ]

@@ -1,8 +1,8 @@
 import { accreditations } from '../data/site.js'
 import { asset } from '../asset.js'
 
-// Accreditation logos. "band" is a slowly scrolling strip (homepage, council
-// page); "row" is the small version in the footer.
+// Accreditation logos. "band" is a slowly scrolling strip (homepage);
+// "row" is the small version in the footer.
 export default function Accreditations({ variant = 'band', title, lead }) {
   if (!accreditations.length) return null
 

@@ -41,7 +41,7 @@ function Hero() {
       <div className="wrap hero__grid">
         <div className="hero__copy">
           <p className="eyebrow" data-in>
-            Bathroom design &amp; installation · {company.serviceArea}
+            Bathroom fitters · {company.serviceArea}
           </p>
           <Headline text={company.tagline} />
           <p className="hero__support" data-in>
@@ -113,8 +113,8 @@ function ServicesBlock() {
             Every trade under <em>one roof.</em>
           </h2>
           <p className="lead" data-up>
-            From the first measure to the last bead of silicone, one in-house team
-            plans, builds and finishes your room. No subcontractor relay, no gaps.
+            From the first measure to the last bead of silicone, one small team
+            plans, builds and finishes your room. One point of contact, no gaps.
           </p>
           <div data-up>
             <Link to="/services" className="tlink">
@@ -330,7 +330,7 @@ export default function Home() {
       <Hero />
       <Accreditations
         title="Checked and approved for the work we do."
-        lead="We are a Constructionline member and PQS Health & Safety approved (SSIP) and fully insured, with £5m public and £10m employers' liability: the same checks councils, housing associations and main contractors ask for."
+        lead="We are Constructionline members, PQS Health & Safety approved (SSIP) and fully insured, with £5m public and £10m employers' liability."
       />
       <ServicesBlock />
       <FeaturedProject />

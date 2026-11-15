@@ -4,7 +4,6 @@ import { useSpring, animated } from '@react-spring/web'
 import { gallery, gallerySectors } from '../data/site.js'
 import { photo, blurStyle } from '../img.js'
 import Reveal from '../components/Reveal.jsx'
-import Accreditations from '../components/Accreditations.jsx'
 
 // A project can carry a single `image` (the grid thumbnail) plus any number of
 // extra `images`. This returns the full, de-duplicated photo list for a project,
@@ -273,7 +272,7 @@ export default function Gallery({ defaultSector = 'luxury' }) {
     gallerySectors.find((s) => s.id === defaultSector) ?? gallerySectors[0]
 
   // App.jsx gives each sector route its own `key`, so this component remounts
-  // (and state resets) when you move between the luxury and council portfolios.
+  // (and state resets) when you move between portfolios.
   const [filter, setFilter] = useState('All')
   const [activeIndex, setActiveIndex] = useState(null)
   const [photoIndex, setPhotoIndex] = useState(0)
@@ -338,11 +337,12 @@ export default function Gallery({ defaultSector = 'luxury' }) {
         <Reveal>
           <div className="wrap">
             <p className="label">Selected work</p>
-            <h1 className="display">{sector.label}</h1>
+            <h1 className="display">Our bathrooms</h1>
             <p className="lead" style={{ maxWidth: '52ch' }}>
               {sector.intro}
             </p>
 
+            {gallerySectors.length > 1 && (
             <div
               className="sector-toggle"
               role="tablist"
@@ -363,16 +363,10 @@ export default function Gallery({ defaultSector = 'luxury' }) {
                 </Link>
               ))}
             </div>
+            )}
           </div>
         </Reveal>
       </section>
-
-      {sector.id === 'council' && (
-        <Accreditations
-          title="Approved for council and social-housing work."
-          lead="Constructionline member and PQS Health & Safety approved (SSIP registered), and insured for £5m public and £10m employers' liability, so we are ready for your supplier checks."
-        />
-      )}
 
       <section className="section">
         <div className="wrap">

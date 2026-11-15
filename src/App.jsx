@@ -34,10 +34,6 @@ export default function App() {
             path="/gallery"
             element={<Gallery key="luxury" defaultSector="luxury" />}
           />
-          <Route
-            path="/council-bathrooms"
-            element={<Gallery key="council" defaultSector="council" />}
-          />
           <Route path="/reviews" element={<Reviews />} />
           <Route path="/privacy" element={<Privacy />} />
           <Route path="*" element={<NotFound />} />

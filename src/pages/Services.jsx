@@ -1,4 +1,4 @@
-import { company, services, process } from '../data/site.js'
+import { company, services, process, faq, areas } from '../data/site.js'
 import Reveal from '../components/Reveal.jsx'
 
 export default function Services() {
@@ -8,10 +8,10 @@ export default function Services() {
         <Reveal>
           <div className="wrap">
             <p className="label">What we do</p>
-            <h1 className="display">Services</h1>
+            <h1 className="display">Bathroom fitting in London</h1>
             <p className="lead" style={{ maxWidth: '52ch' }}>
-              Bathrooms first — and the plumbing, tiling, carpentry and finishing
-              around them. One accountable crew from start to finish.
+              Full renovations, shower rooms, wet rooms and cloakrooms, with the
+              plumbing and tiling done by the same small team from start to finish.
             </p>
           </div>
         </Reveal>
@@ -94,6 +94,40 @@ export default function Services() {
               ))}
             </div>
           </Reveal>
+        </div>
+      </section>
+
+      <section className="section" id="areas">
+        <Reveal>
+          <div className="wrap split">
+            <div className="split__aside">
+              <p className="label">Areas we cover</p>
+            </div>
+            <div>
+              <h2 style={{ marginBottom: '16px' }}>All of London.</h2>
+              <p className="lead" style={{ maxWidth: '58ch' }}>
+                We fit bathrooms across London. Recent jobs include homes in{' '}
+                {areas.join(', ').replace(/, ([^,]*)$/, ' and $1')}.
+              </p>
+            </div>
+          </div>
+        </Reveal>
+      </section>
+
+      <section className="section section--paper2" id="faq">
+        <div className="wrap split">
+          <div className="split__aside">
+            <p className="label">Questions</p>
+          </div>
+          <div className="faq">
+            <h2 style={{ marginBottom: '24px' }}>Common questions.</h2>
+            {faq.map((f) => (
+              <details className="faq__item" key={f.q}>
+                <summary>{f.q}</summary>
+                <p>{f.a}</p>
+              </details>
+            ))}
+          </div>
         </div>
       </section>
     </>

@@ -2,23 +2,23 @@
   "items": [
     {
       "step": "01",
-      "title": "Estimate",
+      "title": "Free home visit & quote",
       "description": "We visit, measure, talk through what you want, and send a clear written quote. No pressure, no fee."
     },
     {
       "step": "02",
       "title": "Design & selections",
-      "description": "We help you choose tile, fixtures, and finishes within your budget, then lock the schedule and order materials."
+      "description": "We help you choose tiles, fittings and finishes within your budget, then agree the dates and order materials. You can buy your own suite and tiles if you prefer."
     },
     {
       "step": "03",
       "title": "Build",
-      "description": "One dedicated crew. Daily cleanup, dust containment, and honest updates until the room is done."
+      "description": "You can stay at home while we work, and you have a working toilet every night. Floors are protected, we tidy up daily and keep you updated until the room is done."
     },
     {
       "step": "04",
-      "title": "Walkthrough & warranty",
-      "description": "We review every detail together and back the work with a written workmanship warranty."
+      "title": "Walkthrough & guarantee",
+      "description": "We check every detail with you and back the work with a written 1-year workmanship guarantee."
     }
   ]
 }

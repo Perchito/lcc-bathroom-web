@@ -13,9 +13,9 @@ export const SITE_NAME = 'LCC Bathrooms & Services'
 
 export const pages = {
   '/': {
-    title: 'Bathroom Renovations in London | LCC Bathrooms & Services',
+    title: 'Bathroom Fitters in London | LCC Bathrooms & Services',
     description:
-      'Bathroom, shower room and cloakroom renovations across London. One in-house team from strip-out to finish. Rated 5.0 on Google. Free home visit and written quote.',
+      'Bathroom fitters in London, including Barnes, Richmond and Tooting. Full renovations, shower rooms and wet rooms by one small team. Rated 5.0 on Google. Free home visit and quote.',
     image: '/og/home.jpg',
   },
   '/services': {
@@ -23,7 +23,7 @@ export const pages = {
     service: { name: 'Bathroom renovation and fitting', serviceType: 'Bathroom fitting and renovation' },
     title: 'Bathroom Renovation & Fitting Services in London | LCC',
     description:
-      'Full bathroom renovations, walk-in showers and wet rooms, tiling, accessible bathrooms and the plumbing and carpentry around them. One accountable team in London.',
+      'Full bathroom renovations, shower rooms and wet rooms, accessible bathrooms, cloakrooms, tiling and plumbing. 30+ years in the trade. Answers on timings, guarantees and areas covered.',
     image: '/og/services.jpg',
   },
   '/gallery': {
@@ -32,14 +32,6 @@ export const pages = {
     description:
       'Photos of bathrooms, shower rooms and cloakrooms we have renovated across London: marble, brass, bold tiles and loft bathrooms.',
     image: '/og/gallery.jpg',
-  },
-  '/council-bathrooms': {
-    name: 'Council bathrooms',
-    service: { name: 'Council and social housing bathroom refits', serviceType: 'Bathroom refurbishment' },
-    title: 'Council & Social Housing Bathroom Refits | LCC',
-    description:
-      'Bathroom and kitchen refits and level-access shower rooms for council and social-housing homes in London. Photos of recent council work.',
-    image: '/og/council.jpg',
   },
   '/reviews': {
     name: 'Reviews',

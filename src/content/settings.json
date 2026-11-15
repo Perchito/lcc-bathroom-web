@@ -1,12 +1,12 @@
 {
   "company": {
-    "name": "LCC Bathroom & Services",
+    "name": "LCC Bathrooms & Services",
     "shortName": "LCC",
-    "established": "2009",
-    "tagline": "Transforming spaces, one bathroom at a time.",
-    "heroSupport": "Design-led bathroom renovations for homes across London. One accountable team, from strip-out to the final coat of paint.",
-    "statement": "LCC Bathroom & Services is a family-run renovation company. We have spent more than fifteen years rebuilding bathrooms, kitchens, and additions with a small, skilled crew that handles every trade in-house — no rotating cast of subcontractors, no surprises on the invoice. The result is careful work, delivered on the schedule we promised.",
-    "yearsInBusiness": "15+",
+    "established": "1990s",
+    "tagline": "Bathroom fitters in London, from strip-out to the last bead of silicone.",
+    "heroSupport": "Bathroom renovations for homes across London, including Barnes, Richmond and Tooting. One accountable team, from strip-out to the final coat of paint.",
+    "statement": "LCC Bathrooms & Services is a family-run bathroom company with more than 30 years in the trade, in London and before that in Spain. We are a team of four: the same people strip out, re-pipe, tile and finish every room, so you have one point of contact from the first visit to the final clean. Our team holds NVQ Level 2 Plumbing, CSCS cards, asbestos awareness, first aid and fire marshal training.",
+    "yearsInBusiness": "30+",
     "phone": "07477 570370",
     "phoneHref": "tel:+447477570370",
     "email": "info@lccbathroom-services.com",
@@ -39,20 +39,20 @@
   },
   "stats": [
     {
-      "value": "15 years",
-      "label": "in business"
+      "value": "30+ years",
+      "label": "in the trade"
     },
     {
-      "value": "600+",
+      "value": "378+",
       "label": "projects completed"
     },
     {
-      "value": "In-house",
-      "label": "crew, every trade"
+      "value": "1-year",
+      "label": "written guarantee"
     },
     {
-      "value": "Licensed",
-      "label": "bonded & insured"
+      "value": "£5m",
+      "label": "public liability cover"
     }
   ],
   "accreditations": [
@@ -63,7 +63,7 @@
     },
     {
       "name": "PQS Health & Safety Approved, SSIP registered member",
-      "caption": "PQS Health & Safety approved · SSIP registered",
+      "caption": "PQS Health & Safety approved · SSIP registered (NP350718448)",
       "image": "/accreditations/pqs-ssip.png"
     },
     {

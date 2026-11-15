@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { NavLink, Link, useLocation } from 'react-router-dom'
+import { NavLink, Link } from 'react-router-dom'
 import { company, nav } from '../data/site.js'
 import { asset } from '../asset.js'
 
@@ -7,7 +7,6 @@ export default function Header() {
   const [open, setOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
   const close = () => setOpen(false)
-  const { pathname } = useLocation()
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 8)
@@ -20,10 +19,6 @@ export default function Header() {
   useEffect(() => {
     document.documentElement.classList.toggle('menu-open', open)
   }, [open])
-
-  // The gallery nav link covers both portfolios (luxury + council).
-  const isActive = (to) =>
-    to === '/gallery' && pathname === '/council-bathrooms'
 
   return (
     <header className={'header' + (scrolled ? ' header--scrolled' : '')}>
@@ -53,10 +48,7 @@ export default function Header() {
               to={item.to}
               end={item.to === '/'}
               onClick={close}
-              className={({ isActive: routeActive }) =>
-                'header__link' +
-                (routeActive || isActive(item.to) ? ' is-active' : '')
-              }
+              className={({ isActive }) => 'header__link' + (isActive ? ' is-active' : '')}
             >
               {item.label}
             </NavLink>
