@@ -20,7 +20,7 @@ export default function Footer() {
       <div className="wrap">
         <div className="footer__top">
           <div className="footer__brand">
-            <img src={asset('logo-light.png')} alt="" width="104" height="104" />
+            <img src={asset('logo-on-dark.png')} alt="" width="104" height="104" />
             <p className="footer__legal-name">{legal}</p>
             <span className="footer__rule" aria-hidden="true" />
             <p className="footer__slogan">{company.tagline}</p>
