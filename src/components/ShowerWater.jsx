@@ -59,11 +59,11 @@ export default function ShowerWater({ imgRef, head, floor }) {
       const a = Math.random() * 2 - 1
       return {
         x: hx + a * hr,
-        y: hy + Math.random() * 4 * unit,
+        y: hy - Math.random() * 20 * unit,
         vx: a * 0.35 * unit,
         vy: (3 + Math.random() * 2) * unit,
-        len: (18 + Math.random() * 26) * unit,
-        alpha: 0.25 + Math.random() * 0.35,
+        len: (10 + Math.random() * 18) * unit,
+        alpha: 0.15 + Math.random() * 0.3,
       }
     }
 
@@ -71,17 +71,23 @@ export default function ShowerWater({ imgRef, head, floor }) {
       raf = requestAnimationFrame(frame)
       if (!geo || !visible) return
       const { fy, unit } = geo
-      ctx.clearRect(0, 0, canvas.clientWidth, canvas.clientHeight)
+      const cw = canvas.clientWidth
+      ctx.clearRect(0, 0, cw, canvas.clientHeight)
+      // nothing above the head: streaks start at its underside
+      ctx.save()
+      ctx.beginPath()
+      ctx.rect(0, geo.hy, cw, canvas.clientHeight)
+      ctx.clip()
 
-      for (let i = 0; i < 9; i++) drops.push(spawn())
+      for (let i = 0; i < 6; i++) drops.push(spawn())
       ctx.lineCap = 'round'
-      ctx.lineWidth = Math.max(0.8, 1.3 * unit)
+      ctx.lineWidth = Math.max(0.7, 1 * unit)
       drops = drops.filter((d) => {
         d.vy += 0.35 * unit
         d.x += d.vx
         d.y += d.vy
         if (d.y > fy) {
-          if (Math.random() < 0.3) splashes.push({ x: d.x, y: fy, r: 1, life: 1 })
+          if (Math.random() < 0.15) splashes.push({ x: d.x, y: fy, r: 1, life: 1 })
           return false
         }
         ctx.strokeStyle = `rgba(225, 236, 245, ${d.alpha})`
@@ -94,15 +100,16 @@ export default function ShowerWater({ imgRef, head, floor }) {
 
       ctx.lineWidth = Math.max(0.6, unit)
       splashes = splashes.filter((s) => {
-        s.r += 1.6 * unit
-        s.life -= 0.06
+        s.r += 0.9 * unit
+        s.life -= 0.08
         if (s.life <= 0) return false
-        ctx.strokeStyle = `rgba(225, 236, 245, ${s.life * 0.35})`
+        ctx.strokeStyle = `rgba(225, 236, 245, ${s.life * 0.25})`
         ctx.beginPath()
         ctx.ellipse(s.x, s.y, s.r * 2.2, s.r * 0.5, 0, 0, Math.PI * 2)
         ctx.stroke()
         return true
       })
+      ctx.restore()
     }
 
     const start = () => {

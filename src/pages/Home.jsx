@@ -17,12 +17,11 @@ const featuredPhotos = [
   ...new Set([featured.image, ...(featured.images || [])].filter(Boolean)),
 ]
 
-// Hero photo: the marble-and-basketweave shower room, with water animated
-// from its rain head (positions are fractions of the photo).
-const HERO_PHOTO = '/gallery/bath1.4.jpeg'
-const HERO_TITLE = 'Marble and basketweave bathroom'
-const SHOWER_HEAD = { x: 0.44, y: 0.333, r: 0.03 }
-const SHOWER_FLOOR = 0.8
+// Hero photo: a marble walk-in shower, with water animated from its ceiling
+// rain panel (positions are fractions of the photo).
+const HERO_PHOTO = '/gallery/hero-rain-shower.jpg'
+const SHOWER_HEAD = { x: 0.627, y: 0.085, r: 0.085 }
+const SHOWER_FLOOR = 0.74
 
 // "Transforming spaces, one bathroom at a time." → split after the first comma
 // (or, without one, after the first word); the second half is set in italic.
@@ -51,7 +50,7 @@ function Hero() {
         <img
           ref={photoRef}
           {...photo(HERO_PHOTO, { sizes: '(min-width: 960px) 60vw, 100vw' })}
-          alt={HERO_TITLE}
+          alt="Marble walk-in shower with a ceiling rain head"
           fetchPriority="high"
         />
         <ShowerWater imgRef={photoRef} head={SHOWER_HEAD} floor={SHOWER_FLOOR} />
@@ -86,10 +85,6 @@ function Hero() {
             </span>
           </a>
         </div>
-        <p className="hero__caption" data-in>
-          <span>Recent project</span>
-          {HERO_TITLE}
-        </p>
       </div>
 
       <div className="wrap">

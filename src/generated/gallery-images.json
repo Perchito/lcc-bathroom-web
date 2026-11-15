@@ -1994,6 +1994,37 @@
     ],
     "blur": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAAAQBQCdASoUABsAPxl+uVOsqCYiqAqpkCMJZQAAL/QoEAb5hdbYgtG+xrInWEMyDzngAP3Pk/VL+JeA/EhjkqlNOdlRCZoGb8XmNyywkcEYvw/xHP6wXNhQKZ2cBK2AQVfH7z1wP+pNGHFN/0zlVEc3471qLbo3tAAAAA=="
   },
+  "/gallery/hero-rain-shower.jpg": {
+    "width": 1672,
+    "height": 941,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/hero-rain-shower-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/hero-rain-shower-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/hero-rain-shower-800.webp"
+      },
+      {
+        "w": 1100,
+        "src": "/gallery/_opt/hero-rain-shower-1100.webp"
+      },
+      {
+        "w": 1400,
+        "src": "/gallery/_opt/hero-rain-shower-1400.webp"
+      },
+      {
+        "w": 1672,
+        "src": "/gallery/_opt/hero-rain-shower-1672.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAQBACdASoUAAsAPxl2tFGspyUisAgBkCMJYwCdMoAC24K/p3VJS30cAAD+nsQ4NclUbS1DJ/eIubF0q/FCF2fIwCkri8fIIfDE7P+xsSPoURvptStf2AAA"
+  },
   "/gallery/kitchen-metro-tile-01.jpg": {
     "width": 900,
     "height": 1600,
