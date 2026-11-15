@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <style>.tile{fill:#000}.line{stroke:#fff}.text{fill:#fff}</style>
+  <rect class="tile" width="64" height="64" rx="12"/>
+  <path class="line" d="M32 4.5 55.8 18.25v27.5L32 59.5 8.2 45.75v-27.5z" fill="none" stroke-width="3.2"/>
+  <text class="text" x="32" y="33" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="17.5" font-weight="700" letter-spacing="-0.3">LCC</text>
+  <path d="M15 37.5h10l-5.2 9.5z M39 37.5h10l-4.8 9.5z" fill="#4CC6E3"/>
+  <path class="line" d="M19.8 47 32 36l12.2 11" fill="none" stroke-width="2.4"/>
+</svg>
