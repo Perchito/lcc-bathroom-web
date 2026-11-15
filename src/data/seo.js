@@ -15,20 +15,20 @@ export const pages = {
   '/': {
     title: 'Bathroom Fitters in London | LCC Bathrooms & Services',
     description:
-      'Bathroom fitters in London, including Barnes, Richmond and Tooting. Full renovations, shower rooms and wet rooms by one small team. Rated 5.0 on Google. Free home visit and quote.',
+      'Full bathroom renovations, shower rooms and wet rooms across London, including Barnes, Richmond and Tooting. 30+ years in the trade, rated 5.0 on Google. Free home visit and quote.',
     image: '/og/home.jpg',
   },
   '/services': {
     name: 'Services',
     service: { name: 'Bathroom renovation and fitting', serviceType: 'Bathroom fitting and renovation' },
-    title: 'Bathroom Renovation & Fitting Services in London | LCC',
+    title: 'Bathroom Fitting Services in London | LCC Bathrooms & Services',
     description:
       'Full bathroom renovations, shower rooms and wet rooms, accessible bathrooms, cloakrooms, tiling and plumbing. 30+ years in the trade. Answers on timings, guarantees and areas covered.',
     image: '/og/services.jpg',
   },
   '/gallery': {
     name: 'Gallery',
-    title: 'Bathroom Renovation Projects in London | LCC Gallery',
+    title: 'Bathroom Projects in London | LCC Bathrooms & Services',
     description:
       'Photos of bathrooms, shower rooms and cloakrooms we have renovated across London: marble, brass, bold tiles and loft bathrooms.',
     image: '/og/gallery.jpg',
