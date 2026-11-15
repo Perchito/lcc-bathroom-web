@@ -50,7 +50,7 @@ function Hero() {
       <figure className="hero__bg" style={blurStyle(HERO_PHOTO)}>
         <img
           ref={photoRef}
-          {...photo(HERO_PHOTO, { sizes: '(min-width: 960px) 60vw, 100vw' })}
+          {...photo(HERO_PHOTO, { sizes: '(max-width: 959px) 300vw, 100vw' })}
           alt="Marble walk-in shower with a ceiling rain head"
           fetchPriority="high"
         />

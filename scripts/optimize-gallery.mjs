@@ -32,6 +32,11 @@ const MANIFEST = 'src/generated/gallery-images.json'
 // double each for high-DPI screens and cap at 1800.
 const WIDTHS = [360, 560, 800, 1100, 1400, 1800]
 const QUALITY = 72
+// Full-bleed hero photos (hero-*) are shown far larger than a gallery card,
+// and on phones a wide photo is zoomed to fill a tall screen, so they get
+// bigger files at a higher quality.
+const HERO_WIDTHS = [800, 1400, 2000, 2800, 3400]
+const HERO_QUALITY = 86
 const SOURCE_RE = /\.(jpe?g|png)$/i
 
 async function mtime(file) {
@@ -68,9 +73,12 @@ async function main() {
     const realW = rotated ? meta.height : meta.width
     const realH = rotated ? meta.width : meta.height
 
+    const hero = base.startsWith('hero-')
+    const widths = hero ? HERO_WIDTHS : WIDTHS
+    const cap = hero ? 3400 : 1800
     const targets = [
       ...new Set(
-        WIDTHS.filter((w) => w < realW * 0.95).concat(Math.min(realW, 1800)),
+        widths.filter((w) => w < realW * 0.95).concat(Math.min(realW, cap)),
       ),
     ].sort((a, b) => a - b)
 
@@ -83,7 +91,7 @@ async function main() {
         await sharp(input)
           .rotate()
           .resize({ width: w, withoutEnlargement: true })
-          .webp({ quality: QUALITY })
+          .webp({ quality: hero ? HERO_QUALITY : QUALITY })
           .toFile(outPath)
         console.log(`[gallery] ${name}`)
       }
