@@ -1971,6 +1971,29 @@
     ],
     "blur": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAADQBACdASoUABsAPxl4tFOspqSisBgIAZAjCWUAuwArj/TWCwPpq3Ao9MF2MIOwAAD8UjxGmrq06cRBXSM4AwmoJruCcS9n93AlHA8ZYE2NxXhlr0Y9fGLQZEc96vjCGfDWiag2BlCu8Z4q+JsETd/LltayzMxtPc1mDJnYCmVCW7m0F3MzAnBtalFFjsAA"
   },
+  "/gallery/hero-freestanding-bath.jpg": {
+    "width": 1152,
+    "height": 1536,
+    "variants": [
+      {
+        "w": 360,
+        "src": "/gallery/_opt/hero-freestanding-bath-360.webp"
+      },
+      {
+        "w": 560,
+        "src": "/gallery/_opt/hero-freestanding-bath-560.webp"
+      },
+      {
+        "w": 800,
+        "src": "/gallery/_opt/hero-freestanding-bath-800.webp"
+      },
+      {
+        "w": 1152,
+        "src": "/gallery/_opt/hero-freestanding-bath-1152.webp"
+      }
+    ],
+    "blur": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAAAQBQCdASoUABsAPxl+uVOsqCYiqAqpkCMJZQAAL/QoEAb5hdbYgtG+xrInWEMyDzngAP3Pk/VL+JeA/EhjkqlNOdlRCZoGb8XmNyywkcEYvw/xHP6wXNhQKZ2cBK2AQVfH7z1wP+pNGHFN/0zlVEc3471qLbo3tAAAAA=="
+  },
   "/gallery/kitchen-metro-tile-01.jpg": {
     "width": 900,
     "height": 1600,

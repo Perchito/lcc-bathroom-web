@@ -16,6 +16,10 @@ const featuredPhotos = [
   ...new Set([featured.image, ...(featured.images || [])].filter(Boolean)),
 ]
 
+// Full-bleed hero photo (a finished freestanding-bath room); copy sits over
+// its darkened left side.
+const HERO_PHOTO = '/gallery/hero-freestanding-bath.jpg'
+
 // "Transforming spaces, one bathroom at a time." → split after the first comma
 // (or, without one, after the first word); the second half is set in italic.
 function Headline({ text }) {
@@ -38,6 +42,9 @@ function Hero() {
   const avg = reviews.reduce((s, r) => s + r.rating, 0) / (reviews.length || 1)
   return (
     <section className="hero" data-hero>
+      <figure className="hero__bg" style={blurStyle(HERO_PHOTO)}>
+        <img {...photo(HERO_PHOTO, { sizes: '100vw' })} alt="" fetchPriority="high" />
+      </figure>
       <div className="wrap hero__grid">
         <div className="hero__copy">
           <p className="eyebrow" data-in>
@@ -68,25 +75,10 @@ function Hero() {
             </span>
           </a>
         </div>
-
-        <div className="hero__media">
-          <figure className="hero__main" style={blurStyle(featuredPhotos[0])}>
-            <img
-              {...photo(featuredPhotos[0], { sizes: '(min-width: 960px) 40vw, 100vw' })}
-              alt={featured.title}
-              fetchPriority="high"
-            />
-          </figure>
-          {featuredPhotos[2] && (
-            <figure className="hero__inset" style={blurStyle(featuredPhotos[2])} data-inset>
-              <img {...photo(featuredPhotos[2], { sizes: '240px' })} alt="" />
-            </figure>
-          )}
-          <p className="hero__caption" data-in>
-            <span>Recent project</span>
-            {featured.title}
-          </p>
-        </div>
+        <p className="hero__caption" data-in>
+          <span>Recent project</span>
+          Marble and porcelain bathroom
+        </p>
       </div>
 
       <div className="wrap">
