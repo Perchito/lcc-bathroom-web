@@ -321,12 +321,13 @@ p:last-child { margin-bottom: 0; }
   overflow: hidden;
   padding-top: clamp(40px, 6vw, 88px);
 }
-/* soft niche-light glow behind the photo */
+/* soft niche-light glow behind the photo. Its top is a fixed offset, not a
+   % of the hero's height, so it doesn't jump when the web fonts swap in. */
 .hero::before {
   content: '';
   position: absolute;
   right: -10%;
-  top: 10%;
+  top: clamp(40px, 6vw, 88px);
   width: 60vw;
   height: 60vw;
   max-width: 900px;
