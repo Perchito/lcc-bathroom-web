@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react'
 import { Link } from 'react-router-dom'
-import { company, stats, services, process, reviews, gallery } from '../data/site.js'
+import { company, stats, services, process, reviews, gallery, whyUs } from '../data/site.js'
 import { photo, blurStyle } from '../img.js'
 import Stars from '../components/Stars.jsx'
 import Arrow from '../components/Arrow.jsx'
@@ -132,6 +132,38 @@ function ServicesBlock() {
             </li>
           ))}
         </ol>
+      </div>
+    </section>
+  )
+}
+
+function WhyUs() {
+  return (
+    <section className="section section--paper2 why" id="why-us">
+      <div className="wrap">
+        <div className="why__head">
+          <p className="eyebrow" data-up>What makes us different</p>
+          <h2 data-up>{whyUs.title}</h2>
+          <p className="lead" data-up>{whyUs.lead}</p>
+          {whyUs.intro.map((t) => (
+            <p key={t} data-up>{t}</p>
+          ))}
+        </div>
+        <ol className="services">
+          {whyUs.points.map((p, i) => (
+            <li key={p.title} className="service" data-up>
+              <span className="service__num">{String(i + 1).padStart(2, '0')}</span>
+              <h3 className="service__title">{p.title}</h3>
+              <p className="service__desc">{p.text}</p>
+            </li>
+          ))}
+        </ol>
+        <div className="why__promise" data-up>
+          <p className="eyebrow">Our promise</p>
+          <p className="lead">{whyUs.promise}</p>
+          <p className="why__sign">{whyUs.sign}</p>
+          <p className="why__tagline">{whyUs.tagline}</p>
+        </div>
       </div>
     </section>
   )
@@ -333,6 +365,7 @@ export default function Home() {
         lead="We are Constructionline members, PQS Health & Safety approved (SSIP) and fully insured, with £5m public and £10m employers' liability."
       />
       <ServicesBlock />
+      <WhyUs />
       <FeaturedProject />
       <Process />
       <ReviewsBlock />

@@ -92,3 +92,24 @@ export const faq = [
     a: 'All of London. Recent jobs include homes in Barnes, Richmond and Tooting.',
   },
 ]
+
+// Homepage "Why choose us" section, in the owner's words (Nov 2026).
+export const whyUs = {
+  title: 'Why choose LCC Bathrooms & Services Ltd?',
+  lead: 'More than bathroom installation. A professional service from start to finish.',
+  intro: [
+    'At LCC Bathrooms & Services Ltd, we believe a successful bathroom renovation starts with good planning, clear communication and proper project management.',
+    'We don’t just turn up and start working. We follow a structured process to make sure every project is properly prepared, managed and monitored.',
+  ],
+  points: [
+    { title: 'Proper planning', text: 'We visit the property, assess the working environment and carry out our own risk assessments before work begins.' },
+    { title: 'Clear communication', text: 'We explain the process, discuss expectations and introduce the team assigned to your project.' },
+    { title: 'Dedicated teams', text: 'Our installers and assistants work together, with clear responsibilities and detailed project briefings.' },
+    { title: 'Health & safety', text: 'We carry out daily safety checks and are proud to have achieved PQS Health & Safety Approval following assessment against the SSIP Core Criteria.' },
+    { title: 'Internal quality control', text: 'A dedicated member of our own team conducts inspections and completes Quality Control Reports at different stages of the renovation.' },
+    { title: 'Complete bathroom renovations', text: 'From demolition and plumbing to tiling, installations and final finishing, we manage every stage of your bathroom transformation.' },
+  ],
+  promise: 'We believe in doing things properly, keeping our customers informed and taking responsibility for the quality of our work.',
+  sign: 'We plan it. We manage it. We take responsibility.',
+  tagline: 'Transforming spaces, one bathroom at a time.',
+}

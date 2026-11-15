@@ -1155,3 +1155,12 @@ a.voices__src:hover { color: var(--brass-deep); }
 }
 .faq__item[open] summary::after { content: "–"; }
 .faq__item p { margin: 0 0 18px; max-width: 60ch; }
+
+/* Homepage "Why choose us" */
+.why__head { max-width: 62ch; margin-bottom: clamp(28px, 4vw, 48px); }
+.why__head h2 { margin-bottom: 16px; }
+.why__head p:not(.eyebrow):not(.lead) { color: var(--muted); }
+.why .services { list-style: none; padding: 0; margin: 0; }
+.why__promise { max-width: 62ch; margin-top: clamp(36px, 5vw, 64px); }
+.why__sign { font-family: var(--serif); font-style: italic; font-size: clamp(1.6rem, 3vw, 2.2rem); line-height: 1.2; color: var(--brass-deep); margin: 12px 0 0; }
+.why__tagline { margin: 10px 0 0; color: var(--muted); }
