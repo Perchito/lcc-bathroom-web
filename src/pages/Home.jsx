@@ -1,5 +1,6 @@
 import { useEffect, useRef } from 'react'
 import ShowerWater from '../components/ShowerWater.jsx'
+import showerHoles from '../data/shower-holes.json'
 import { Link } from 'react-router-dom'
 import { company, stats, services, process, reviews, gallery, whyUs } from '../data/site.js'
 import { photo, blurStyle } from '../img.js'
@@ -17,11 +18,11 @@ const featuredPhotos = [
   ...new Set([featured.image, ...(featured.images || [])].filter(Boolean)),
 ]
 
-// Hero photo: a marble walk-in shower, with water animated from its ceiling
-// rain panel (positions are fractions of the photo).
+// Hero photo: a marble walk-in shower, with water animated from each hole of
+// its ceiling rain panel (measured off the photo, as fractions of it). Holes
+// nearer the camera land further forward on the floor.
 const HERO_PHOTO = '/gallery/hero-rain-shower.jpg'
-const SHOWER_HEAD = { x: 0.627, y: 0.085, r: 0.085 }
-const SHOWER_FLOOR = 0.74
+const showerFloor = (y) => 0.7 + (y - 0.036) * 1.2
 
 // "Transforming spaces, one bathroom at a time." → split after the first comma
 // (or, without one, after the first word); the second half is set in italic.
@@ -53,7 +54,7 @@ function Hero() {
           alt="Marble walk-in shower with a ceiling rain head"
           fetchPriority="high"
         />
-        <ShowerWater imgRef={photoRef} head={SHOWER_HEAD} floor={SHOWER_FLOOR} />
+        <ShowerWater imgRef={photoRef} holes={showerHoles} floor={showerFloor} />
       </figure>
       <div className="wrap hero__grid">
         <div className="hero__copy">
