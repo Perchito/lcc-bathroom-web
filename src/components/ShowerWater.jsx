@@ -87,7 +87,7 @@ export default function ShowerWater({ imgRef, holes, floor }) {
         ctx.lineWidth = Math.max(0.6, 0.9 * unit)
         s.drops = s.drops.filter((d) => {
           // slow off the nozzle, picking up speed as it falls
-          d.y += (6 + 10 * ((d.y - s.y) / fall)) * unit * dt
+          d.y += (4.5 + 7.5 * ((d.y - s.y) / fall)) * unit * dt
           if (d.y >= s.fy) return false
           // drops wander a touch sideways as the thread breaks up
           d.dx += (Math.random() - 0.5) * 0.25 * unit * dt
