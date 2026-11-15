@@ -324,14 +324,24 @@ p:last-child { margin-bottom: 0; }
 /* full-bleed photo behind the copy, darkened from the left (and along the
    bottom, under the caption and stats) so the text stays readable. */
 .hero__bg { position: absolute; inset: 0; margin: 0; }
-.hero__bg img { width: 100%; height: 100%; object-fit: cover; object-position: 60% 70%; }
+.hero__bg img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 32%; }
+.hero__water { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
 .hero__bg::after {
   content: '';
   position: absolute;
   inset: 0;
-  background:
-    linear-gradient(90deg, rgba(18, 17, 16, 0.94) 0%, rgba(18, 17, 16, 0.82) 30%, rgba(18, 17, 16, 0.35) 55%, rgba(18, 17, 16, 0) 75%),
-    linear-gradient(0deg, rgba(18, 17, 16, 0.9) 0%, rgba(18, 17, 16, 0) 32%);
+  background: linear-gradient(0deg, rgba(18, 17, 16, 0.97) 0%, rgba(18, 17, 16, 0.85) 45%, rgba(18, 17, 16, 0.2) 75%, rgba(18, 17, 16, 0.05) 100%);
+}
+/* desktop: the photo takes the right of the hero and fades into the dark
+   copy side, like a lit shower at the back of the room */
+@media (min-width: 960px) {
+  .hero__bg { left: 40%; }
+  .hero__bg img { object-position: 50% 30%; }
+  .hero__bg::after {
+    background:
+      linear-gradient(90deg, var(--ink) 0%, rgba(18, 17, 16, 0.75) 18%, rgba(18, 17, 16, 0.25) 45%, rgba(18, 17, 16, 0.2) 100%),
+      linear-gradient(0deg, var(--ink) 0%, rgba(18, 17, 16, 0) 30%);
+  }
 }
 .hero__grid {
   position: relative;
@@ -342,7 +352,7 @@ p:last-child { margin-bottom: 0; }
   padding-block: clamp(32px, 5vw, 72px);
 }
 .hero__copy { max-width: 760px; }
-@media (min-width: 960px) { .hero .hero__title { font-size: clamp(3.4rem, 5.2vw, 5.4rem); } }
+@media (min-width: 960px) { .hero .hero__title { font-size: clamp(3rem, 4.3vw, 4.5rem); } }
 .hero__title {
   font-size: clamp(3.1rem, 6.2vw, 6.3rem);
   line-height: 0.95;
@@ -411,10 +421,12 @@ p:last-child { margin-bottom: 0; }
 }
 .hero__stats { position: relative; }
 @media (max-width: 959px) {
-  .hero__bg::after {
-    background: linear-gradient(0deg, rgba(18, 17, 16, 0.96) 0%, rgba(18, 17, 16, 0.85) 45%, rgba(18, 17, 16, 0.45) 100%);
-  }
-  .hero__caption { align-self: flex-start; align-items: flex-start; margin-top: 8px; }
+  .hero__caption { display: none; }
+  .hero { padding-top: 0; }
+  .hero__grid { min-height: calc(100svh - 76px); justify-content: flex-end; padding-top: 34svh; padding-bottom: 40px; }
+  .hero .hero__title { font-size: clamp(2.2rem, 9.6vw, 2.9rem); margin-bottom: 16px; }
+  .hero__support { font-size: 0.98rem; margin-bottom: 24px; }
+  .hero__bg { bottom: auto; height: calc(100svh - 76px); overflow: hidden; }
 }
 
 .hero__stats {
@@ -1149,3 +1161,4 @@ a.voices__src:hover { color: var(--brass-deep); }
 .project__blurb { margin: 6px 0 0; font-size: 0.9rem; line-height: 1.5; color: var(--muted); text-align: left; }
 .lightbox__desc { flex-basis: 100%; margin: 4px 0 0; max-width: 70ch; font-size: 0.92rem; line-height: 1.6; color: var(--on-ink-2); }
 @media (max-width: 700px) { .lightbox__figure img { max-height: 48vh; } }
+
