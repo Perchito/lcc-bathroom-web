@@ -88,6 +88,10 @@ export const faq = [
     a: 'Payment stages depend on the size of the project. We set them out in your written quote before any work starts.',
   },
   {
+    q: 'Do you do gas and electrical work?',
+    a: 'We don’t do gas work. Electrical work, such as lighting, extractor fans and illuminated mirrors, is carried out by a registered electrician.',
+  },
+  {
     q: 'Which areas do you cover?',
     a: 'All of London. Recent jobs include homes in Barnes, Richmond and Tooting.',
   },

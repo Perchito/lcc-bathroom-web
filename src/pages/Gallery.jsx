@@ -143,6 +143,7 @@ function ProjectCard({ item, onOpen, eager = false }) {
       </div>
       <div className="project__title">{item.title}</div>
       <div className="project__meta">{item.meta}</div>
+      {item.blurb && <p className="project__blurb">{item.blurb}</p>}
     </animated.button>
   )
 }
@@ -247,6 +248,9 @@ function Lightbox({ active, photos, photoIndex, onClose, onPrev, onNext, onDot }
             {active.meta}
             {multi ? ` · ${photoIndex + 1} / ${photos.length}` : ''}
           </span>
+          {(active.description || active.blurb) && (
+            <p className="lightbox__desc">{active.description || active.blurb}</p>
+          )}
         </figcaption>
       </animated.figure>
 

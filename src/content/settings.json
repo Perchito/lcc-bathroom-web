@@ -82,13 +82,8 @@
       "image": "/accreditations/tide-insurance.jpg"
     },
     {
-      "name": "Micro Business",
-      "caption": "Micro Business member",
-      "image": "/accreditations/micro-business.jpg"
-    },
-    {
       "name": "HSQE",
-      "caption": "HSQE safety training",
+      "caption": "HSQE health & safety training",
       "image": "/accreditations/hsqe.jpg"
     }
   ]

@@ -957,9 +957,10 @@ p:last-child { margin-bottom: 0; }
   display: grid;
   place-items: center;
   padding: clamp(20px, 5vw, 64px);
+  overflow-y: auto;
 }
 .lightbox__figure { position: relative; margin: 0; max-width: 1000px; width: 100%; touch-action: pan-y; }
-.lightbox__figure img { width: 100%; height: auto; max-height: 74vh; object-fit: contain; }
+.lightbox__figure img { width: 100%; height: auto; max-height: 62vh; object-fit: contain; }
 .lightbox__cap { margin-top: 16px; display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; color: var(--on-ink); }
 .lightbox__cap strong { font-family: var(--serif); font-weight: 400; font-size: 1.4rem; }
 .lightbox__cap span { font-size: 0.7rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.16em; color: var(--on-ink-2); }
@@ -1165,3 +1166,8 @@ a.voices__src:hover { color: var(--brass-deep); }
 .why__promise { max-width: 62ch; margin-top: clamp(36px, 5vw, 64px); }
 .why__sign { font-family: var(--serif); font-style: italic; font-size: clamp(1.6rem, 3vw, 2.2rem); line-height: 1.2; color: var(--brass-deep); margin: 12px 0 0; }
 .why__tagline { margin: 10px 0 0; color: var(--muted); }
+
+/* Gallery project text: a short summary on the card, the full write-up in the lightbox */
+.project__blurb { margin: 6px 0 0; font-size: 0.9rem; line-height: 1.5; color: var(--muted); text-align: left; }
+.lightbox__desc { flex-basis: 100%; margin: 4px 0 0; max-width: 70ch; font-size: 0.92rem; line-height: 1.6; color: var(--on-ink-2); }
+@media (max-width: 700px) { .lightbox__figure img { max-height: 48vh; } }
